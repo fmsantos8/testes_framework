@@ -1,0 +1,1 @@
+$ c++ -std=c++11 -Wall -Wextra -Werror -fsyntax-only -I /home/fbcms/Documents/ucs/tcc_master/nrf52840_framework/src/hal/interface -x c++ -

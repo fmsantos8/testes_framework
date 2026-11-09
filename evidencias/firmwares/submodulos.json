@@ -1,0 +1,350 @@
+{
+  "executed_utc": "2026-11-02T19:02:20.492503+00:00",
+  "common": {
+    "src/app": {
+      "same_commit": true,
+      "commit": "d3a0e1353f49643bb929a71e24329782b15e079a",
+      "projects": [
+        {
+          "project": "esp32_framework",
+          "path": "src/app",
+          "commit": "d3a0e1353f49643bb929a71e24329782b15e079a",
+          "pinned_commit": "d3a0e1353f49643bb929a71e24329782b15e079a",
+          "indexed_commit": "d3a0e1353f49643bb929a71e24329782b15e079a",
+          "worktree_status": ""
+        },
+        {
+          "project": "nrf52840_framework",
+          "path": "src/app",
+          "commit": "d3a0e1353f49643bb929a71e24329782b15e079a",
+          "pinned_commit": "d3a0e1353f49643bb929a71e24329782b15e079a",
+          "indexed_commit": "d3a0e1353f49643bb929a71e24329782b15e079a",
+          "worktree_status": ""
+        },
+        {
+          "project": "stm32f407_framework",
+          "path": "src/app",
+          "commit": "d3a0e1353f49643bb929a71e24329782b15e079a",
+          "pinned_commit": "d3a0e1353f49643bb929a71e24329782b15e079a",
+          "indexed_commit": "d3a0e1353f49643bb929a71e24329782b15e079a",
+          "worktree_status": ""
+        },
+        {
+          "project": "stm32f411_framework",
+          "path": "src/app",
+          "commit": "d3a0e1353f49643bb929a71e24329782b15e079a",
+          "pinned_commit": "d3a0e1353f49643bb929a71e24329782b15e079a",
+          "indexed_commit": "d3a0e1353f49643bb929a71e24329782b15e079a",
+          "worktree_status": ""
+        }
+      ]
+    },
+    "src/hal/interface": {
+      "same_commit": true,
+      "commit": "21b0e0fa80245341ca3daca9ad5f7df0ab289dd8",
+      "projects": [
+        {
+          "project": "esp32_framework",
+          "path": "src/hal/interface",
+          "commit": "21b0e0fa80245341ca3daca9ad5f7df0ab289dd8",
+          "pinned_commit": "21b0e0fa80245341ca3daca9ad5f7df0ab289dd8",
+          "indexed_commit": "21b0e0fa80245341ca3daca9ad5f7df0ab289dd8",
+          "worktree_status": ""
+        },
+        {
+          "project": "nrf52840_framework",
+          "path": "src/hal/interface",
+          "commit": "21b0e0fa80245341ca3daca9ad5f7df0ab289dd8",
+          "pinned_commit": "21b0e0fa80245341ca3daca9ad5f7df0ab289dd8",
+          "indexed_commit": "21b0e0fa80245341ca3daca9ad5f7df0ab289dd8",
+          "worktree_status": ""
+        },
+        {
+          "project": "stm32f407_framework",
+          "path": "src/hal/interface",
+          "commit": "21b0e0fa80245341ca3daca9ad5f7df0ab289dd8",
+          "pinned_commit": "21b0e0fa80245341ca3daca9ad5f7df0ab289dd8",
+          "indexed_commit": "21b0e0fa80245341ca3daca9ad5f7df0ab289dd8",
+          "worktree_status": ""
+        },
+        {
+          "project": "stm32f411_framework",
+          "path": "src/hal/interface",
+          "commit": "21b0e0fa80245341ca3daca9ad5f7df0ab289dd8",
+          "pinned_commit": "21b0e0fa80245341ca3daca9ad5f7df0ab289dd8",
+          "indexed_commit": "21b0e0fa80245341ca3daca9ad5f7df0ab289dd8",
+          "worktree_status": ""
+        }
+      ]
+    },
+    "src/hal/memory": {
+      "same_commit": true,
+      "commit": "f62a76358003068210d619a29aae089ac4a302e5",
+      "projects": [
+        {
+          "project": "esp32_framework",
+          "path": "src/hal/memory",
+          "commit": "f62a76358003068210d619a29aae089ac4a302e5",
+          "pinned_commit": "f62a76358003068210d619a29aae089ac4a302e5",
+          "indexed_commit": "f62a76358003068210d619a29aae089ac4a302e5",
+          "worktree_status": ""
+        },
+        {
+          "project": "nrf52840_framework",
+          "path": "src/hal/memory",
+          "commit": "f62a76358003068210d619a29aae089ac4a302e5",
+          "pinned_commit": "f62a76358003068210d619a29aae089ac4a302e5",
+          "indexed_commit": "f62a76358003068210d619a29aae089ac4a302e5",
+          "worktree_status": ""
+        },
+        {
+          "project": "stm32f407_framework",
+          "path": "src/hal/memory",
+          "commit": "f62a76358003068210d619a29aae089ac4a302e5",
+          "pinned_commit": "f62a76358003068210d619a29aae089ac4a302e5",
+          "indexed_commit": "f62a76358003068210d619a29aae089ac4a302e5",
+          "worktree_status": ""
+        },
+        {
+          "project": "stm32f411_framework",
+          "path": "src/hal/memory",
+          "commit": "f62a76358003068210d619a29aae089ac4a302e5",
+          "pinned_commit": "f62a76358003068210d619a29aae089ac4a302e5",
+          "indexed_commit": "f62a76358003068210d619a29aae089ac4a302e5",
+          "worktree_status": ""
+        }
+      ]
+    },
+    "src/components/button": {
+      "same_commit": true,
+      "commit": "e569415f6e04199cb5a2533f501b3e63a39ae56b",
+      "projects": [
+        {
+          "project": "esp32_framework",
+          "path": "src/components/button",
+          "commit": "e569415f6e04199cb5a2533f501b3e63a39ae56b",
+          "pinned_commit": "e569415f6e04199cb5a2533f501b3e63a39ae56b",
+          "indexed_commit": "e569415f6e04199cb5a2533f501b3e63a39ae56b",
+          "worktree_status": ""
+        },
+        {
+          "project": "nrf52840_framework",
+          "path": "src/components/button",
+          "commit": "e569415f6e04199cb5a2533f501b3e63a39ae56b",
+          "pinned_commit": "e569415f6e04199cb5a2533f501b3e63a39ae56b",
+          "indexed_commit": "e569415f6e04199cb5a2533f501b3e63a39ae56b",
+          "worktree_status": ""
+        },
+        {
+          "project": "stm32f407_framework",
+          "path": "src/components/button",
+          "commit": "e569415f6e04199cb5a2533f501b3e63a39ae56b",
+          "pinned_commit": "e569415f6e04199cb5a2533f501b3e63a39ae56b",
+          "indexed_commit": "e569415f6e04199cb5a2533f501b3e63a39ae56b",
+          "worktree_status": ""
+        },
+        {
+          "project": "stm32f411_framework",
+          "path": "src/components/button",
+          "commit": "e569415f6e04199cb5a2533f501b3e63a39ae56b",
+          "pinned_commit": "e569415f6e04199cb5a2533f501b3e63a39ae56b",
+          "indexed_commit": "e569415f6e04199cb5a2533f501b3e63a39ae56b",
+          "worktree_status": ""
+        }
+      ]
+    },
+    "src/components/led": {
+      "same_commit": true,
+      "commit": "f589fc0a543d5d02a610597ec0349a82fd9d87f9",
+      "projects": [
+        {
+          "project": "esp32_framework",
+          "path": "src/components/led",
+          "commit": "f589fc0a543d5d02a610597ec0349a82fd9d87f9",
+          "pinned_commit": "f589fc0a543d5d02a610597ec0349a82fd9d87f9",
+          "indexed_commit": "f589fc0a543d5d02a610597ec0349a82fd9d87f9",
+          "worktree_status": ""
+        },
+        {
+          "project": "nrf52840_framework",
+          "path": "src/components/led",
+          "commit": "f589fc0a543d5d02a610597ec0349a82fd9d87f9",
+          "pinned_commit": "f589fc0a543d5d02a610597ec0349a82fd9d87f9",
+          "indexed_commit": "f589fc0a543d5d02a610597ec0349a82fd9d87f9",
+          "worktree_status": ""
+        },
+        {
+          "project": "stm32f407_framework",
+          "path": "src/components/led",
+          "commit": "f589fc0a543d5d02a610597ec0349a82fd9d87f9",
+          "pinned_commit": "f589fc0a543d5d02a610597ec0349a82fd9d87f9",
+          "indexed_commit": "f589fc0a543d5d02a610597ec0349a82fd9d87f9",
+          "worktree_status": ""
+        },
+        {
+          "project": "stm32f411_framework",
+          "path": "src/components/led",
+          "commit": "f589fc0a543d5d02a610597ec0349a82fd9d87f9",
+          "pinned_commit": "f589fc0a543d5d02a610597ec0349a82fd9d87f9",
+          "indexed_commit": "f589fc0a543d5d02a610597ec0349a82fd9d87f9",
+          "worktree_status": ""
+        }
+      ]
+    },
+    "src/components/sht31d": {
+      "same_commit": true,
+      "commit": "339e849ee0210856ab2f55c00d27ac51efd47d01",
+      "projects": [
+        {
+          "project": "esp32_framework",
+          "path": "src/components/sht31d",
+          "commit": "339e849ee0210856ab2f55c00d27ac51efd47d01",
+          "pinned_commit": "339e849ee0210856ab2f55c00d27ac51efd47d01",
+          "indexed_commit": "339e849ee0210856ab2f55c00d27ac51efd47d01",
+          "worktree_status": ""
+        },
+        {
+          "project": "nrf52840_framework",
+          "path": "src/components/sht31d",
+          "commit": "339e849ee0210856ab2f55c00d27ac51efd47d01",
+          "pinned_commit": "339e849ee0210856ab2f55c00d27ac51efd47d01",
+          "indexed_commit": "339e849ee0210856ab2f55c00d27ac51efd47d01",
+          "worktree_status": ""
+        },
+        {
+          "project": "stm32f407_framework",
+          "path": "src/components/sht31d",
+          "commit": "339e849ee0210856ab2f55c00d27ac51efd47d01",
+          "pinned_commit": "339e849ee0210856ab2f55c00d27ac51efd47d01",
+          "indexed_commit": "339e849ee0210856ab2f55c00d27ac51efd47d01",
+          "worktree_status": ""
+        },
+        {
+          "project": "stm32f411_framework",
+          "path": "src/components/sht31d",
+          "commit": "339e849ee0210856ab2f55c00d27ac51efd47d01",
+          "pinned_commit": "339e849ee0210856ab2f55c00d27ac51efd47d01",
+          "indexed_commit": "339e849ee0210856ab2f55c00d27ac51efd47d01",
+          "worktree_status": ""
+        }
+      ]
+    },
+    "src/components/ssd1306": {
+      "same_commit": true,
+      "commit": "99be092edeb78ea1d686e80792e613cda40fd864",
+      "projects": [
+        {
+          "project": "esp32_framework",
+          "path": "src/components/ssd1306",
+          "commit": "99be092edeb78ea1d686e80792e613cda40fd864",
+          "pinned_commit": "99be092edeb78ea1d686e80792e613cda40fd864",
+          "indexed_commit": "99be092edeb78ea1d686e80792e613cda40fd864",
+          "worktree_status": ""
+        },
+        {
+          "project": "nrf52840_framework",
+          "path": "src/components/ssd1306",
+          "commit": "99be092edeb78ea1d686e80792e613cda40fd864",
+          "pinned_commit": "99be092edeb78ea1d686e80792e613cda40fd864",
+          "indexed_commit": "99be092edeb78ea1d686e80792e613cda40fd864",
+          "worktree_status": ""
+        },
+        {
+          "project": "stm32f407_framework",
+          "path": "src/components/ssd1306",
+          "commit": "99be092edeb78ea1d686e80792e613cda40fd864",
+          "pinned_commit": "99be092edeb78ea1d686e80792e613cda40fd864",
+          "indexed_commit": "99be092edeb78ea1d686e80792e613cda40fd864",
+          "worktree_status": ""
+        },
+        {
+          "project": "stm32f411_framework",
+          "path": "src/components/ssd1306",
+          "commit": "99be092edeb78ea1d686e80792e613cda40fd864",
+          "pinned_commit": "99be092edeb78ea1d686e80792e613cda40fd864",
+          "indexed_commit": "99be092edeb78ea1d686e80792e613cda40fd864",
+          "worktree_status": ""
+        }
+      ]
+    },
+    "src/components/telemetry": {
+      "same_commit": true,
+      "commit": "4fc849774189ffa8a2b2c80a481d75c580119ece",
+      "projects": [
+        {
+          "project": "esp32_framework",
+          "path": "src/components/telemetry",
+          "commit": "4fc849774189ffa8a2b2c80a481d75c580119ece",
+          "pinned_commit": "4fc849774189ffa8a2b2c80a481d75c580119ece",
+          "indexed_commit": "4fc849774189ffa8a2b2c80a481d75c580119ece",
+          "worktree_status": ""
+        },
+        {
+          "project": "nrf52840_framework",
+          "path": "src/components/telemetry",
+          "commit": "4fc849774189ffa8a2b2c80a481d75c580119ece",
+          "pinned_commit": "4fc849774189ffa8a2b2c80a481d75c580119ece",
+          "indexed_commit": "4fc849774189ffa8a2b2c80a481d75c580119ece",
+          "worktree_status": ""
+        },
+        {
+          "project": "stm32f407_framework",
+          "path": "src/components/telemetry",
+          "commit": "4fc849774189ffa8a2b2c80a481d75c580119ece",
+          "pinned_commit": "4fc849774189ffa8a2b2c80a481d75c580119ece",
+          "indexed_commit": "4fc849774189ffa8a2b2c80a481d75c580119ece",
+          "worktree_status": ""
+        },
+        {
+          "project": "stm32f411_framework",
+          "path": "src/components/telemetry",
+          "commit": "4fc849774189ffa8a2b2c80a481d75c580119ece",
+          "pinned_commit": "4fc849774189ffa8a2b2c80a481d75c580119ece",
+          "indexed_commit": "4fc849774189ffa8a2b2c80a481d75c580119ece",
+          "worktree_status": ""
+        }
+      ]
+    }
+  },
+  "ports": {
+    "stm32f407_framework": {
+      "project": "stm32f407_framework",
+      "path": "src/hal/ports/stm32f4",
+      "commit": "6ba6ffefbf2854645818d353fabfdbb998514760",
+      "pinned_commit": "6ba6ffefbf2854645818d353fabfdbb998514760",
+      "indexed_commit": "6ba6ffefbf2854645818d353fabfdbb998514760",
+      "worktree_status": ""
+    },
+    "stm32f411_framework": {
+      "project": "stm32f411_framework",
+      "path": "src/hal/ports/stm32f4",
+      "commit": "6ba6ffefbf2854645818d353fabfdbb998514760",
+      "pinned_commit": "6ba6ffefbf2854645818d353fabfdbb998514760",
+      "indexed_commit": "6ba6ffefbf2854645818d353fabfdbb998514760",
+      "worktree_status": ""
+    },
+    "esp32_framework": {
+      "project": "esp32_framework",
+      "path": "src/hal/ports/esp32-wroom-32",
+      "commit": "0b7c43e15450fbeb8efacd3d6fbbab83e63cf1a8",
+      "pinned_commit": "0b7c43e15450fbeb8efacd3d6fbbab83e63cf1a8",
+      "indexed_commit": "0b7c43e15450fbeb8efacd3d6fbbab83e63cf1a8",
+      "worktree_status": ""
+    },
+    "nrf52840_framework": {
+      "project": "nrf52840_framework",
+      "path": "src/hal/ports/nrf52840",
+      "commit": "3729cc2dc3f36f3ebb701c1377bba57430b75c0d",
+      "pinned_commit": "3729cc2dc3f36f3ebb701c1377bba57430b75c0d",
+      "indexed_commit": "3729cc2dc3f36f3ebb701c1377bba57430b75c0d",
+      "worktree_status": ""
+    }
+  },
+  "compiled_sources_unchanged": {
+    "esp32_framework": true,
+    "nrf52840_framework": true,
+    "stm32f407_framework": true,
+    "stm32f411_framework": true
+  },
+  "status": "APROVADO"
+}

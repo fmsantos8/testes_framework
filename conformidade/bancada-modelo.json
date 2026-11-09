@@ -1,0 +1,23 @@
+{
+  "alvo": "ESP32 | nRF52840 | STM32F407 | STM32F411",
+  "data_iso": null,
+  "responsavel": null,
+  "placa_revisao": null,
+  "configuracao_firmware": null,
+  "firmware_sha256": null,
+  "contrato_revisao": null,
+  "porte_revisao": null,
+  "instrumentos": [],
+  "montagem": null,
+  "instrumentacao_diagnostica": null,
+  "casos": {
+    "HW-01": {"status": "NAO_EXECUTADO", "observacoes": "", "evidencias": []},
+    "HW-02": {"status": "NAO_EXECUTADO", "observacoes": "", "evidencias": []},
+    "HW-03": {"status": "NAO_EXECUTADO", "observacoes": "", "evidencias": []},
+    "HW-04": {"status": "NAO_EXECUTADO", "observacoes": "", "evidencias": []},
+    "HW-05": {"status": "NAO_EXECUTADO", "observacoes": "", "evidencias": []},
+    "HW-06": {"status": "NAO_EXECUTADO", "observacoes": "", "evidencias": []}
+  },
+  "estados_permitidos": ["NAO_EXECUTADO", "APROVADO_FISICO", "FALHOU", "LIMITADO"],
+  "limitacoes": []
+}

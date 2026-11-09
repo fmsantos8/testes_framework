@@ -1,0 +1,9 @@
+placa;versao;configuracao;flash_bytes;ram_bytes;fonte_do_numero;observacoes
+esp32;com_framework;default (-Og);208272;63792;dados/esp32_framework-memoria.json;"Imagem .bin da aplicação; RAM estática/reservada por região. Bootloader separado excluído; não mede pico."
+esp32;sem_framework;default (-Og);200928;62600;dados/esp32_sem_framework-memoria.json;"Imagem .bin da aplicação; RAM estática/reservada por região. Bootloader separado excluído; não mede pico."
+nrf52840;com_framework;Debug (-Og);90724;18432;dados/nrf52840_framework-memoria.json;"Imagem .bin da aplicação; RAM estática/reservada por região. Bootloader separado excluído; não mede pico."
+nrf52840;sem_framework;Debug (-Og);85300;16640;dados/nrf52840_sem_framework-memoria.json;"Imagem .bin da aplicação; RAM estática/reservada por região. Bootloader separado excluído; não mede pico."
+stm32f407;com_framework;Debug (-Og);34144;8624;dados/stm32f407_framework-memoria.json;"Imagem .bin da aplicação; RAM estática/reservada por região. Bootloader separado excluído; não mede pico."
+stm32f407;sem_framework;Debug (-Og);23192;6592;dados/stm32f407_sem_framework-memoria.json;"Imagem .bin da aplicação; RAM estática/reservada por região. Bootloader separado excluído; não mede pico."
+stm32f411;com_framework;Debug (-Og);33844;8624;dados/stm32f411_framework-memoria.json;"Imagem .bin da aplicação; RAM estática/reservada por região. Bootloader separado excluído; não mede pico."
+stm32f411;sem_framework;Debug (-Og);23100;6592;dados/stm32f411_sem_framework-memoria.json;"Imagem .bin da aplicação; RAM estática/reservada por região. Bootloader separado excluído; não mede pico."

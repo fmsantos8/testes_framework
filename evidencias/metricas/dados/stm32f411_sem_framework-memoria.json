@@ -1,0 +1,126 @@
+{
+  "project": "stm32f411_sem_framework",
+  "elf": "evidencias/firmwares/stm32f411_sem_framework/artefatos/stm32f411_sem_framework.elf",
+  "elf_sha256": "a5a849702ef9e479c7041956d30308e94a20048fed054b80082acb436f320402",
+  "application_bin": "evidencias/firmwares/stm32f411_sem_framework/artefatos/stm32f411_sem_framework.bin",
+  "application_bin_sha256": "8c0e531abdc93dcc629c7da7add5ee8453c67d05b03aa06bfcfde0beb183556c",
+  "flash_bytes": 23100,
+  "flash_initialized_payload_bytes": 23100,
+  "image_alignment_and_packaging_bytes": 0,
+  "ram_bytes": 6592,
+  "ram_regions": [
+    {
+      "region": "RAM",
+      "origin": 536870912,
+      "length": 131072,
+      "used_bytes": 6592,
+      "sections": [
+        {
+          "name": ".data",
+          "type": "SHT_PROGBITS",
+          "address": 536870912,
+          "size": 92
+        },
+        {
+          "name": ".bss",
+          "type": "SHT_NOBITS",
+          "address": 536871008,
+          "size": 1884
+        },
+        {
+          "name": "._user_heap_stack",
+          "type": "SHT_NOBITS",
+          "address": 536872892,
+          "size": 4612
+        }
+      ]
+    }
+  ],
+  "sdk_or_linker_ram_summary_bytes": 6592,
+  "extra_ram_noinit_and_alignment_bytes": 0,
+  "load_segments": [
+    {
+      "p_vaddr": 134217728,
+      "p_paddr": 134217728,
+      "p_filesz": 23008,
+      "p_memsz": 23008
+    },
+    {
+      "p_vaddr": 536870912,
+      "p_paddr": 134240736,
+      "p_filesz": 92,
+      "p_memsz": 92
+    },
+    {
+      "p_vaddr": 536871008,
+      "p_paddr": 134240828,
+      "p_filesz": 0,
+      "p_memsz": 1884
+    },
+    {
+      "p_vaddr": 536872892,
+      "p_paddr": 134240828,
+      "p_filesz": 0,
+      "p_memsz": 4612
+    }
+  ],
+  "allocated_sections": [
+    {
+      "name": ".isr_vector",
+      "type": "SHT_PROGBITS",
+      "address": 134217728,
+      "size": 408
+    },
+    {
+      "name": ".text",
+      "type": "SHT_PROGBITS",
+      "address": 134218144,
+      "size": 17132
+    },
+    {
+      "name": ".rodata",
+      "type": "SHT_PROGBITS",
+      "address": 134235276,
+      "size": 5444
+    },
+    {
+      "name": ".ARM",
+      "type": "SHT_ARM_EXIDX",
+      "address": 134240720,
+      "size": 8
+    },
+    {
+      "name": ".init_array",
+      "type": "SHT_INIT_ARRAY",
+      "address": 134240728,
+      "size": 4
+    },
+    {
+      "name": ".fini_array",
+      "type": "SHT_FINI_ARRAY",
+      "address": 134240732,
+      "size": 4
+    },
+    {
+      "name": ".data",
+      "type": "SHT_PROGBITS",
+      "address": 536870912,
+      "size": 92
+    },
+    {
+      "name": ".bss",
+      "type": "SHT_NOBITS",
+      "address": 536871008,
+      "size": 1884
+    },
+    {
+      "name": "._user_heap_stack",
+      "type": "SHT_NOBITS",
+      "address": 536872892,
+      "size": 4612
+    }
+  ],
+  "map_sha256": "930877dad4ad4d49543c341dd27dc420e06851cf4c9279b07f8cab829bea63bb",
+  "raw_report": "evidencias/firmwares/stm32f411_sem_framework/memoria.txt",
+  "configuration": "Debug (-Og)"
+}

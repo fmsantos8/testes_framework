@@ -1,0 +1,66 @@
+
+$ /usr/bin/cmake --fresh -S /home/fbcms/Documents/ucs/tcc_master/stm32f411_framework -B /home/fbcms/Documents/ucs/tcc_master/stm32f411_framework/build/Debug -G Ninja -DCMAKE_BUILD_TYPE=Debug
+-- The C compiler identification is GNU 14.3.1
+-- The ASM compiler identification is GNU
+-- Found assembler: /home/fbcms/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/fbcms/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/fbcms/Documents/ucs/tcc_master/stm32f411_framework/build/Debug
+
+$ /usr/bin/cmake --build /home/fbcms/Documents/ucs/tcc_master/stm32f411_framework/build/Debug --clean-first --parallel 4
+[1/1] Cleaning all built files...
+Cleaning... 0 files.
+[1/44] Building ASM object CMakeFiles/stm32f411_framework.dir/src/platform/stm32f411/startup_stm32f411xx.S.obj
+[2/44] Building C object CMakeFiles/stm32f411_framework.dir/src/platform/stm32f411/sysmem.c.obj
+[3/44] Building C object CMakeFiles/stm32f411_framework.dir/src/hal/memory/hal_memory.c.obj
+[4/44] Building C object CMakeFiles/stm32f411_framework.dir/src/platform/stm32f411/syscall.c.obj
+[5/44] Building C object CMakeFiles/stm32f411_framework.dir/src/hal/ports/stm32f4/system/hal_system.c.obj
+[6/44] Building C object CMakeFiles/stm32f411_framework.dir/src/hal/ports/stm32f4/hal_stm32f4.c.obj
+[7/44] Building C object CMakeFiles/stm32f411_framework.dir/src/hal/ports/stm32f4/gpio/hal_gpio.c.obj
+[8/44] Building C object CMakeFiles/stm32f411_framework.dir/src/hal/ports/stm32f4/uart/hal_uart.c.obj
+[9/44] Building C object CMakeFiles/stm32f411_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj
+[10/44] Building C object CMakeFiles/stm32f411_framework.dir/src/hal/ports/stm32f4/i2c/hal_i2c.c.obj
+[11/44] Building C object CMakeFiles/stm32f411_framework.dir/src/hal/ports/stm32f4/timer/hal_timer.c.obj
+[12/44] Building C object CMakeFiles/stm32f411_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+[13/44] Building C object CMakeFiles/stm32f411_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+[14/44] Building C object CMakeFiles/stm32f411_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+[15/44] Building C object CMakeFiles/stm32f411_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
+[16/44] Building C object CMakeFiles/stm32f411_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
+[17/44] Building C object CMakeFiles/stm32f411_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+[18/44] Building C object CMakeFiles/stm32f411_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
+[19/44] Building C object CMakeFiles/stm32f411_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
+[20/44] Building C object CMakeFiles/stm32f411_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
+[21/44] Building C object CMakeFiles/stm32f411_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+[22/44] Building C object CMakeFiles/stm32f411_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
+[23/44] Building C object CMakeFiles/stm32f411_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+[24/44] Building C object CMakeFiles/stm32f411_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+[25/44] Building C object CMakeFiles/stm32f411_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+[26/44] Building C object CMakeFiles/stm32f411_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+[27/44] Building C object CMakeFiles/stm32f411_framework.dir/src/bsp/black_pill_stm32f411/bsp.c.obj
+[28/44] Building C object CMakeFiles/stm32f411_framework.dir/src/main.c.obj
+[29/44] Building C object CMakeFiles/stm32f411_framework.dir/src/app/status_led/app_status_led.c.obj
+[30/44] Building C object CMakeFiles/stm32f411_framework.dir/src/app/button/app_button.c.obj
+[31/44] Building C object CMakeFiles/stm32f411_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+[32/44] Building C object CMakeFiles/stm32f411_framework.dir/src/app/acquisition/app_acquisition.c.obj
+[33/44] Building C object CMakeFiles/stm32f411_framework.dir/src/app/telemetry/app_telemetry.c.obj
+[34/44] Building C object CMakeFiles/stm32f411_framework.dir/src/app/gui/app_gui.c.obj
+[35/44] Building C object CMakeFiles/stm32f411_framework.dir/src/app/gui/bitmaps.c.obj
+[36/44] Building C object CMakeFiles/stm32f411_framework.dir/src/components/button/cmp_button.c.obj
+[37/44] Building C object CMakeFiles/stm32f411_framework.dir/src/app/gui/render.c.obj
+[38/44] Building C object CMakeFiles/stm32f411_framework.dir/src/components/led/cmp_led.c.obj
+[39/44] Building C object CMakeFiles/stm32f411_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+[40/44] Building C object CMakeFiles/stm32f411_framework.dir/src/components/sht31d/cmp_sht31d.c.obj
+[41/44] Building C object CMakeFiles/stm32f411_framework.dir/src/components/ssd1306/cmp_ssd1306_fonts.c.obj
+[42/44] Building C object CMakeFiles/stm32f411_framework.dir/src/components/telemetry/cmp_telemetry.c.obj
+[43/44] Building C object CMakeFiles/stm32f411_framework.dir/src/components/ssd1306/cmp_ssd1306.c.obj
+[44/44] Linking C executable stm32f411_framework.elf; Generating STM32F411 binary and Intel HEX images
+Memory region         Used Size  Region Size  %age Used
+             RAM:        8624 B       128 KB      6.58%
+           FLASH:       33844 B       512 KB      6.46%
+   text	   data	    bss	    dec	    hex	filename
+  33728	    108	   8512	  42348	   a56c	/home/fbcms/Documents/ucs/tcc_master/stm32f411_framework/build/Debug/stm32f411_framework.elf

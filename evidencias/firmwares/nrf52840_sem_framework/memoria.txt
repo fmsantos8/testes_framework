@@ -1,0 +1,41 @@
+
+$ /home/fbcms/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-size /home/fbcms/Documents/ucs/tcc_master/nrf52840_sem_framework/build/Debug/zephyr/zephyr.elf
+   text	   data	    bss	    dec	    hex	filename
+  83000	   2296	  14619	  99915	  1864b	/home/fbcms/Documents/ucs/tcc_master/nrf52840_sem_framework/build/Debug/zephyr/zephyr.elf
+
+$ /home/fbcms/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-size -A /home/fbcms/Documents/ucs/tcc_master/nrf52840_sem_framework/build/Debug/zephyr/zephyr.elf
+/home/fbcms/Documents/ucs/tcc_master/nrf52840_sem_framework/build/Debug/zephyr/zephyr.elf  :
+section                            size        addr
+rom_start                           256      155648
+text                              73564      155904
+.ARM.exidx                            8      229468
+initlevel                            80      229476
+device_area                         128      229556
+sw_isr_table                        384      229684
+gpio_driver_api_area                 36      230068
+sensor_driver_api_area               28      230104
+clock_control_driver_api_area        28      230132
+rodata                             8872      230160
+.ramfunc                              0   536870912
+datas                              1748   536870912
+device_states                         8   536872660
+k_timer_area                         56   536872672
+k_heap_area                          24   536872728
+k_mutex_area                         40   536872752
+k_sem_area                           32   536872792
+.comment                             67           0
+.debug_aranges                     8248           0
+.debug_info                      435902           0
+.debug_abbrev                     56468           0
+.debug_line                      231713           0
+.debug_frame                      26000           0
+.debug_str                        63706           0
+.debug_loc                       240777           0
+.debug_ranges                     18912           0
+.ARM.attributes                      52           0
+.last_section                         4      240944
+bss                                3483   536872824
+noinit                            11136   536876416
+Total                           1181760
+
+

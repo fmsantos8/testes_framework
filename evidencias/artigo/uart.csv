@@ -1,0 +1,14 @@
+bloco;linha_origem;texto;fonte
+Leitura normal e falha do sensor;29;"[18:03:36.808502] SAMPLE;temperature_mC=23638;humidity_mpercent=48920";evidencias/bancada/stm32f411/com_framework/sessao_20261108_180202_079953/serial_20261108_180238_513639.log
+Leitura normal e falha do sensor;30;"[18:03:38.813272] ERROR;source=SHT31D;code=6";evidencias/bancada/stm32f411/com_framework/sessao_20261108_180202_079953/serial_20261108_180238_513639.log
+Leitura normal e falha do sensor;31;"[18:03:40.816146] ERROR;source=SHT31D;code=6";evidencias/bancada/stm32f411/com_framework/sessao_20261108_180202_079953/serial_20261108_180238_513639.log
+Recuperação do sensor;47;"[18:04:13.856760] ERROR;source=SHT31D;code=6";evidencias/bancada/stm32f411/com_framework/sessao_20261108_180202_079953/serial_20261108_180238_513639.log
+Recuperação do sensor;48;"[18:04:15.864641] SAMPLE;temperature_mC=26821;humidity_mpercent=57127";evidencias/bancada/stm32f411/com_framework/sessao_20261108_180202_079953/serial_20261108_180238_513639.log
+Recuperação do sensor;49;"[18:04:18.068223] SAMPLE;temperature_mC=26778;humidity_mpercent=52395";evidencias/bancada/stm32f411/com_framework/sessao_20261108_180202_079953/serial_20261108_180238_513639.log
+Falha do display com aquisição mantida;55;"[18:04:27.278991] ERROR;source=SSD1306;code=5";evidencias/bancada/stm32f411/com_framework/sessao_20261108_180202_079953/serial_20261108_180238_513639.log
+Falha do display com aquisição mantida;56;"[18:04:28.280193] SAMPLE;temperature_mC=25887;humidity_mpercent=45460";evidencias/bancada/stm32f411/com_framework/sessao_20261108_180202_079953/serial_20261108_180238_513639.log
+Falha do display com aquisição mantida;57;"[18:04:28.280223] ERROR;source=SSD1306;code=5";evidencias/bancada/stm32f411/com_framework/sessao_20261108_180202_079953/serial_20261108_180238_513639.log
+Falha do display com aquisição mantida;58;"[18:04:29.281444] ERROR;source=SSD1306;code=5";evidencias/bancada/stm32f411/com_framework/sessao_20261108_180202_079953/serial_20261108_180238_513639.log
+Recuperação do display;81;"[18:04:44.701909] ERROR;source=SSD1306;code=5";evidencias/bancada/stm32f411/com_framework/sessao_20261108_180202_079953/serial_20261108_180238_513639.log
+Recuperação do display;82;"[18:04:46.704276] SAMPLE;temperature_mC=24981;humidity_mpercent=48681";evidencias/bancada/stm32f411/com_framework/sessao_20261108_180202_079953/serial_20261108_180238_513639.log
+Recuperação do display;83;"[18:04:48.906992] SAMPLE;temperature_mC=24866;humidity_mpercent=47437";evidencias/bancada/stm32f411/com_framework/sessao_20261108_180202_079953/serial_20261108_180238_513639.log

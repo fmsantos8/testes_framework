@@ -1,0 +1,11 @@
+/build/
+__pycache__/
+/conformidade/build/
+/esp32_sem_framework/
+/esp32_framework/
+/nrf52840_sem_framework/
+/nrf52840_framework/
+/stm32f407_sem_framework/
+/stm32f407_framework/
+/stm32f411_sem_framework/
+/stm32f411_framework/

@@ -1,0 +1,23 @@
+%% Arquitetura implementada. PDF vetorial gerado por tools/preparar_material_artigo.py.
+flowchart TB
+  subgraph comum[Fontes compartilhados nas quatro placas]
+    app[Aplicação: aquisição, telas, botão, LED e telemetria]
+    cmp[Componentes: SHT31-D, SSD1306, botão, LED e telemetria]
+    api[Contratos HAL: GPIO, I2C, UART, timer e sistema]
+    mem[Arena C11: hal/memory, sem SDK]
+    app -->|usa| cmp
+    cmp -->|usa| api
+  end
+  subgraph especifico[Plataforma e placa]
+    main[Integração main: contextos, callback ISR, contador nominal e laço]
+    bsp[BSP: pinos, barramentos, polaridades, buffer e construção dos recursos]
+    port[Portes: ESP32, nRF52840 e STM32F4 compartilhado por F407/F411]
+    sdk[ESP-IDF / nRF Connect SDK com Zephyr / STM32CubeF4 HAL]
+    main -.->|compõe e injeta| app
+    main -.->|inicializa| bsp
+    main -.->|inicializa contextos| cmp
+    bsp -->|constrói e sela| api
+    port -->|implementa| api
+    port -->|aloca objetos persistentes| mem
+    port -->|usa| sdk
+  end

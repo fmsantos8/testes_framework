@@ -1,0 +1,8 @@
+Projeto: stm32f407_sem_framework
+Configuração: Debug (-Og)
+Conferência: 2026-11-08T17:08:09-03:00
+23661c09ac961be35878ca614ff56c4cb64bcd0e6866b73ce23271e0ba438eb7  evidencias/firmwares/stm32f407_sem_framework/artefatos/stm32f407_sem_framework.elf
+1e13310add985a46a65dff0d212526a2a4a2e2c5885f7bc1d7483e2df2054f7e  evidencias/firmwares/stm32f407_sem_framework/artefatos/stm32f407_sem_framework.hex
+7f0a604f532f4b13ced1a20cb39e2d7d8cd764d48cece3df8d62d3303773d823  evidencias/firmwares/stm32f407_sem_framework/artefatos/stm32f407_sem_framework.bin
+d2be971467d4697978c93ae86a7d54ef4dc2a4889388c5556d46334c1cc272e8  evidencias/firmwares/stm32f407_sem_framework/artefatos/stm32f407_sem_framework.map
+APROVADO: artefatos arquivados íntegros.

@@ -1,0 +1,9 @@
+placa;versao;inicializacao;leituras;botao_telas;uart;falha_sensor;recuperacao_sensor;falha_display;recuperacao_display;evidencias;observacoes
+esp32;com_framework;APROVADO;APROVADO;APROVADO;APROVADO;APROVADO;APROVADO;APROVADO;APROVADO;bancada/esp32/com_framework/sessao_20261107_144706_426737/observacoes.md;"Sessão 03d177cb39734caab730a6e61e49b455; resultados informados pelo responsável. Ver bancada/esp32/com_framework/sessao_20261107_144706_426737/observacoes.md."
+esp32;sem_framework;PENDENTE;PENDENTE;PENDENTE;PENDENTE;PENDENTE;PENDENTE;PENDENTE;PENDENTE;;Identificação do binário e ensaio final documentado pendentes.
+nrf52840;com_framework;PENDENTE;PENDENTE;PENDENTE;PENDENTE;PENDENTE;PENDENTE;PENDENTE;PENDENTE;;Identificação do binário e ensaio final documentado pendentes.
+nrf52840;sem_framework;PENDENTE;PENDENTE;PENDENTE;PENDENTE;PENDENTE;PENDENTE;PENDENTE;PENDENTE;;Identificação do binário e ensaio final documentado pendentes.
+stm32f407;com_framework;PENDENTE;PENDENTE;PENDENTE;PENDENTE;PENDENTE;PENDENTE;PENDENTE;PENDENTE;;Identificação do binário e ensaio final documentado pendentes.
+stm32f407;sem_framework;PENDENTE;PENDENTE;PENDENTE;PENDENTE;PENDENTE;PENDENTE;PENDENTE;PENDENTE;;Identificação do binário e ensaio final documentado pendentes.
+stm32f411;com_framework;PENDENTE;PENDENTE;PENDENTE;PENDENTE;PENDENTE;PENDENTE;PENDENTE;PENDENTE;;Identificação do binário e ensaio final documentado pendentes.
+stm32f411;sem_framework;PENDENTE;PENDENTE;PENDENTE;PENDENTE;PENDENTE;PENDENTE;PENDENTE;PENDENTE;;Identificação do binário e ensaio final documentado pendentes.

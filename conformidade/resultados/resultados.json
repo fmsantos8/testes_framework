@@ -1,0 +1,847 @@
+{
+  "executed_utc": "2026-10-30T16:17:36.861986+00:00",
+  "method": "host simulation of actual port sources; hardware not exercised",
+  "cc": "cc",
+  "compiler": "cc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+  "test_source_sha256": {
+    "host/common.c": "2ebe503a9c6680046608e8367f1764141dfbaca1491ce1048d5f72f586c39f87",
+    "host/esp32/adapter.c": "74fffe6bba08477f41137118fa81c9de072e07b9bf2cb2f39c04987a6554e021",
+    "host/esp32/sdk.h": "0cf5c7da42132b57f5de67205f00381eaa2d60e66eb2cb86190ea4f9b39a13d7",
+    "host/fixture.h": "c2d052e2e7a754044ee1b821acfc942c441c182c469522c42854a94961f94893",
+    "host/nrf52840/adapter.c": "5deff09a64f0c23af58e1d38365f1eec8436a6bf10407fffec56fe6e93028c2b",
+    "host/nrf52840/sdk.h": "2ee0dd1fd7953630323ddea4e2ae0f90f7b36d920621187ff7f85e6527ca1541",
+    "host/stm32f4/adapter.c": "6337448f7e183cb2307f0830cee3b0108c8d8505b016ee948db8efea00447dab",
+    "host/stm32f4/core_cm4.h": "e8aaa77879c1ea86fe389ec8b9fac032dd45fda74a709a2df4c1088d1aabff41"
+  },
+  "runner_sha256": "0a5159fee38f17e7fa3bf9c46372c9475a9ab9a19280d029095e47a164452942",
+  "capabilities_sha256": "7d5393a5449d9033aff920d7cf47cc12f54ecdb3d23d081be41a3b61cd412c0f",
+  "targets": {
+    "esp32": {
+      "project": "esp32_framework",
+      "project_revision": "a12da8a8278fab7a40ff217ba16cd35bab00c822",
+      "contract_revision": "21b0e0fa80245341ca3daca9ad5f7df0ab289dd8",
+      "port_revision": "0b7c43e15450fbeb8efacd3d6fbbab83e63cf1a8",
+      "memory_revision": "f62a76358003068210d619a29aae089ac4a302e5",
+      "source_sha256": {
+        "esp32_framework/src/hal/memory/hal_memory.c": "082a20a38280a831a3e19db5060e360950a06a790efe271cd4e9d82c44ed1eda",
+        "esp32_framework/src/hal/memory/hal_memory.h": "39556bf466bdd5f1733f1cff14b2685da2e7be8fe80e87b28d2d37235358d153",
+        "esp32_framework/src/hal/ports/esp32-wroom-32/gpio/hal_gpio.c": "b805d171573116292c162a81ace173e32b4402a66a9337b7af5ba66a28f37ca0",
+        "esp32_framework/src/hal/ports/esp32-wroom-32/hal_esp32.c": "ec58608302fbe32775b23189160403e182d64b47bb52a6a06ae074c29b2c0132",
+        "esp32_framework/src/hal/ports/esp32-wroom-32/i2c/hal_i2c.c": "07c8e9950fe581310f2c8ccc6de412623750ffbe6d24f218fada82a968a51230",
+        "esp32_framework/src/hal/ports/esp32-wroom-32/system/hal_system.c": "8c4dfc12cc44dd40a99c299b4b927efa8ee2562b05798154a66339ec3a9fa90d",
+        "esp32_framework/src/hal/ports/esp32-wroom-32/timer/hal_timer.c": "f5d4ea99ba2d5388dd36ff80d3954088f0ba48592ae26bf955dba7bd98e3c770",
+        "esp32_framework/src/hal/ports/esp32-wroom-32/uart/hal_uart.c": "f42cebadb2e9757bd5b6dffd757f2cafb05f7fb3f89b08639984417cb9968837",
+        "esp32_framework/src/hal/ports/esp32-wroom-32/hal_esp32_private.h": "68e880168a29b954a2a27dd9a99b30228497441f532bed176ac2ad215d008aac",
+        "esp32_framework/src/hal/interface/common/hal_pin.h": "5e5c99f92a22dd0a475245624e40ab5967c7111d56c7c6be5614406abb200897",
+        "esp32_framework/src/hal/interface/common/hal_status.h": "0c588a11c460c321e030910459ce238f8ac64b80d12f79ce8b5b78107b1ed095",
+        "esp32_framework/src/hal/interface/gpio/hal_gpio.h": "ce3bbdfaff05842f080a31606cf5394de9226295eb05c188c5f0abc23d79c7ac",
+        "esp32_framework/src/hal/interface/i2c/hal_i2c.h": "1f30c8038a6ba3a280eca89aa1299a1b8d98f4aefdcbaec924aa7ef07b865db4",
+        "esp32_framework/src/hal/interface/system/hal_system.h": "afc22aeed17c7ae32e9b06a49f2b58880eb2087f3f18b949f8dc3d63e25194bf",
+        "esp32_framework/src/hal/interface/timer/hal_timer.h": "37e8eb0125ffeb8fc1152d29c94ad444ab2beb776d1f39c359653056fdd66384",
+        "esp32_framework/src/hal/interface/uart/hal_uart.h": "57a29ca050f7504e3ce24175f510de80dcd21be5767357bcb0a95f479f9d7ac0",
+        "esp32_framework/src/bsp/esp32_devkit_v1/bsp.c": "0eed597a4de7376a0b8dabb1b0b87b9ea66e5a9200323dbf5a6143049dbe8de2",
+        "esp32_framework/src/bsp/bsp.h": "08d2b497fdfd549235ada281da3693c2a9e37e68ffea2dcdedbb49b9203ef607"
+      },
+      "cases": {
+        "SYS-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/esp32-SYS-01.log"
+        },
+        "SYS-02": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/esp32-SYS-02.log"
+        },
+        "SYS-03": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/esp32-SYS-03.log"
+        },
+        "SYS-04": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/esp32-SYS-04.log"
+        },
+        "CFG-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/esp32-CFG-01.log"
+        },
+        "CFG-02": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/esp32-CFG-02.log"
+        },
+        "CFG-03": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/esp32-CFG-03.log"
+        },
+        "RES-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/esp32-RES-01.log"
+        },
+        "GPIO-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/esp32-GPIO-01.log"
+        },
+        "I2C-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/esp32-I2C-01.log"
+        },
+        "I2C-02": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/esp32-I2C-02.log"
+        },
+        "I2C-03": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/esp32-I2C-03.log"
+        },
+        "I2C-04": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/esp32-I2C-04.log"
+        },
+        "I2C-05": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/esp32-I2C-05.log"
+        },
+        "UART-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/esp32-UART-01.log"
+        },
+        "UART-02": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/esp32-UART-02.log"
+        },
+        "UART-03": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/esp32-UART-03.log"
+        },
+        "UART-04": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/esp32-UART-04.log"
+        },
+        "UART-05": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/esp32-UART-05.log"
+        },
+        "UART-06": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/esp32-UART-06.log"
+        },
+        "TIMER-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/esp32-TIMER-01.log"
+        },
+        "TIMER-02": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/esp32-TIMER-02.log"
+        },
+        "TIMER-03": {
+          "status": "NAO_APLICAVEL",
+          "exit_code": 77,
+          "log": "logs/esp32-TIMER-03.log"
+        },
+        "BSP-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/esp32-BSP-01.log"
+        }
+      },
+      "hardware": {
+        "HW-01": {
+          "status": "NAO_EXECUTADO",
+          "reason": "Exige placa e instrumentação; seguir roteiro de bancada."
+        },
+        "HW-02": {
+          "status": "NAO_EXECUTADO",
+          "reason": "Exige placa e instrumentação; seguir roteiro de bancada."
+        },
+        "HW-03": {
+          "status": "NAO_EXECUTADO",
+          "reason": "Exige placa e instrumentação; seguir roteiro de bancada."
+        },
+        "HW-04": {
+          "status": "NAO_EXECUTADO",
+          "reason": "Exige placa e instrumentação; seguir roteiro de bancada."
+        },
+        "HW-05": {
+          "status": "NAO_EXECUTADO",
+          "reason": "Exige placa e instrumentação; seguir roteiro de bancada."
+        },
+        "HW-06": {
+          "status": "NAO_EXECUTADO",
+          "reason": "Exige placa e instrumentação; seguir roteiro de bancada."
+        }
+      },
+      "compile_status": "APROVADO",
+      "compile_log": "logs/esp32-compile.log",
+      "sources_unchanged": true,
+      "public_headers_without_sdk": {
+        "c": {
+          "status": "APROVADO_COMPILACAO",
+          "log": "logs/esp32-headers-c.log"
+        },
+        "c++": {
+          "status": "APROVADO_COMPILACAO",
+          "log": "logs/esp32-headers-cpp.log"
+        }
+      }
+    },
+    "nrf52840": {
+      "project": "nrf52840_framework",
+      "project_revision": "1b353dfaa6c571010c08a3acca36115d201daf80",
+      "contract_revision": "21b0e0fa80245341ca3daca9ad5f7df0ab289dd8",
+      "port_revision": "3729cc2dc3f36f3ebb701c1377bba57430b75c0d",
+      "memory_revision": "f62a76358003068210d619a29aae089ac4a302e5",
+      "source_sha256": {
+        "nrf52840_framework/src/hal/memory/hal_memory.c": "082a20a38280a831a3e19db5060e360950a06a790efe271cd4e9d82c44ed1eda",
+        "nrf52840_framework/src/hal/memory/hal_memory.h": "39556bf466bdd5f1733f1cff14b2685da2e7be8fe80e87b28d2d37235358d153",
+        "nrf52840_framework/src/hal/ports/nrf52840/gpio/hal_gpio.c": "713fa8b0789907ddf7bc67a602aacf452b95f05c291a679e87ae3235baa26d3c",
+        "nrf52840_framework/src/hal/ports/nrf52840/hal_nrf_connect.c": "b6fe57e77b097211b3f32b640aec6bb914be279214ada5fd2174d9fe8ec4025b",
+        "nrf52840_framework/src/hal/ports/nrf52840/i2c/hal_i2c.c": "3daeb529c28dca61a7a89f28dec6e9f0f2ea8716ef3cee538165cbfa0d29dfa3",
+        "nrf52840_framework/src/hal/ports/nrf52840/system/hal_system.c": "bc75366976d94c91e2488fe90974d96d0afaeb0f59e795def7ab75ac1ef8978f",
+        "nrf52840_framework/src/hal/ports/nrf52840/timer/hal_timer.c": "3bf8247f01cd5a7fc3f16f4bed32beb2353b93ce09b335bbcb53da24b2574e3c",
+        "nrf52840_framework/src/hal/ports/nrf52840/uart/hal_uart.c": "67805682dae100a64c610786ba3b271df9537b58ea58c2ee1d42ab0f856c8d0c",
+        "nrf52840_framework/src/hal/ports/nrf52840/hal_nrf_connect_private.h": "623382e8a3de37c77b0cc4d9bbcde9cecafcf37911dfd53fa49acf1d77cc47c4",
+        "nrf52840_framework/src/hal/interface/common/hal_pin.h": "5e5c99f92a22dd0a475245624e40ab5967c7111d56c7c6be5614406abb200897",
+        "nrf52840_framework/src/hal/interface/common/hal_status.h": "0c588a11c460c321e030910459ce238f8ac64b80d12f79ce8b5b78107b1ed095",
+        "nrf52840_framework/src/hal/interface/gpio/hal_gpio.h": "ce3bbdfaff05842f080a31606cf5394de9226295eb05c188c5f0abc23d79c7ac",
+        "nrf52840_framework/src/hal/interface/i2c/hal_i2c.h": "1f30c8038a6ba3a280eca89aa1299a1b8d98f4aefdcbaec924aa7ef07b865db4",
+        "nrf52840_framework/src/hal/interface/system/hal_system.h": "afc22aeed17c7ae32e9b06a49f2b58880eb2087f3f18b949f8dc3d63e25194bf",
+        "nrf52840_framework/src/hal/interface/timer/hal_timer.h": "37e8eb0125ffeb8fc1152d29c94ad444ab2beb776d1f39c359653056fdd66384",
+        "nrf52840_framework/src/hal/interface/uart/hal_uart.h": "57a29ca050f7504e3ce24175f510de80dcd21be5767357bcb0a95f479f9d7ac0",
+        "nrf52840_framework/src/bsp/pro_micro_nrf52840/bsp.c": "441cbf3263ba8419049fc8ada06a8c33017c823573aff46be4e5ce0254d0ad7a",
+        "nrf52840_framework/src/bsp/bsp.h": "10f497d975368caee2cfd32f70bfeec50eac08568158672438a330182974f124"
+      },
+      "cases": {
+        "SYS-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/nrf52840-SYS-01.log"
+        },
+        "SYS-02": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/nrf52840-SYS-02.log"
+        },
+        "SYS-03": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/nrf52840-SYS-03.log"
+        },
+        "SYS-04": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/nrf52840-SYS-04.log"
+        },
+        "CFG-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/nrf52840-CFG-01.log"
+        },
+        "CFG-02": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/nrf52840-CFG-02.log"
+        },
+        "CFG-03": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/nrf52840-CFG-03.log"
+        },
+        "RES-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/nrf52840-RES-01.log"
+        },
+        "GPIO-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/nrf52840-GPIO-01.log"
+        },
+        "I2C-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/nrf52840-I2C-01.log"
+        },
+        "I2C-02": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/nrf52840-I2C-02.log"
+        },
+        "I2C-03": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/nrf52840-I2C-03.log"
+        },
+        "I2C-04": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/nrf52840-I2C-04.log"
+        },
+        "I2C-05": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/nrf52840-I2C-05.log"
+        },
+        "UART-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/nrf52840-UART-01.log"
+        },
+        "UART-02": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/nrf52840-UART-02.log"
+        },
+        "UART-03": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/nrf52840-UART-03.log"
+        },
+        "UART-04": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/nrf52840-UART-04.log"
+        },
+        "UART-05": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/nrf52840-UART-05.log"
+        },
+        "UART-06": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/nrf52840-UART-06.log"
+        },
+        "TIMER-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/nrf52840-TIMER-01.log"
+        },
+        "TIMER-02": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/nrf52840-TIMER-02.log"
+        },
+        "TIMER-03": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/nrf52840-TIMER-03.log"
+        },
+        "BSP-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/nrf52840-BSP-01.log"
+        }
+      },
+      "hardware": {
+        "HW-01": {
+          "status": "NAO_EXECUTADO",
+          "reason": "Exige placa e instrumentação; seguir roteiro de bancada."
+        },
+        "HW-02": {
+          "status": "NAO_EXECUTADO",
+          "reason": "Exige placa e instrumentação; seguir roteiro de bancada."
+        },
+        "HW-03": {
+          "status": "NAO_EXECUTADO",
+          "reason": "Exige placa e instrumentação; seguir roteiro de bancada."
+        },
+        "HW-04": {
+          "status": "NAO_EXECUTADO",
+          "reason": "Exige placa e instrumentação; seguir roteiro de bancada."
+        },
+        "HW-05": {
+          "status": "NAO_EXECUTADO",
+          "reason": "Exige placa e instrumentação; seguir roteiro de bancada."
+        },
+        "HW-06": {
+          "status": "NAO_EXECUTADO",
+          "reason": "Exige placa e instrumentação; seguir roteiro de bancada."
+        }
+      },
+      "compile_status": "APROVADO",
+      "compile_log": "logs/nrf52840-compile.log",
+      "sources_unchanged": true,
+      "public_headers_without_sdk": {
+        "c": {
+          "status": "APROVADO_COMPILACAO",
+          "log": "logs/nrf52840-headers-c.log"
+        },
+        "c++": {
+          "status": "APROVADO_COMPILACAO",
+          "log": "logs/nrf52840-headers-cpp.log"
+        }
+      }
+    },
+    "stm32f407": {
+      "project": "stm32f407_framework",
+      "project_revision": "d65bba731fe2030a628464c15f6847f272061c9e",
+      "contract_revision": "21b0e0fa80245341ca3daca9ad5f7df0ab289dd8",
+      "port_revision": "6ba6ffefbf2854645818d353fabfdbb998514760",
+      "memory_revision": "f62a76358003068210d619a29aae089ac4a302e5",
+      "source_sha256": {
+        "stm32f407_framework/src/hal/memory/hal_memory.c": "082a20a38280a831a3e19db5060e360950a06a790efe271cd4e9d82c44ed1eda",
+        "stm32f407_framework/src/hal/memory/hal_memory.h": "39556bf466bdd5f1733f1cff14b2685da2e7be8fe80e87b28d2d37235358d153",
+        "stm32f407_framework/src/hal/ports/stm32f4/gpio/hal_gpio.c": "4d5f6f3764f896c330e8fa77f60ad0f24286e84014b238ace2c012a26b3c371d",
+        "stm32f407_framework/src/hal/ports/stm32f4/hal_stm32f4.c": "27691c473d06ac691339ded8bebb00996c60279c09395a8764cbca52c04ab45c",
+        "stm32f407_framework/src/hal/ports/stm32f4/i2c/hal_i2c.c": "422370f456eadbe1a552d809125d2acf16343e863857fda10b203ee376bd6664",
+        "stm32f407_framework/src/hal/ports/stm32f4/system/hal_system.c": "a5493974716e5e2d8abd7f917d5206c99e6e8b54fef40a5e0cd636384ae0701c",
+        "stm32f407_framework/src/hal/ports/stm32f4/timer/hal_timer.c": "ce698509211c0eeedceca4fa204d2be21921665fd5116b508de3d19a030ddbc4",
+        "stm32f407_framework/src/hal/ports/stm32f4/uart/hal_uart.c": "004a96be1e539a5a390f70b0db10d05c8dce52f9fea43acb15968de7cd0b6acd",
+        "stm32f407_framework/src/hal/ports/stm32f4/hal_stm32f4_private.h": "48e446cf94d1ec0b749e82773f05fc0a97e7185dfd7eb7665e22280f230bd900",
+        "stm32f407_framework/src/hal/interface/common/hal_pin.h": "5e5c99f92a22dd0a475245624e40ab5967c7111d56c7c6be5614406abb200897",
+        "stm32f407_framework/src/hal/interface/common/hal_status.h": "0c588a11c460c321e030910459ce238f8ac64b80d12f79ce8b5b78107b1ed095",
+        "stm32f407_framework/src/hal/interface/gpio/hal_gpio.h": "ce3bbdfaff05842f080a31606cf5394de9226295eb05c188c5f0abc23d79c7ac",
+        "stm32f407_framework/src/hal/interface/i2c/hal_i2c.h": "1f30c8038a6ba3a280eca89aa1299a1b8d98f4aefdcbaec924aa7ef07b865db4",
+        "stm32f407_framework/src/hal/interface/system/hal_system.h": "afc22aeed17c7ae32e9b06a49f2b58880eb2087f3f18b949f8dc3d63e25194bf",
+        "stm32f407_framework/src/hal/interface/timer/hal_timer.h": "37e8eb0125ffeb8fc1152d29c94ad444ab2beb776d1f39c359653056fdd66384",
+        "stm32f407_framework/src/hal/interface/uart/hal_uart.h": "57a29ca050f7504e3ce24175f510de80dcd21be5767357bcb0a95f479f9d7ac0",
+        "stm32f407_framework/src/bsp/devebox_stm32f407/bsp.c": "b408fcf36e4f2e162f3e950f91d74094febd3559e5cc89d2baf962e408690ce7",
+        "stm32f407_framework/src/bsp/bsp.h": "10f497d975368caee2cfd32f70bfeec50eac08568158672438a330182974f124"
+      },
+      "cases": {
+        "SYS-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f407-SYS-01.log"
+        },
+        "SYS-02": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f407-SYS-02.log"
+        },
+        "SYS-03": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f407-SYS-03.log"
+        },
+        "SYS-04": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f407-SYS-04.log"
+        },
+        "CFG-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f407-CFG-01.log"
+        },
+        "CFG-02": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f407-CFG-02.log"
+        },
+        "CFG-03": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f407-CFG-03.log"
+        },
+        "RES-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f407-RES-01.log"
+        },
+        "GPIO-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f407-GPIO-01.log"
+        },
+        "I2C-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f407-I2C-01.log"
+        },
+        "I2C-02": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f407-I2C-02.log"
+        },
+        "I2C-03": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f407-I2C-03.log"
+        },
+        "I2C-04": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f407-I2C-04.log"
+        },
+        "I2C-05": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f407-I2C-05.log"
+        },
+        "UART-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f407-UART-01.log"
+        },
+        "UART-02": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f407-UART-02.log"
+        },
+        "UART-03": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f407-UART-03.log"
+        },
+        "UART-04": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f407-UART-04.log"
+        },
+        "UART-05": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f407-UART-05.log"
+        },
+        "UART-06": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f407-UART-06.log"
+        },
+        "TIMER-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f407-TIMER-01.log"
+        },
+        "TIMER-02": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f407-TIMER-02.log"
+        },
+        "TIMER-03": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f407-TIMER-03.log"
+        },
+        "BSP-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f407-BSP-01.log"
+        }
+      },
+      "hardware": {
+        "HW-01": {
+          "status": "NAO_EXECUTADO",
+          "reason": "Exige placa e instrumentação; seguir roteiro de bancada."
+        },
+        "HW-02": {
+          "status": "NAO_EXECUTADO",
+          "reason": "Exige placa e instrumentação; seguir roteiro de bancada."
+        },
+        "HW-03": {
+          "status": "NAO_EXECUTADO",
+          "reason": "Exige placa e instrumentação; seguir roteiro de bancada."
+        },
+        "HW-04": {
+          "status": "NAO_EXECUTADO",
+          "reason": "Exige placa e instrumentação; seguir roteiro de bancada."
+        },
+        "HW-05": {
+          "status": "NAO_EXECUTADO",
+          "reason": "Exige placa e instrumentação; seguir roteiro de bancada."
+        },
+        "HW-06": {
+          "status": "NAO_EXECUTADO",
+          "reason": "Exige placa e instrumentação; seguir roteiro de bancada."
+        }
+      },
+      "sdk_revision": "94cae6e83f00e276a11957e7833c01ac3d0bd7af",
+      "compile_status": "APROVADO",
+      "compile_log": "logs/stm32f407-compile.log",
+      "sources_unchanged": true,
+      "public_headers_without_sdk": {
+        "c": {
+          "status": "APROVADO_COMPILACAO",
+          "log": "logs/stm32f407-headers-c.log"
+        },
+        "c++": {
+          "status": "APROVADO_COMPILACAO",
+          "log": "logs/stm32f407-headers-cpp.log"
+        }
+      }
+    },
+    "stm32f411": {
+      "project": "stm32f411_framework",
+      "project_revision": "1921df9c8421fb8e0fa43a5e789525847ee63176",
+      "contract_revision": "21b0e0fa80245341ca3daca9ad5f7df0ab289dd8",
+      "port_revision": "6ba6ffefbf2854645818d353fabfdbb998514760",
+      "memory_revision": "f62a76358003068210d619a29aae089ac4a302e5",
+      "source_sha256": {
+        "stm32f411_framework/src/hal/memory/hal_memory.c": "082a20a38280a831a3e19db5060e360950a06a790efe271cd4e9d82c44ed1eda",
+        "stm32f411_framework/src/hal/memory/hal_memory.h": "39556bf466bdd5f1733f1cff14b2685da2e7be8fe80e87b28d2d37235358d153",
+        "stm32f411_framework/src/hal/ports/stm32f4/gpio/hal_gpio.c": "4d5f6f3764f896c330e8fa77f60ad0f24286e84014b238ace2c012a26b3c371d",
+        "stm32f411_framework/src/hal/ports/stm32f4/hal_stm32f4.c": "27691c473d06ac691339ded8bebb00996c60279c09395a8764cbca52c04ab45c",
+        "stm32f411_framework/src/hal/ports/stm32f4/i2c/hal_i2c.c": "422370f456eadbe1a552d809125d2acf16343e863857fda10b203ee376bd6664",
+        "stm32f411_framework/src/hal/ports/stm32f4/system/hal_system.c": "a5493974716e5e2d8abd7f917d5206c99e6e8b54fef40a5e0cd636384ae0701c",
+        "stm32f411_framework/src/hal/ports/stm32f4/timer/hal_timer.c": "ce698509211c0eeedceca4fa204d2be21921665fd5116b508de3d19a030ddbc4",
+        "stm32f411_framework/src/hal/ports/stm32f4/uart/hal_uart.c": "004a96be1e539a5a390f70b0db10d05c8dce52f9fea43acb15968de7cd0b6acd",
+        "stm32f411_framework/src/hal/ports/stm32f4/hal_stm32f4_private.h": "48e446cf94d1ec0b749e82773f05fc0a97e7185dfd7eb7665e22280f230bd900",
+        "stm32f411_framework/src/hal/interface/common/hal_pin.h": "5e5c99f92a22dd0a475245624e40ab5967c7111d56c7c6be5614406abb200897",
+        "stm32f411_framework/src/hal/interface/common/hal_status.h": "0c588a11c460c321e030910459ce238f8ac64b80d12f79ce8b5b78107b1ed095",
+        "stm32f411_framework/src/hal/interface/gpio/hal_gpio.h": "ce3bbdfaff05842f080a31606cf5394de9226295eb05c188c5f0abc23d79c7ac",
+        "stm32f411_framework/src/hal/interface/i2c/hal_i2c.h": "1f30c8038a6ba3a280eca89aa1299a1b8d98f4aefdcbaec924aa7ef07b865db4",
+        "stm32f411_framework/src/hal/interface/system/hal_system.h": "afc22aeed17c7ae32e9b06a49f2b58880eb2087f3f18b949f8dc3d63e25194bf",
+        "stm32f411_framework/src/hal/interface/timer/hal_timer.h": "37e8eb0125ffeb8fc1152d29c94ad444ab2beb776d1f39c359653056fdd66384",
+        "stm32f411_framework/src/hal/interface/uart/hal_uart.h": "57a29ca050f7504e3ce24175f510de80dcd21be5767357bcb0a95f479f9d7ac0",
+        "stm32f411_framework/src/bsp/black_pill_stm32f411/bsp.c": "da7cb8be72b08544b982301352679017af1ac06a8bca2fb800092a5d279fa79d",
+        "stm32f411_framework/src/bsp/bsp.h": "10f497d975368caee2cfd32f70bfeec50eac08568158672438a330182974f124"
+      },
+      "cases": {
+        "SYS-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f411-SYS-01.log"
+        },
+        "SYS-02": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f411-SYS-02.log"
+        },
+        "SYS-03": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f411-SYS-03.log"
+        },
+        "SYS-04": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f411-SYS-04.log"
+        },
+        "CFG-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f411-CFG-01.log"
+        },
+        "CFG-02": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f411-CFG-02.log"
+        },
+        "CFG-03": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f411-CFG-03.log"
+        },
+        "RES-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f411-RES-01.log"
+        },
+        "GPIO-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f411-GPIO-01.log"
+        },
+        "I2C-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f411-I2C-01.log"
+        },
+        "I2C-02": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f411-I2C-02.log"
+        },
+        "I2C-03": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f411-I2C-03.log"
+        },
+        "I2C-04": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f411-I2C-04.log"
+        },
+        "I2C-05": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f411-I2C-05.log"
+        },
+        "UART-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f411-UART-01.log"
+        },
+        "UART-02": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f411-UART-02.log"
+        },
+        "UART-03": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f411-UART-03.log"
+        },
+        "UART-04": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f411-UART-04.log"
+        },
+        "UART-05": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f411-UART-05.log"
+        },
+        "UART-06": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f411-UART-06.log"
+        },
+        "TIMER-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f411-TIMER-01.log"
+        },
+        "TIMER-02": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f411-TIMER-02.log"
+        },
+        "TIMER-03": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f411-TIMER-03.log"
+        },
+        "BSP-01": {
+          "status": "APROVADO_SIMULADO",
+          "exit_code": 0,
+          "log": "logs/stm32f411-BSP-01.log"
+        }
+      },
+      "hardware": {
+        "HW-01": {
+          "status": "NAO_EXECUTADO",
+          "reason": "Exige placa e instrumentação; seguir roteiro de bancada."
+        },
+        "HW-02": {
+          "status": "NAO_EXECUTADO",
+          "reason": "Exige placa e instrumentação; seguir roteiro de bancada."
+        },
+        "HW-03": {
+          "status": "NAO_EXECUTADO",
+          "reason": "Exige placa e instrumentação; seguir roteiro de bancada."
+        },
+        "HW-04": {
+          "status": "NAO_EXECUTADO",
+          "reason": "Exige placa e instrumentação; seguir roteiro de bancada."
+        },
+        "HW-05": {
+          "status": "NAO_EXECUTADO",
+          "reason": "Exige placa e instrumentação; seguir roteiro de bancada."
+        },
+        "HW-06": {
+          "status": "NAO_EXECUTADO",
+          "reason": "Exige placa e instrumentação; seguir roteiro de bancada."
+        }
+      },
+      "sdk_revision": "94cae6e83f00e276a11957e7833c01ac3d0bd7af",
+      "compile_status": "APROVADO",
+      "compile_log": "logs/stm32f411-compile.log",
+      "sources_unchanged": true,
+      "public_headers_without_sdk": {
+        "c": {
+          "status": "APROVADO_COMPILACAO",
+          "log": "logs/stm32f411-headers-c.log"
+        },
+        "c++": {
+          "status": "APROVADO_COMPILACAO",
+          "log": "logs/stm32f411-headers-cpp.log"
+        }
+      }
+    }
+  },
+  "structural": {
+    "common_files": {
+      "app": {
+        "identical": true,
+        "files_per_target": 15
+      },
+      "components": {
+        "identical": true,
+        "files_per_target": 21
+      },
+      "hal/interface": {
+        "identical": true,
+        "files_per_target": 7
+      },
+      "hal/memory": {
+        "identical": true,
+        "files_per_target": 2
+      }
+    },
+    "stm32_port_identical": true
+  },
+  "production_builds": [
+    {
+      "build": "stm32f407_framework-Debug",
+      "manifest": "build/compilacao/manifesto.json",
+      "source_matches_tested_sources": true,
+      "artifact_hashes_match": true,
+      "status": "APROVADO_COMPILACAO"
+    },
+    {
+      "build": "stm32f407_framework-Release",
+      "manifest": "build/compilacao/manifesto.json",
+      "source_matches_tested_sources": true,
+      "artifact_hashes_match": true,
+      "status": "APROVADO_COMPILACAO"
+    },
+    {
+      "build": "stm32f411_framework-Debug",
+      "manifest": "build/compilacao/manifesto.json",
+      "source_matches_tested_sources": true,
+      "artifact_hashes_match": true,
+      "status": "APROVADO_COMPILACAO"
+    },
+    {
+      "build": "stm32f411_framework-Release",
+      "manifest": "build/compilacao/manifesto.json",
+      "source_matches_tested_sources": true,
+      "artifact_hashes_match": true,
+      "status": "APROVADO_COMPILACAO"
+    },
+    {
+      "build": "esp32_framework-default",
+      "manifest": "build/compilacao/manifesto.json",
+      "source_matches_tested_sources": true,
+      "artifact_hashes_match": true,
+      "status": "APROVADO_COMPILACAO"
+    },
+    {
+      "build": "nrf52840_framework-Debug",
+      "manifest": "build/compilacao/manifesto.json",
+      "source_matches_tested_sources": true,
+      "artifact_hashes_match": true,
+      "status": "APROVADO_COMPILACAO"
+    },
+    {
+      "build": "nrf52840_framework-Release",
+      "manifest": "build/compilacao/manifesto.json",
+      "source_matches_tested_sources": true,
+      "artifact_hashes_match": true,
+      "status": "APROVADO_COMPILACAO"
+    }
+  ],
+  "full_physical_conformance_demonstrated": false
+}

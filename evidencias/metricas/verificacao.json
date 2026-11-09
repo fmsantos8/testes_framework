@@ -1,0 +1,18 @@
+{
+  "executed_utc": "2026-11-08T21:34:05.138529+00:00",
+  "status": "APROVADO",
+  "projects": 8,
+  "input_files_checked": 3234,
+  "outputs_checked": 41,
+  "inventory_rows": 6358,
+  "sources_and_artifacts_unchanged": true,
+  "physical_validation": false,
+  "physical_campaign_records": {
+    "approved_versions": 8,
+    "failed_versions": 0,
+    "not_executed_versions": 0,
+    "pending_versions": 0
+  },
+  "metrics_report_sha256": "baea691d8e7626b287699aff290a9029691919d965dd1cb448e8ef6dd4112b92",
+  "verifier_sha256": "850068c83950f71c01a4884c701bc4ccfb062fbdab24d411d3366f6d3436605f"
+}

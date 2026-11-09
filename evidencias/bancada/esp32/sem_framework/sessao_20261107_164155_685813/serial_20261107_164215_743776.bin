@@ -1,0 +1,147 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0040,len:6364
+ho 0 tail 12 room 4
+load:0x40078000,len:15880
+ho 0 tail 12 room 4
+load:0x40080400,len:4004
+entry 0x40080648
+SAMPLE;temperature_mC=24178;humidity_mpercent=65364
+SAMPLE;temperature_mC=24164;humidity_mpercent=65362
+SAMPLE;temperature_mC=24135;humidity_mpercent=65367
+SAMPLE;temperature_mC=24148;humidity_mpercent=65414
+SAMPLE;temperature_mC=24148;humidity_mpercent=65426
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0040,len:6364
+ho 0 tail 12 room 4
+load:0x40078000,len:15880
+ho 0 tail 12 room 4
+load:0x40080400,len:4004
+entry 0x40080648
+SAMPLE;temperature_mC=24148;humidity_mpercent=65481
+SAMPLE;temperature_mC=24135;humidity_mpercent=65478
+SAMPLE;temperature_mC=24121;humidity_mpercent=65556
+SAMPLE;temperature_mC=24121;humidity_mpercent=65600
+SAMPLE;temperature_mC=24135;humidity_mpercent=65647
+SAMPLE;temperature_mC=24135;humidity_mpercent=65748
+SAMPLE;temperature_mC=24164;humidity_mpercent=65971
+SAMPLE;temperature_mC=24148;humidity_mpercent=66021
+SAMPLE;temperature_mC=24191;humidity_mpercent=66268
+SAMPLE;temperature_mC=24234;humidity_mpercent=66604
+SAMPLE;temperature_mC=24234;humidity_mpercent=66819
+SAMPLE;temperature_mC=24260;humidity_mpercent=67005
+SAMPLE;temperature_mC=24276;humidity_mpercent=67042
+SAMPLE;temperature_mC=24303;humidity_mpercent=66879
+SAMPLE;temperature_mC=24290;humidity_mpercent=66740
+SAMPLE;temperature_mC=24290;humidity_mpercent=66639
+SAMPLE;temperature_mC=24290;humidity_mpercent=66639
+SAMPLE;temperature_mC=24247;humidity_mpercent=66429
+SAMPLE;temperature_mC=24260;humidity_mpercent=66238
+SAMPLE;temperature_mC=24260;humidity_mpercent=66091
+SAMPLE;temperature_mC=24260;humidity_mpercent=66000
+SAMPLE;temperature_mC=24290;humidity_mpercent=66064
+SAMPLE;temperature_mC=24276;humidity_mpercent=66195
+SAMPLE;temperature_mC=24247;humidity_mpercent=66291
+SAMPLE;temperature_mC=24316;humidity_mpercent=66293
+SAMPLE;temperature_mC=24346;humidity_mpercent=67034
+SAMPLE;temperature_mC=24332;humidity_mpercent=67584
+SAMPLE;temperature_mC=24346;humidity_mpercent=67454
+SAMPLE;temperature_mC=24332;humidity_mpercent=67211
+SAMPLE;temperature_mC=24359;humidity_mpercent=67080
+SAMPLE;temperature_mC=24431;humidity_mpercent=68301
+SAMPLE;temperature_mC=24461;humidity_mpercent=69177
+SAMPLE;temperature_mC=24517;humidity_mpercent=69445
+SAMPLE;temperature_mC=24573;humidity_mpercent=69834
+SAMPLE;temperature_mC=24602;humidity_mpercent=70658
+SAMPLE;temperature_mC=24615;humidity_mpercent=70541
+SAMPLE;temperature_mC=24586;humidity_mpercent=70115
+SAMPLE;temperature_mC=24602;humidity_mpercent=69442
+SAMPLE;temperature_mC=24629;humidity_mpercent=69406
+SAMPLE;temperature_mC=24602;humidity_mpercent=68980
+SAMPLE;temperature_mC=24602;humidity_mpercent=68357
+SAMPLE;temperature_mC=24629;humidity_mpercent=67913
+SAMPLE;temperature_mC=24602;humidity_mpercent=67639
+SAMPLE;temperature_mC=24797;humidity_mpercent=67669
+ERROR;source=SHT31D;code=6
+ERROR;source=SHT31D;code=6
+ERROR;source=SHT31D;code=6
+ERROR;source=SHT31D;code=6
+ERROR;source=SHT31D;code=6
+ERROR;source=SHT31D;code=6
+ERROR;source=SHT31D;code=6
+ERROR;source=SHT31D;code=6
+ERROR;source=SHT31D;code=6
+ERROR;source=SHT31D;code=6
+ERROR;source=SHT31D;code=6
+ERROR;source=SHT31D;code=6
+ERROR;source=SHT31D;code=6
+ERROR;source=SHT31D;code=6
+ERROR;source=SHT31D;code=6
+ERROR;source=SHT31D;code=6
+ERROR;source=SHT31D;code=6
+ERROR;source=SHT31D;code=6
+ERROR;source=SHT31D;code=6
+ERROR;source=SHT31D;code=6
+ERROR;source=SHT31D;code=6
+ERROR;source=SHT31D;code=6
+ERROR;source=SHT31D;code=6
+ERROR;source=SHT31D;code=6
+SAMPLE;temperature_mC=31131;humidity_mpercent=63862
+SAMPLE;temperature_mC=31003;humidity_mpercent=61857
+SAMPLE;temperature_mC=30763;humidity_mpercent=58918
+SAMPLE;temperature_mC=30439;humidity_mpercent=56551
+SAMPLE;temperature_mC=30156;humidity_mpercent=55297
+SAMPLE;temperature_mC=29833;humidity_mpercent=54606
+SAMPLE;temperature_mC=29524;humidity_mpercent=54339
+SAMPLE;temperature_mC=29254;humidity_mpercent=54334
+SAMPLE;temperature_mC=28987;humidity_mpercent=54907
+SAMPLE;temperature_mC=28789;humidity_mpercent=55256
+SAMPLE;temperature_mC=28565;humidity_mpercent=55442
+SAMPLE;temperature_mC=28367;humidity_mpercent=55547
+SAMPLE;temperature_mC=28167;humidity_mpercent=55822
+SAMPLE;temperature_mC=28042;humidity_mpercent=56207
+SAMPLE;temperature_mC=27844;humidity_mpercent=56555
+SAMPLE;temperature_mC=27689;humidity_mpercent=56785
+SAMPLE;temperature_mC=27547;humidity_mpercent=57923
+SAMPLE;temperature_mC=27449;humidity_mpercent=59765
+SAMPLE;temperature_mC=27435;humidity_mpercent=60557
+SAMPLE;temperature_mC=27379;humidity_mpercent=61230
+ERROR;source=SSD1306;code=5
+ERROR;source=SSD1306;code=5
+SAMPLE;temperature_mC=27238;humidity_mpercent=61512
+ERROR;source=SSD1306;code=5
+ERROR;source=SSD1306;code=5
+SAMPLE;temperature_mC=27123;humidity_mpercent=61093
+ERROR;source=SSD1306;code=5
+ERROR;source=SSD1306;code=5
+SAMPLE;temperature_mC=26997;humidity_mpercent=60795
+ERROR;source=SSD1306;code=5
+ERROR;source=SSD1306;code=5
+SAMPLE;temperature_mC=26941;humidity_mpercent=60603
+ERROR;source=SSD1306;code=5
+ERROR;source=SSD1306;code=5
+SAMPLE;temperature_mC=26816;humidity_mpercent=60520
+ERROR;source=SSD1306;code=5
+ERROR;source=SSD1306;code=5
+SAMPLE;temperature_mC=26717;humidity_mpercent=60575
+ERROR;source=SSD1306;code=5
+ERROR;source=SSD1306;code=5
+SAMPLE;temperature_mC=26730;humidity_mpercent=60941
+ERROR;source=SSD1306;code=5
+SAMPLE;temperature_mC=26717;humidity_mpercent=63107
+SAMPLE;temperature_mC=26645;humidity_mpercent=64050
+SAMPLE;temperature_mC=26589;humidity_mpercent=63549
+SAMPLE;temperature_mC=26503;humidity_mpercent=62919
+SAMPLE;temperature_mC=26391;humidity_mpercent=62318
+SAMPLE;temperature_mC=26322;humidity_mpercent=61917
+SAMPLE;temperature_mC=26266;humidity_mpercent=61816
+SAMPLE;temperature_mC=26210;humidity_mpercent=61805

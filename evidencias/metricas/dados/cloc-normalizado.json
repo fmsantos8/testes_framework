@@ -1,0 +1,1569 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "2.06",
+  "elapsed_seconds"    : 0.142502069473267,
+  "n_files"            : 311,
+  "n_lines"            : 23669,
+  "files_per_second"   : 2182.42444583125,
+  "lines_per_second"   : 166095.833467459,
+  "report_file"        : "/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/cloc-normalizado.json"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/components/ssd1306/cmp_ssd1306.c" :{
+  "blank": 23,
+  "comment": 4,
+  "code": 295,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/components/ssd1306/cmp_ssd1306.c" :{
+  "blank": 23,
+  "comment": 4,
+  "code": 295,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/components/ssd1306/cmp_ssd1306.c" :{
+  "blank": 23,
+  "comment": 4,
+  "code": 295,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/components/ssd1306/cmp_ssd1306.c" :{
+  "blank": 23,
+  "comment": 4,
+  "code": 295,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/hal/ports/stm32f4/uart/hal_uart.c" :{
+  "blank": 27,
+  "comment": 3,
+  "code": 261,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/hal/ports/stm32f4/uart/hal_uart.c" :{
+  "blank": 27,
+  "comment": 3,
+  "code": 261,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/hal/ports/esp32-wroom-32/uart/hal_uart.c" :{
+  "blank": 11,
+  "comment": 5,
+  "code": 218,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_sem_framework/main/graphics.c" :{
+  "blank": 12,
+  "comment": 2,
+  "code": 206,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_sem_framework/src/graphics.c" :{
+  "blank": 12,
+  "comment": 2,
+  "code": 206,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_sem_framework/Core/Src/graphics.c" :{
+  "blank": 12,
+  "comment": 2,
+  "code": 206,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_sem_framework/Core/Src/graphics.c" :{
+  "blank": 12,
+  "comment": 2,
+  "code": 206,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/hal/ports/stm32f4/timer/hal_timer.c" :{
+  "blank": 23,
+  "comment": 5,
+  "code": 205,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/hal/ports/stm32f4/timer/hal_timer.c" :{
+  "blank": 23,
+  "comment": 5,
+  "code": 205,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/hal/ports/stm32f4/i2c/hal_i2c.c" :{
+  "blank": 25,
+  "comment": 4,
+  "code": 201,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/hal/ports/stm32f4/i2c/hal_i2c.c" :{
+  "blank": 25,
+  "comment": 4,
+  "code": 201,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/hal/ports/nrf52840/uart/hal_uart.c" :{
+  "blank": 9,
+  "comment": 5,
+  "code": 198,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_sem_framework/src/peripherals.c" :{
+  "blank": 2,
+  "comment": 0,
+  "code": 179,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/hal/ports/esp32-wroom-32/i2c/hal_i2c.c" :{
+  "blank": 12,
+  "comment": 4,
+  "code": 169,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_sem_framework/src/application.c" :{
+  "blank": 9,
+  "comment": 0,
+  "code": 165,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/hal/ports/stm32f4/hal_stm32f4.c" :{
+  "blank": 11,
+  "comment": 0,
+  "code": 163,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/hal/ports/stm32f4/hal_stm32f4.c" :{
+  "blank": 11,
+  "comment": 0,
+  "code": 163,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_sem_framework/main/application.c" :{
+  "blank": 9,
+  "comment": 0,
+  "code": 160,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_sem_framework/Core/Src/application.c" :{
+  "blank": 9,
+  "comment": 0,
+  "code": 160,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_sem_framework/Core/Src/application.c" :{
+  "blank": 9,
+  "comment": 0,
+  "code": 160,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/hal/ports/esp32-wroom-32/timer/hal_timer.c" :{
+  "blank": 10,
+  "comment": 4,
+  "code": 140,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/hal/ports/nrf52840/i2c/hal_i2c.c" :{
+  "blank": 8,
+  "comment": 2,
+  "code": 133,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/hal/ports/stm32f4/system/hal_system.c" :{
+  "blank": 9,
+  "comment": 2,
+  "code": 121,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/hal/ports/stm32f4/system/hal_system.c" :{
+  "blank": 9,
+  "comment": 2,
+  "code": 121,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/hal/ports/esp32-wroom-32/gpio/hal_gpio.c" :{
+  "blank": 18,
+  "comment": 6,
+  "code": 113,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/hal/ports/stm32f4/gpio/hal_gpio.c" :{
+  "blank": 11,
+  "comment": 0,
+  "code": 106,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/hal/ports/stm32f4/gpio/hal_gpio.c" :{
+  "blank": 11,
+  "comment": 0,
+  "code": 106,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/app/gui/render.c" :{
+  "blank": 8,
+  "comment": 6,
+  "code": 102,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_sem_framework/main/render.c" :{
+  "blank": 8,
+  "comment": 6,
+  "code": 102,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/app/gui/render.c" :{
+  "blank": 8,
+  "comment": 6,
+  "code": 102,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_sem_framework/src/render.c" :{
+  "blank": 8,
+  "comment": 6,
+  "code": 102,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/app/gui/render.c" :{
+  "blank": 8,
+  "comment": 6,
+  "code": 102,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_sem_framework/Core/Src/render.c" :{
+  "blank": 8,
+  "comment": 6,
+  "code": 102,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/app/gui/render.c" :{
+  "blank": 8,
+  "comment": 6,
+  "code": 102,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_sem_framework/Core/Src/render.c" :{
+  "blank": 8,
+  "comment": 6,
+  "code": 102,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/components/telemetry/cmp_telemetry.c" :{
+  "blank": 13,
+  "comment": 5,
+  "code": 101,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/components/telemetry/cmp_telemetry.c" :{
+  "blank": 13,
+  "comment": 5,
+  "code": 101,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/components/telemetry/cmp_telemetry.c" :{
+  "blank": 13,
+  "comment": 5,
+  "code": 101,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/components/telemetry/cmp_telemetry.c" :{
+  "blank": 13,
+  "comment": 5,
+  "code": 101,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/bsp/pro_micro_nrf52840/bsp.c" :{
+  "blank": 18,
+  "comment": 2,
+  "code": 98,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/bsp/esp32_devkit_v1/bsp.c" :{
+  "blank": 16,
+  "comment": 2,
+  "code": 96,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/bsp/devebox_stm32f407/bsp.c" :{
+  "blank": 16,
+  "comment": 2,
+  "code": 96,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/bsp/black_pill_stm32f411/bsp.c" :{
+  "blank": 16,
+  "comment": 2,
+  "code": 96,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/app/acquisition/app_acquisition.c" :{
+  "blank": 14,
+  "comment": 5,
+  "code": 95,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/app/acquisition/app_acquisition.c" :{
+  "blank": 14,
+  "comment": 5,
+  "code": 95,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/app/acquisition/app_acquisition.c" :{
+  "blank": 14,
+  "comment": 5,
+  "code": 95,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/app/acquisition/app_acquisition.c" :{
+  "blank": 14,
+  "comment": 5,
+  "code": 95,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/components/sht31d/cmp_sht31d.c" :{
+  "blank": 12,
+  "comment": 7,
+  "code": 94,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/components/sht31d/cmp_sht31d.c" :{
+  "blank": 12,
+  "comment": 7,
+  "code": 94,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/components/sht31d/cmp_sht31d.c" :{
+  "blank": 12,
+  "comment": 7,
+  "code": 94,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/components/sht31d/cmp_sht31d.c" :{
+  "blank": 12,
+  "comment": 7,
+  "code": 94,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/app/telemetry/app_telemetry.c" :{
+  "blank": 11,
+  "comment": 6,
+  "code": 93,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_sem_framework/main/telemetry.c" :{
+  "blank": 2,
+  "comment": 0,
+  "code": 93,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/app/telemetry/app_telemetry.c" :{
+  "blank": 11,
+  "comment": 6,
+  "code": 93,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/app/telemetry/app_telemetry.c" :{
+  "blank": 11,
+  "comment": 6,
+  "code": 93,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/app/telemetry/app_telemetry.c" :{
+  "blank": 11,
+  "comment": 6,
+  "code": 93,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/app/gui/app_gui.c" :{
+  "blank": 10,
+  "comment": 13,
+  "code": 91,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/app/gui/app_gui.c" :{
+  "blank": 10,
+  "comment": 13,
+  "code": 91,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/hal/ports/nrf52840/hal_nrf_connect.c" :{
+  "blank": 9,
+  "comment": 0,
+  "code": 91,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/app/gui/app_gui.c" :{
+  "blank": 10,
+  "comment": 13,
+  "code": 91,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/app/gui/app_gui.c" :{
+  "blank": 10,
+  "comment": 13,
+  "code": 91,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/hal/ports/nrf52840/gpio/hal_gpio.c" :{
+  "blank": 5,
+  "comment": 0,
+  "code": 85,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/main.c" :{
+  "blank": 19,
+  "comment": 0,
+  "code": 82,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_sem_framework/Core/Src/telemetry.c" :{
+  "blank": 2,
+  "comment": 0,
+  "code": 82,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_sem_framework/Core/Src/telemetry.c" :{
+  "blank": 2,
+  "comment": 0,
+  "code": 82,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/hal/ports/nrf52840/timer/hal_timer.c" :{
+  "blank": 6,
+  "comment": 0,
+  "code": 81,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_sem_framework/src/telemetry.c" :{
+  "blank": 3,
+  "comment": 0,
+  "code": 81,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_sem_framework/main/main.c" :{
+  "blank": 1,
+  "comment": 0,
+  "code": 80,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/main.c" :{
+  "blank": 17,
+  "comment": 0,
+  "code": 79,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/main.c" :{
+  "blank": 16,
+  "comment": 0,
+  "code": 77,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/main.c" :{
+  "blank": 16,
+  "comment": 0,
+  "code": 77,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_sem_framework/Core/Src/main.c" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 74,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_sem_framework/Core/Src/main.c" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 74,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/hal/memory/hal_memory.c" :{
+  "blank": 19,
+  "comment": 4,
+  "code": 73,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/hal/memory/hal_memory.c" :{
+  "blank": 19,
+  "comment": 4,
+  "code": 73,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/hal/memory/hal_memory.c" :{
+  "blank": 19,
+  "comment": 4,
+  "code": 73,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/hal/memory/hal_memory.c" :{
+  "blank": 19,
+  "comment": 4,
+  "code": 73,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/hal/ports/esp32-wroom-32/hal_esp32.c" :{
+  "blank": 9,
+  "comment": 2,
+  "code": 69,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/app/status_led/app_status_led.c" :{
+  "blank": 12,
+  "comment": 5,
+  "code": 64,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/app/status_led/app_status_led.c" :{
+  "blank": 12,
+  "comment": 5,
+  "code": 64,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/app/status_led/app_status_led.c" :{
+  "blank": 12,
+  "comment": 5,
+  "code": 64,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/app/status_led/app_status_led.c" :{
+  "blank": 12,
+  "comment": 5,
+  "code": 64,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_sem_framework/Core/Src/sht31d.c" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 59,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_sem_framework/Core/Src/ssd1306.c" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 59,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_sem_framework/Core/Src/sht31d.c" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 59,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_sem_framework/Core/Src/ssd1306.c" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 59,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/components/button/cmp_button.c" :{
+  "blank": 7,
+  "comment": 6,
+  "code": 58,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_sem_framework/main/ssd1306.c" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 58,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/components/button/cmp_button.c" :{
+  "blank": 7,
+  "comment": 6,
+  "code": 58,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_sem_framework/src/ssd1306.c" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 58,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/components/button/cmp_button.c" :{
+  "blank": 7,
+  "comment": 6,
+  "code": 58,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/components/button/cmp_button.c" :{
+  "blank": 7,
+  "comment": 6,
+  "code": 58,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_sem_framework/main/sht31d.c" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 56,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_sem_framework/src/sht31d.c" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 56,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/hal/ports/esp32-wroom-32/system/hal_system.c" :{
+  "blank": 6,
+  "comment": 1,
+  "code": 46,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_sem_framework/Core/Src/stm32f4xx_hal_msp.c" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 45,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_sem_framework/Core/Src/stm32f4xx_hal_msp.c" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 45,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/config/stm32f4xx_hal_conf.h" :{
+  "blank": 5,
+  "comment": 3,
+  "code": 41,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_sem_framework/Core/Inc/stm32f4xx_hal_conf.h" :{
+  "blank": 5,
+  "comment": 3,
+  "code": 41,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/config/stm32f4xx_hal_conf.h" :{
+  "blank": 5,
+  "comment": 3,
+  "code": 41,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_sem_framework/Core/Inc/stm32f4xx_hal_conf.h" :{
+  "blank": 5,
+  "comment": 3,
+  "code": 41,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/hal/interface/uart/hal_uart.h" :{
+  "blank": 12,
+  "comment": 69,
+  "code": 39,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/hal/interface/uart/hal_uart.h" :{
+  "blank": 12,
+  "comment": 69,
+  "code": 39,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/hal/interface/uart/hal_uart.h" :{
+  "blank": 12,
+  "comment": 69,
+  "code": 39,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/hal/interface/uart/hal_uart.h" :{
+  "blank": 12,
+  "comment": 69,
+  "code": 39,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_sem_framework/main/graphics.h" :{
+  "blank": 3,
+  "comment": 7,
+  "code": 38,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_sem_framework/src/graphics.h" :{
+  "blank": 3,
+  "comment": 7,
+  "code": 38,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_sem_framework/Core/Inc/graphics.h" :{
+  "blank": 3,
+  "comment": 7,
+  "code": 38,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_sem_framework/Core/Inc/graphics.h" :{
+  "blank": 3,
+  "comment": 7,
+  "code": 38,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/components/led/cmp_led.c" :{
+  "blank": 6,
+  "comment": 5,
+  "code": 36,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/components/led/cmp_led.c" :{
+  "blank": 6,
+  "comment": 5,
+  "code": 36,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/components/led/cmp_led.c" :{
+  "blank": 6,
+  "comment": 5,
+  "code": 36,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/components/led/cmp_led.c" :{
+  "blank": 6,
+  "comment": 5,
+  "code": 36,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_sem_framework/Core/Src/stm32f4xx_it.c" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 35,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_sem_framework/Core/Src/stm32f4xx_it.c" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 35,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/hal/memory/hal_memory.h" :{
+  "blank": 11,
+  "comment": 67,
+  "code": 32,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/hal/memory/hal_memory.h" :{
+  "blank": 11,
+  "comment": 67,
+  "code": 32,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/hal/memory/hal_memory.h" :{
+  "blank": 11,
+  "comment": 67,
+  "code": 32,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/hal/memory/hal_memory.h" :{
+  "blank": 11,
+  "comment": 67,
+  "code": 32,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/components/ssd1306/cmp_ssd1306_types.h" :{
+  "blank": 9,
+  "comment": 15,
+  "code": 31,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/hal/interface/gpio/hal_gpio.h" :{
+  "blank": 12,
+  "comment": 67,
+  "code": 31,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/components/ssd1306/cmp_ssd1306_types.h" :{
+  "blank": 9,
+  "comment": 15,
+  "code": 31,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/hal/interface/gpio/hal_gpio.h" :{
+  "blank": 12,
+  "comment": 67,
+  "code": 31,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/hal/ports/nrf52840/hal_nrf_connect_private.h" :{
+  "blank": 7,
+  "comment": 0,
+  "code": 31,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/hal/ports/nrf52840/system/hal_system.c" :{
+  "blank": 3,
+  "comment": 1,
+  "code": 31,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/components/ssd1306/cmp_ssd1306_types.h" :{
+  "blank": 9,
+  "comment": 15,
+  "code": 31,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/hal/interface/gpio/hal_gpio.h" :{
+  "blank": 12,
+  "comment": 67,
+  "code": 31,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/components/ssd1306/cmp_ssd1306_types.h" :{
+  "blank": 9,
+  "comment": 15,
+  "code": 31,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/hal/interface/gpio/hal_gpio.h" :{
+  "blank": 12,
+  "comment": 67,
+  "code": 31,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/components/sht31d/cmp_sht31d.h" :{
+  "blank": 12,
+  "comment": 74,
+  "code": 30,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/components/sht31d/cmp_sht31d.h" :{
+  "blank": 12,
+  "comment": 74,
+  "code": 30,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/components/sht31d/cmp_sht31d.h" :{
+  "blank": 12,
+  "comment": 74,
+  "code": 30,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/components/sht31d/cmp_sht31d.h" :{
+  "blank": 12,
+  "comment": 74,
+  "code": 30,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/bsp/bsp.h" :{
+  "blank": 9,
+  "comment": 35,
+  "code": 29,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/components/button/cmp_button_config.h" :{
+  "blank": 8,
+  "comment": 17,
+  "code": 29,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/bsp/bsp.h" :{
+  "blank": 9,
+  "comment": 36,
+  "code": 29,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/components/button/cmp_button_config.h" :{
+  "blank": 8,
+  "comment": 17,
+  "code": 29,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/bsp/bsp.h" :{
+  "blank": 9,
+  "comment": 36,
+  "code": 29,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/components/button/cmp_button_config.h" :{
+  "blank": 8,
+  "comment": 17,
+  "code": 29,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/bsp/bsp.h" :{
+  "blank": 9,
+  "comment": 36,
+  "code": 29,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/components/button/cmp_button_config.h" :{
+  "blank": 8,
+  "comment": 17,
+  "code": 29,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/app/gui/bitmaps.c" :{
+  "blank": 6,
+  "comment": 9,
+  "code": 28,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_sem_framework/main/bitmaps.c" :{
+  "blank": 6,
+  "comment": 9,
+  "code": 28,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/app/gui/bitmaps.c" :{
+  "blank": 6,
+  "comment": 9,
+  "code": 28,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_sem_framework/src/bitmaps.c" :{
+  "blank": 6,
+  "comment": 9,
+  "code": 28,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/app/gui/bitmaps.c" :{
+  "blank": 6,
+  "comment": 9,
+  "code": 28,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_sem_framework/Core/Src/bitmaps.c" :{
+  "blank": 6,
+  "comment": 9,
+  "code": 28,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/app/gui/bitmaps.c" :{
+  "blank": 6,
+  "comment": 9,
+  "code": 28,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_sem_framework/Core/Src/bitmaps.c" :{
+  "blank": 6,
+  "comment": 9,
+  "code": 28,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/hal/interface/i2c/hal_i2c.h" :{
+  "blank": 12,
+  "comment": 66,
+  "code": 26,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/hal/interface/i2c/hal_i2c.h" :{
+  "blank": 12,
+  "comment": 66,
+  "code": 26,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/hal/interface/i2c/hal_i2c.h" :{
+  "blank": 12,
+  "comment": 66,
+  "code": 26,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/hal/interface/i2c/hal_i2c.h" :{
+  "blank": 12,
+  "comment": 66,
+  "code": 26,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/components/ssd1306/cmp_ssd1306.h" :{
+  "blank": 15,
+  "comment": 130,
+  "code": 25,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/components/telemetry/cmp_telemetry_types.h" :{
+  "blank": 8,
+  "comment": 9,
+  "code": 25,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/components/ssd1306/cmp_ssd1306.h" :{
+  "blank": 15,
+  "comment": 130,
+  "code": 25,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/components/telemetry/cmp_telemetry_types.h" :{
+  "blank": 8,
+  "comment": 9,
+  "code": 25,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/components/ssd1306/cmp_ssd1306.h" :{
+  "blank": 15,
+  "comment": 130,
+  "code": 25,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/components/telemetry/cmp_telemetry_types.h" :{
+  "blank": 8,
+  "comment": 9,
+  "code": 25,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/components/ssd1306/cmp_ssd1306.h" :{
+  "blank": 15,
+  "comment": 130,
+  "code": 25,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/components/telemetry/cmp_telemetry_types.h" :{
+  "blank": 8,
+  "comment": 9,
+  "code": 25,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/app/telemetry/app_telemetry_private.h" :{
+  "blank": 8,
+  "comment": 11,
+  "code": 24,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/app/telemetry/app_telemetry_private.h" :{
+  "blank": 8,
+  "comment": 11,
+  "code": 24,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/app/telemetry/app_telemetry_private.h" :{
+  "blank": 8,
+  "comment": 11,
+  "code": 24,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/app/telemetry/app_telemetry_private.h" :{
+  "blank": 8,
+  "comment": 11,
+  "code": 24,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/app/button/app_button.c" :{
+  "blank": 6,
+  "comment": 6,
+  "code": 23,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/components/sht31d/cmp_sht31d_config.h" :{
+  "blank": 8,
+  "comment": 19,
+  "code": 23,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/app/button/app_button.c" :{
+  "blank": 6,
+  "comment": 6,
+  "code": 23,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/components/sht31d/cmp_sht31d_config.h" :{
+  "blank": 8,
+  "comment": 19,
+  "code": 23,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/app/button/app_button.c" :{
+  "blank": 6,
+  "comment": 6,
+  "code": 23,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/components/sht31d/cmp_sht31d_config.h" :{
+  "blank": 8,
+  "comment": 19,
+  "code": 23,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/hal/ports/stm32f4/hal_stm32f4_private.h" :{
+  "blank": 14,
+  "comment": 120,
+  "code": 23,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/app/button/app_button.c" :{
+  "blank": 6,
+  "comment": 6,
+  "code": 23,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/components/sht31d/cmp_sht31d_config.h" :{
+  "blank": 8,
+  "comment": 19,
+  "code": 23,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/hal/ports/stm32f4/hal_stm32f4_private.h" :{
+  "blank": 14,
+  "comment": 120,
+  "code": 23,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/app/acquisition/app_acquisition.h" :{
+  "blank": 9,
+  "comment": 30,
+  "code": 22,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/components/ssd1306/cmp_ssd1306_config.h" :{
+  "blank": 7,
+  "comment": 19,
+  "code": 22,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/app/acquisition/app_acquisition.h" :{
+  "blank": 9,
+  "comment": 30,
+  "code": 22,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/components/ssd1306/cmp_ssd1306_config.h" :{
+  "blank": 7,
+  "comment": 19,
+  "code": 22,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/app/acquisition/app_acquisition.h" :{
+  "blank": 9,
+  "comment": 30,
+  "code": 22,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/components/ssd1306/cmp_ssd1306_config.h" :{
+  "blank": 7,
+  "comment": 19,
+  "code": 22,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/app/acquisition/app_acquisition.h" :{
+  "blank": 9,
+  "comment": 30,
+  "code": 22,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/components/ssd1306/cmp_ssd1306_config.h" :{
+  "blank": 7,
+  "comment": 19,
+  "code": 22,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_sem_framework/main/sht31d.h" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 21,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_sem_framework/src/sht31d.h" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 21,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_sem_framework/Core/Inc/sht31d.h" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 21,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_sem_framework/Core/Inc/sht31d.h" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 21,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/app/status_led/app_status_led.h" :{
+  "blank": 10,
+  "comment": 35,
+  "code": 20,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/app/telemetry/app_telemetry.h" :{
+  "blank": 10,
+  "comment": 36,
+  "code": 20,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/components/button/cmp_button_types.h" :{
+  "blank": 8,
+  "comment": 14,
+  "code": 20,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/components/led/cmp_led_config.h" :{
+  "blank": 7,
+  "comment": 18,
+  "code": 20,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/hal/interface/timer/hal_timer.h" :{
+  "blank": 10,
+  "comment": 61,
+  "code": 20,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/app/status_led/app_status_led.h" :{
+  "blank": 10,
+  "comment": 35,
+  "code": 20,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/app/telemetry/app_telemetry.h" :{
+  "blank": 10,
+  "comment": 36,
+  "code": 20,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/components/button/cmp_button_types.h" :{
+  "blank": 8,
+  "comment": 14,
+  "code": 20,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/components/led/cmp_led_config.h" :{
+  "blank": 7,
+  "comment": 18,
+  "code": 20,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/hal/interface/timer/hal_timer.h" :{
+  "blank": 10,
+  "comment": 61,
+  "code": 20,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/app/status_led/app_status_led.h" :{
+  "blank": 10,
+  "comment": 35,
+  "code": 20,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/app/telemetry/app_telemetry.h" :{
+  "blank": 10,
+  "comment": 36,
+  "code": 20,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/components/button/cmp_button_types.h" :{
+  "blank": 8,
+  "comment": 14,
+  "code": 20,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/components/led/cmp_led_config.h" :{
+  "blank": 7,
+  "comment": 18,
+  "code": 20,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/hal/interface/timer/hal_timer.h" :{
+  "blank": 10,
+  "comment": 61,
+  "code": 20,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/app/status_led/app_status_led.h" :{
+  "blank": 10,
+  "comment": 35,
+  "code": 20,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/app/telemetry/app_telemetry.h" :{
+  "blank": 10,
+  "comment": 36,
+  "code": 20,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/components/button/cmp_button_types.h" :{
+  "blank": 8,
+  "comment": 14,
+  "code": 20,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/components/led/cmp_led_config.h" :{
+  "blank": 7,
+  "comment": 18,
+  "code": 20,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/hal/interface/timer/hal_timer.h" :{
+  "blank": 10,
+  "comment": 61,
+  "code": 20,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/components/telemetry/cmp_telemetry_config.h" :{
+  "blank": 7,
+  "comment": 11,
+  "code": 19,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/components/telemetry/cmp_telemetry_config.h" :{
+  "blank": 7,
+  "comment": 11,
+  "code": 19,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_sem_framework/src/main.c" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 19,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/components/telemetry/cmp_telemetry_config.h" :{
+  "blank": 7,
+  "comment": 11,
+  "code": 19,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/components/telemetry/cmp_telemetry_config.h" :{
+  "blank": 7,
+  "comment": 11,
+  "code": 19,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/app/gui/render.h" :{
+  "blank": 6,
+  "comment": 24,
+  "code": 18,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/components/led/cmp_led_types.h" :{
+  "blank": 6,
+  "comment": 8,
+  "code": 18,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/hal/interface/system/hal_system.h" :{
+  "blank": 8,
+  "comment": 50,
+  "code": 18,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_sem_framework/main/render.h" :{
+  "blank": 6,
+  "comment": 24,
+  "code": 18,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/app/gui/render.h" :{
+  "blank": 6,
+  "comment": 24,
+  "code": 18,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/components/led/cmp_led_types.h" :{
+  "blank": 6,
+  "comment": 8,
+  "code": 18,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/hal/interface/system/hal_system.h" :{
+  "blank": 8,
+  "comment": 50,
+  "code": 18,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_sem_framework/src/render.h" :{
+  "blank": 6,
+  "comment": 24,
+  "code": 18,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/app/gui/render.h" :{
+  "blank": 6,
+  "comment": 24,
+  "code": 18,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/components/led/cmp_led_types.h" :{
+  "blank": 6,
+  "comment": 8,
+  "code": 18,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/hal/interface/system/hal_system.h" :{
+  "blank": 8,
+  "comment": 50,
+  "code": 18,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_sem_framework/Core/Inc/render.h" :{
+  "blank": 6,
+  "comment": 24,
+  "code": 18,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/app/gui/render.h" :{
+  "blank": 6,
+  "comment": 24,
+  "code": 18,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/components/led/cmp_led_types.h" :{
+  "blank": 6,
+  "comment": 8,
+  "code": 18,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/hal/interface/system/hal_system.h" :{
+  "blank": 8,
+  "comment": 50,
+  "code": 18,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_sem_framework/Core/Inc/render.h" :{
+  "blank": 6,
+  "comment": 24,
+  "code": 18,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/components/telemetry/cmp_telemetry.h" :{
+  "blank": 9,
+  "comment": 76,
+  "code": 17,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/components/telemetry/cmp_telemetry.h" :{
+  "blank": 9,
+  "comment": 76,
+  "code": 17,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/components/telemetry/cmp_telemetry.h" :{
+  "blank": 9,
+  "comment": 76,
+  "code": 17,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/components/telemetry/cmp_telemetry.h" :{
+  "blank": 9,
+  "comment": 76,
+  "code": 17,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/components/ssd1306/cmp_ssd1306_fonts_private.h" :{
+  "blank": 5,
+  "comment": 8,
+  "code": 16,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_sem_framework/main/application.h" :{
+  "blank": 0,
+  "comment": 1,
+  "code": 16,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_sem_framework/main/fonts.h" :{
+  "blank": 5,
+  "comment": 8,
+  "code": 16,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/components/ssd1306/cmp_ssd1306_fonts_private.h" :{
+  "blank": 5,
+  "comment": 8,
+  "code": 16,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_sem_framework/src/application.h" :{
+  "blank": 0,
+  "comment": 1,
+  "code": 16,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_sem_framework/src/fonts.h" :{
+  "blank": 5,
+  "comment": 8,
+  "code": 16,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/components/ssd1306/cmp_ssd1306_fonts_private.h" :{
+  "blank": 5,
+  "comment": 8,
+  "code": 16,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_sem_framework/Core/Inc/application.h" :{
+  "blank": 0,
+  "comment": 1,
+  "code": 16,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_sem_framework/Core/Inc/fonts.h" :{
+  "blank": 5,
+  "comment": 8,
+  "code": 16,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_sem_framework/Core/Src/gpio.c" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 16,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/components/ssd1306/cmp_ssd1306_fonts_private.h" :{
+  "blank": 5,
+  "comment": 8,
+  "code": 16,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_sem_framework/Core/Inc/application.h" :{
+  "blank": 0,
+  "comment": 1,
+  "code": 16,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_sem_framework/Core/Inc/fonts.h" :{
+  "blank": 5,
+  "comment": 8,
+  "code": 16,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_sem_framework/Core/Src/gpio.c" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 16,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/app/gui/app_gui.h" :{
+  "blank": 8,
+  "comment": 21,
+  "code": 15,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/app/gui/app_gui.h" :{
+  "blank": 8,
+  "comment": 21,
+  "code": 15,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_sem_framework/src/main.h" :{
+  "blank": 0,
+  "comment": 1,
+  "code": 15,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/app/gui/app_gui.h" :{
+  "blank": 8,
+  "comment": 21,
+  "code": 15,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_sem_framework/Core/Src/i2c.c" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 15,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_sem_framework/Core/Src/tim.c" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 15,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/app/gui/app_gui.h" :{
+  "blank": 8,
+  "comment": 21,
+  "code": 15,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_sem_framework/Core/Src/i2c.c" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 15,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_sem_framework/Core/Src/tim.c" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 15,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/components/button/cmp_button.h" :{
+  "blank": 7,
+  "comment": 30,
+  "code": 14,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/hal/interface/common/hal_status.h" :{
+  "blank": 2,
+  "comment": 9,
+  "code": 14,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/components/button/cmp_button.h" :{
+  "blank": 7,
+  "comment": 30,
+  "code": 14,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/hal/interface/common/hal_status.h" :{
+  "blank": 2,
+  "comment": 9,
+  "code": 14,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/components/button/cmp_button.h" :{
+  "blank": 7,
+  "comment": 30,
+  "code": 14,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/hal/interface/common/hal_status.h" :{
+  "blank": 2,
+  "comment": 9,
+  "code": 14,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_sem_framework/Core/Src/usart.c" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 14,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/components/button/cmp_button.h" :{
+  "blank": 7,
+  "comment": 30,
+  "code": 14,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/hal/interface/common/hal_status.h" :{
+  "blank": 2,
+  "comment": 9,
+  "code": 14,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_sem_framework/Core/Src/usart.c" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 14,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/components/led/cmp_led.h" :{
+  "blank": 7,
+  "comment": 30,
+  "code": 13,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/hal/ports/esp32-wroom-32/hal_esp32_private.h" :{
+  "blank": 10,
+  "comment": 49,
+  "code": 13,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/components/led/cmp_led.h" :{
+  "blank": 7,
+  "comment": 30,
+  "code": 13,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/components/led/cmp_led.h" :{
+  "blank": 7,
+  "comment": 30,
+  "code": 13,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_sem_framework/Core/Inc/stm32f4xx_it.h" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 13,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/components/led/cmp_led.h" :{
+  "blank": 7,
+  "comment": 30,
+  "code": 13,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_sem_framework/Core/Inc/stm32f4xx_it.h" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 13,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/app/button/app_button.h" :{
+  "blank": 6,
+  "comment": 13,
+  "code": 12,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/app/button/app_button.h" :{
+  "blank": 6,
+  "comment": 13,
+  "code": 12,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/app/button/app_button.h" :{
+  "blank": 6,
+  "comment": 13,
+  "code": 12,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/app/button/app_button.h" :{
+  "blank": 6,
+  "comment": 13,
+  "code": 12,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_sem_framework/main/main.h" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 10,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_sem_framework/main/telemetry.h" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 10,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_sem_framework/src/telemetry.h" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 10,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_sem_framework/Core/Inc/main.h" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 10,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_sem_framework/Core/Inc/telemetry.h" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 10,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_sem_framework/Core/Inc/main.h" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 10,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_sem_framework/Core/Inc/telemetry.h" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 10,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/hal/interface/common/hal_pin.h" :{
+  "blank": 3,
+  "comment": 14,
+  "code": 8,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/hal/interface/common/hal_pin.h" :{
+  "blank": 3,
+  "comment": 14,
+  "code": 8,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/hal/interface/common/hal_pin.h" :{
+  "blank": 3,
+  "comment": 14,
+  "code": 8,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/hal/interface/common/hal_pin.h" :{
+  "blank": 3,
+  "comment": 14,
+  "code": 8,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_sem_framework/main/ssd1306.h" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 7,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_sem_framework/src/ssd1306.h" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 7,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_sem_framework/Core/Inc/ssd1306.h" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 7,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_sem_framework/Core/Inc/ssd1306.h" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 7,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_framework/src/app/gui/bitmaps.h" :{
+  "blank": 4,
+  "comment": 15,
+  "code": 6,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/esp32_sem_framework/main/bitmaps.h" :{
+  "blank": 4,
+  "comment": 15,
+  "code": 6,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_framework/src/app/gui/bitmaps.h" :{
+  "blank": 4,
+  "comment": 15,
+  "code": 6,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/nrf52840_sem_framework/src/bitmaps.h" :{
+  "blank": 4,
+  "comment": 15,
+  "code": 6,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_framework/src/app/gui/bitmaps.h" :{
+  "blank": 4,
+  "comment": 15,
+  "code": 6,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_sem_framework/Core/Inc/bitmaps.h" :{
+  "blank": 4,
+  "comment": 15,
+  "code": 6,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_sem_framework/Core/Inc/i2c.h" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 6,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_sem_framework/Core/Inc/tim.h" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 6,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_sem_framework/Core/Inc/usart.h" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 6,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_framework/src/app/gui/bitmaps.h" :{
+  "blank": 4,
+  "comment": 15,
+  "code": 6,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_sem_framework/Core/Inc/bitmaps.h" :{
+  "blank": 4,
+  "comment": 15,
+  "code": 6,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_sem_framework/Core/Inc/i2c.h" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 6,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_sem_framework/Core/Inc/tim.h" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 6,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_sem_framework/Core/Inc/usart.h" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 6,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f407_sem_framework/Core/Inc/gpio.h" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 5,
+  "language": "C"},
+"/home/fbcms/Documents/ucs/tcc_master/evidencias/metricas/dados/normalizado/stm32f411_sem_framework/Core/Inc/gpio.h" :{
+  "blank": 0,
+  "comment": 0,
+  "code": 5,
+  "language": "C"},
+"SUM": {
+  "blank": 2381,
+  "comment": 5387,
+  "code": 15901,
+  "nFiles": 311} }

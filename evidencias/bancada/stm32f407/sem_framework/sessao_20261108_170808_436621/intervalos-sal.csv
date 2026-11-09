@@ -1,0 +1,8 @@
+captura;cenario;protocolo;inicio_s;fim_s;observacao
+ensaio_continuo.sal;normal_sensor;I2C;5.089;5.108;"0x44: escrita 24 00, STOP, leitura separada de seis bytes; dois CRC válidos; NACK final do mestre."
+ensaio_continuo.sal;normal_oled;I2C;5.108;5.121;0x3C: escrita de dados do OLED com ACK e STOP.
+ensaio_continuo.sal;normal_uart;UART;5.119;5.126;"SAMPLE completo com CR LF; valores correspondem aos bytes da leitura I2C."
+ensaio_continuo.sal;sensor_fault;I2C/UART;51.277;87.431;"Endereço 0x44 sem ACK; 19 ERROR do sensor; nenhuma SAMPLE nesse bloco."
+ensaio_continuo.sal;sensor_recovery;I2C/UART;89.435;91.480;"Comando e leitura com CRC válido retomados; duas SAMPLE completas após o bloco principal."
+ensaio_continuo.sal;display_fault;I2C/UART;99.491;124.624;"Falha de ACK do OLED; 26 ERROR do display; 12 SAMPLE intercaladas."
+ensaio_continuo.sal;display_recovery;I2C/UART;145.181;147.958;"Escrita de dados do OLED com ACK retomada; duas SAMPLE completas após o último ERROR do display."

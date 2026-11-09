@@ -1,0 +1,43 @@
+
+$ /home/fbcms/.espressif/tools/python/v6.1/venv/bin/python /home/fbcms/.espressif/v6.1/esp-idf/tools/idf.py -C /home/fbcms/Documents/ucs/tcc_master/esp32_sem_framework -B /home/fbcms/Documents/ucs/tcc_master/esp32_sem_framework/build/firmware size
+[1/4] cd /home/fbcms/Documents/ucs/tcc_master/esp32_sem_framework/build/firmware && /home/fbcms/.espressif/tools/python/v6.1/venv/bin/python /home/fbcms/.espressif/v6.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/fbcms/Documents/ucs/tcc_master/esp32_sem_framework/build/firmware/partition_table/partition-table.bin /home/fbcms/Documents/ucs/tcc_master/esp32_sem_framework/build/firmware/esp32_sem_framework.bin
+esp32_sem_framework.bin binary size 0x310e0 bytes. Smallest app partition is 0x100000 bytes. 0xcef20 bytes (81%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] cd /home/fbcms/Documents/ucs/tcc_master/esp32_sem_framework/build/firmware/bootloader && /home/fbcms/.espressif/tools/python/v6.1/venv/bin/python /home/fbcms/.espressif/v6.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/fbcms/Documents/ucs/tcc_master/esp32_sem_framework/build/firmware/bootloader/bootloader.bin
+Bootloader binary size 0x66e0 bytes. 0x920 bytes (8%) free.
+[3/4] No install step for 'bootloader'
+[4/4] Completed 'bootloader'
+[0/1] cd /home/fbcms/Documents/ucs/tcc_master/esp32_sem_framework/build/firmware && /usr/bin/cmake -D "IDF_SIZE_TOOL=/home/fbcms/.espressif/tools/python/v6.1/venv/bin/python;-m;esp_idf_size" -D MAP_FILE=/home/fbcms/Documents/ucs/tcc_master/esp32_sem_framework/build/firmware/esp32_sem_framework.map -D OUTPUT_JSON= -P /home/fbcms/.espressif/v6.1/esp-idf/tools/cmake/run_size_tool.cmake
+                           Memory Type Usage Summary                            
+┏━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
+┃ Memory            ┃              ┃          ┃                ┃               ┃
+┃ Type/Section      ┃ Used [bytes] ┃ Used [%] ┃ Remain [bytes] ┃ Total [bytes] ┃
+┡━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
+│ Flash Code        │        89238 │          │                │               │
+│    .text          │        89238 │          │                │               │
+│ Flash Data        │        53004 │          │                │               │
+│    .rodata        │        52732 │          │                │               │
+│    .appdesc       │          256 │          │                │               │
+│    .tdata         │           16 │          │                │               │
+│ IRAM              │        47583 │     36.3 │          83489 │        131072 │
+│    .text          │        46555 │    35.52 │                │               │
+│    .vectors       │         1028 │     0.78 │                │               │
+│ DRAM              │        14950 │     8.27 │         165786 │        180736 │
+│    .data          │        10950 │     6.06 │                │               │
+│    .bss           │         4000 │     2.21 │                │               │
+│ RTC SLOW          │           64 │     0.78 │           8128 │          8192 │
+│    .force_slow    │           40 │     0.49 │                │               │
+│    .rtc_slow_rese │           24 │     0.29 │                │               │
+│ rved              │              │          │                │               │
+└───────────────────┴──────────────┴──────────┴────────────────┴───────────────┘
+Total image size: 200815 bytes (.bin may be padded larger)
+Note: The reported total sizes may be smaller than those in the technical 
+reference manual due to reserved memory and application configuration. The total
+flash size available for the application is not included by default, as it 
+cannot be reliably determined due to the presence of other data like the 
+bootloader, partition table, and application partition size.
+Executing action: size
+Running ninja in directory /home/fbcms/Documents/ucs/tcc_master/esp32_sem_framework/build/firmware
+Executing "ninja all"...
+Running ninja in directory /home/fbcms/Documents/ucs/tcc_master/esp32_sem_framework/build/firmware
+Executing "ninja size"...

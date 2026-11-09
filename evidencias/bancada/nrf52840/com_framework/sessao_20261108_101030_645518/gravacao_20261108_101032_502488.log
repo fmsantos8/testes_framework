@@ -1,0 +1,13 @@
+Projeto: nrf52840_framework
+Início: 2026-11-08T10:10:32-03:00
+UF2 Bootloader 0.6.0 lib/nrfx (v2.0.0) lib/tinyusb (0.10.1-41-gdf0cda2d) lib/uf2 (remotes/origin/configupdate-9-gadbb8c7)
+Model: nice!nano
+Board-ID: nRF52840-nicenano
+SoftDevice: S140 version 6.1.1
+Date: Jun 19 2021
+
+Copiando zephyr.uf2 para /run/media/fbcms/NICENANO
+Todos os 181760 bytes UF2 foram enviados, mas o volume desconectou durante a finalização. Possível reinício do bootloader; confirme a execução da aplicação no próximo passo.
+UF2 enviado. Confirme o reinício e a execução da aplicação no próximo passo.
+
+Envio concluído: 2026-11-08T10:10:33-03:00

@@ -1,0 +1,25 @@
+{
+  "versao": 1,
+  "escopo_loc": "Arquivos .c e .h presentes nas unidades de compilação ou nas dependências reais do build da aplicação; arquivos completos, incluindo condicionais inativas. Bootloader separado, assembly, build scripts e linker scripts ficam fora de LOC.",
+  "contador": "cloc 2.06, por arquivo, com --skip-uniqueness; LOC é a coluna code, sem comentários nem linhas vazias. Diretivas de pré-processamento contam como código.",
+  "elegibilidade": "Somente código autoral. SDK/terceiros, biblioteca C/toolchain, arquivos gerados e testes são inventariados, mas excluídos dos totais autorais.",
+  "comum_global": "Mesma origem mantida (repositório + caminho), mesmo SHA-256 e inclusão nas quatro placas da mesma forma de implementação, sem condicionais específicas de SDK/placa. Conteúdo idêntico em caminhos independentes é apresentado separadamente como cópia.",
+  "codigo_mantido": "Soma de LOC por par (origem mantida, SHA-256), contado uma vez por conjunto de implementações. Revisões diferentes de um mesmo arquivo mantidas simultaneamente contam separadamente.",
+  "controle_formatacao": "Medida complementar: clang-format do toolchain instalado, com estilo fixado em dados/estilo-clang-format.json, aplicado somente em cópias dos C/H autorais. A contagem cloc dessas cópias é publicada separadamente para avaliar a influência de instruções compactadas. Não substitui a contagem original nem altera fontes/binários.",
+  "dependencia_sdk": "Dependência direta de arquivo autoral por inclusão de header de SDK/RTOS/CMSIS ou uso de seus identificadores. Biblioteca C e compilador padrão não são dependência de fabricante. Comentários e strings de apresentação são desconsiderados na busca de identificadores; correspondências ficam disponíveis para revisão.",
+  "flash": "Bytes da imagem binária .bin da aplicação arquivada: inclui código, constantes, imagem inicial de RAM e alinhamento/empacotamento necessário. Exclui bootloader separado, tabela de partições e áreas reservadas fora da imagem. Não usa tamanho de ELF, HEX ou UF2 em disco. Payload ELF é publicado como medida complementar.",
+  "ram": "Soma da ocupação das regiões RAM do MAP, obtida do maior fim de seção SHF_ALLOC em cada região menos sua origem. Inclui alinhamento, noinit e reservas de stack/heap já representadas no ELF; regiões vazias contam zero. RTC slow normal e reservada são regiões separadas. Não mede pico em execução ou heap dinâmico futuro.",
+  "exclusoes_loc_por_caminho": {
+    "src/components/ssd1306/cmp_ssd1306_fonts.c": ["gerado", "Tabela de fontes e código no arquivo identificado como gerado pelo componente."],
+    "main/fonts.c": ["gerado", "Cópia local da tabela de fontes gerada."],
+    "src/fonts.c": ["gerado", "Cópia local da tabela de fontes gerada."],
+    "Core/Src/fonts.c": ["gerado", "Cópia local da tabela de fontes gerada."],
+    "Core/Src/syscalls.c": ["gerado", "Arquivo declara geração automática pela extensão STM32CubeIDE."],
+    "Core/Src/sysmem.c": ["gerado", "Arquivo declara geração automática pela extensão STM32CubeIDE."],
+    "src/platform/stm32f407/syscall.c": ["gerado", "Arquivo declara geração automática pela extensão STM32CubeIDE."],
+    "src/platform/stm32f407/sysmem.c": ["gerado", "Arquivo declara geração automática pela extensão STM32CubeIDE."],
+    "src/platform/stm32f411/syscall.c": ["gerado", "Arquivo declara geração automática pela extensão STM32CubeIDE."],
+    "src/platform/stm32f411/sysmem.c": ["gerado", "Arquivo declara geração automática pela extensão STM32CubeIDE."],
+    "Core/Src/system_stm32f4xx.c": ["sdk_terceiros", "Cópia CMSIS ST; identidade com o template do SDK fixado é conferida pelo coletor."]
+  }
+}

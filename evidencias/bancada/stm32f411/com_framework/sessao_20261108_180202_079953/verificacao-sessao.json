@@ -1,0 +1,405 @@
+{
+  "checked_at": "2026-11-08T21:32:10-03:00",
+  "project": "stm32f411_framework",
+  "ready": true,
+  "evidence_profile": "captura_continua_v2",
+  "state": "COMPLETA_COM_LIMITACOES",
+  "pending": 0,
+  "limited": 1,
+  "ok": 53,
+  "stale": false,
+  "items": [
+    {
+      "key": "continuous_run",
+      "label": "Ensaio contínuo encerrado",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "finalizar"
+    },
+    {
+      "key": "operator",
+      "label": "Responsável pela sessão",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "preparar"
+    },
+    {
+      "key": "identity_record",
+      "label": "Conferência 4B registrada",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "identidade"
+    },
+    {
+      "key": "identity_current",
+      "label": "Integridade atual dos artefatos",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "identidade"
+    },
+    {
+      "key": "result_inicializacao",
+      "label": "Inicialização · resultado",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "inicio"
+    },
+    {
+      "key": "result_leituras",
+      "label": "Leituras normais · resultado",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "normal"
+    },
+    {
+      "key": "result_botao_telas",
+      "label": "Botão e telas · resultado",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "botao"
+    },
+    {
+      "key": "result_uart",
+      "label": "UART · resultado",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "normal"
+    },
+    {
+      "key": "result_falha_sensor",
+      "label": "Falha do sensor · resultado",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "sensor_falha"
+    },
+    {
+      "key": "result_recuperacao_sensor",
+      "label": "Recuperação do sensor · resultado",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "sensor_recuperacao"
+    },
+    {
+      "key": "result_falha_display",
+      "label": "Falha do display · resultado",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "display_falha"
+    },
+    {
+      "key": "result_recuperacao_display",
+      "label": "Recuperação do display · resultado",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "display_recuperacao"
+    },
+    {
+      "key": "metadata_analisador_modelo",
+      "label": "Modelo do analisador",
+      "status": "OK",
+      "detail": "Configuração fixa da campanha.",
+      "target": "metadata"
+    },
+    {
+      "key": "metadata_saleae_versao",
+      "label": "Versão do Saleae Logic 2",
+      "status": "OK",
+      "detail": "Configuração fixa da campanha.",
+      "target": "metadata"
+    },
+    {
+      "key": "metadata_amostragem_hz",
+      "label": "Taxa de amostragem digital (Hz)",
+      "status": "OK",
+      "detail": "Configuração fixa da campanha.",
+      "target": "metadata"
+    },
+    {
+      "key": "metadata_canais_pinos",
+      "label": "Correspondência canais → sinais",
+      "status": "OK",
+      "detail": "Configuração fixa da campanha.",
+      "target": "metadata"
+    },
+    {
+      "key": "file_0",
+      "label": "Anexo · 00_montagem.jpeg",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "files"
+    },
+    {
+      "key": "file_1",
+      "label": "Anexo · 01_tela_leituras.jpeg",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "files"
+    },
+    {
+      "key": "file_2",
+      "label": "Anexo · 02_tela_diagnostico.jpeg",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "files"
+    },
+    {
+      "key": "file_3",
+      "label": "Anexo · 03a_falha_sensor.jpeg",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "files"
+    },
+    {
+      "key": "file_4",
+      "label": "Anexo · 04a_falha_display.jpeg",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "files"
+    },
+    {
+      "key": "file_5",
+      "label": "Anexo · ensaio_continuo.sal",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "files"
+    },
+    {
+      "key": "file_6",
+      "label": "Anexo · ensaio_continuo.sal",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "files"
+    },
+    {
+      "key": "file_7",
+      "label": "Anexo · ensaio_continuo.sal",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "files"
+    },
+    {
+      "key": "file_8",
+      "label": "Anexo · ensaio_continuo.sal",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "files"
+    },
+    {
+      "key": "file_9",
+      "label": "Anexo · ensaio_continuo.sal",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "files"
+    },
+    {
+      "key": "file_10",
+      "label": "Anexo · ensaio_continuo.sal",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "files"
+    },
+    {
+      "key": "file_11",
+      "label": "Anexo · ensaio_continuo.sal",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "files"
+    },
+    {
+      "key": "legacy_file_12",
+      "label": "CSV do LED · digital.csv",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "files"
+    },
+    {
+      "key": "legacy_file_13",
+      "label": "CSV do LED · led_intervalos_20261108_181001_534659.csv",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "files"
+    },
+    {
+      "key": "legacy_file_14",
+      "label": "CSV do LED · led_intervalos_20261108_181342_664947.csv",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "files"
+    },
+    {
+      "key": "mount_photo",
+      "label": "Montagem documentada",
+      "status": "OK",
+      "detail": "Arquivo(s): 00_montagem.jpeg",
+      "target": "files",
+      "evidence_key": "mount_photo"
+    },
+    {
+      "key": "readings_picture",
+      "label": "Foto da tela de leituras",
+      "status": "OK",
+      "detail": "Arquivo(s): 01_tela_leituras.jpeg",
+      "target": "files",
+      "evidence_key": "readings_picture"
+    },
+    {
+      "key": "diagnostics_picture",
+      "label": "Foto da tela de diagnóstico",
+      "status": "OK",
+      "detail": "Arquivo(s): 02_tela_diagnostico.jpeg",
+      "target": "files",
+      "evidence_key": "diagnostics_picture"
+    },
+    {
+      "key": "visual_falha_sensor",
+      "label": "Foto da falha do sensor",
+      "status": "OK",
+      "detail": "Arquivo(s): 03a_falha_sensor.jpeg",
+      "target": "files",
+      "evidence_key": "visual_falha_sensor"
+    },
+    {
+      "key": "visual_falha_display",
+      "label": "Foto da falha do display",
+      "status": "OK",
+      "detail": "Arquivo(s): 04a_falha_display.jpeg",
+      "target": "files",
+      "evidence_key": "visual_falha_display"
+    },
+    {
+      "key": "capture_inicializacao",
+      "label": "Inicialização · captura Saleae",
+      "status": "OK",
+      "detail": "Arquivo(s): ensaio_continuo.sal",
+      "target": "files",
+      "evidence_key": "capture_continuous"
+    },
+    {
+      "key": "capture_leituras",
+      "label": "Leituras normais · captura Saleae",
+      "status": "OK",
+      "detail": "Arquivo(s): ensaio_continuo.sal",
+      "target": "files",
+      "evidence_key": "capture_continuous"
+    },
+    {
+      "key": "capture_botao_telas",
+      "label": "Botão e telas · captura Saleae",
+      "status": "OK",
+      "detail": "Arquivo(s): ensaio_continuo.sal",
+      "target": "files",
+      "evidence_key": "capture_continuous"
+    },
+    {
+      "key": "capture_falha_sensor",
+      "label": "Falha do sensor · captura Saleae",
+      "status": "OK",
+      "detail": "Arquivo(s): ensaio_continuo.sal",
+      "target": "files",
+      "evidence_key": "capture_continuous"
+    },
+    {
+      "key": "capture_recuperacao_sensor",
+      "label": "Recuperação do sensor · captura Saleae",
+      "status": "OK",
+      "detail": "Arquivo(s): ensaio_continuo.sal",
+      "target": "files",
+      "evidence_key": "capture_continuous"
+    },
+    {
+      "key": "capture_falha_display",
+      "label": "Falha do display · captura Saleae",
+      "status": "OK",
+      "detail": "Arquivo(s): ensaio_continuo.sal",
+      "target": "files",
+      "evidence_key": "capture_continuous"
+    },
+    {
+      "key": "capture_recuperacao_display",
+      "label": "Recuperação do display · captura Saleae",
+      "status": "OK",
+      "detail": "Arquivo(s): ensaio_continuo.sal",
+      "target": "files",
+      "evidence_key": "capture_continuous"
+    },
+    {
+      "key": "led_capture",
+      "label": "Captura original da periodicidade do LED",
+      "status": "OK",
+      "detail": "Arquivo(s): ensaio_continuo.sal",
+      "target": "files",
+      "evidence_key": "capture_continuous"
+    },
+    {
+      "key": "flash",
+      "label": "Envio do firmware e log da última tentativa",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "gravar"
+    },
+    {
+      "key": "uart_files_0",
+      "label": "Arquivos UART · serial_20261108_180238_513639.log",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "files"
+    },
+    {
+      "key": "uart_received",
+      "label": "Log UART recebido",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "inicio"
+    },
+    {
+      "key": "normal_samples",
+      "label": "Pelo menos três SAMPLE completos no registro",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "normal"
+    },
+    {
+      "key": "group_GPIO",
+      "label": "GPIO · resultado físico",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "finalizar"
+    },
+    {
+      "key": "group_I2C",
+      "label": "I2C · resultado físico",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "finalizar"
+    },
+    {
+      "key": "group_UART",
+      "label": "UART · resultado físico",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "finalizar"
+    },
+    {
+      "key": "group_TIMER",
+      "label": "TIMER · resultado físico",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "finalizar"
+    },
+    {
+      "key": "group_reason_TIMER",
+      "label": "TIMER · limitação/justificativa",
+      "status": "LIMITADO",
+      "detail": "Período de 1 ms das interrupções não medido diretamente. O LED incorpora atrasos do laço e possíveis perdas/aglutinações. Período médio observado do LED: 1030,122914 ms em 35 ciclos estáveis, cerca de 3,012% acima do nominal. Essa diferença não foi atribuída ao timer isoladamente; a medição inclui o comportamento da aplicação e o roteiro não define tolerância rígida.",
+      "target": "finalizar"
+    },
+    {
+      "key": "led_cycles",
+      "label": "LED · registro de pelo menos dez ciclos e suas fontes",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "sensor_falha"
+    }
+  ],
+  "scope": "Confere presença, associação e preenchimento. Conteúdo e interpretação das evidências são confirmados pelo responsável."
+}

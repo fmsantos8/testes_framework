@@ -1,0 +1,1 @@
+$ cc -std=c11 -Wall -Wextra -Werror -fsyntax-only -I /home/fbcms/Documents/ucs/tcc_master/stm32f411_framework/src/hal/interface -x c -

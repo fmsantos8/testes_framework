@@ -1,0 +1,80 @@
+[
+  {
+    "figura": "montagens",
+    "painel": "a",
+    "placa": "esp32",
+    "fonte": "evidencias/bancada/esp32/com_framework/sessao_20261107_144706_426737/00_montagem.jpeg",
+    "crop": [
+      0,
+      120,
+      1030,
+      1599
+    ],
+    "rotacao": 0
+  },
+  {
+    "figura": "montagens",
+    "painel": "b",
+    "placa": "nrf52840",
+    "fonte": "evidencias/bancada/nrf52840/com_framework/sessao_20261108_101030_645518/00_montagem_substituir.jpeg",
+    "crop": [
+      0,
+      0,
+      1600,
+      1200
+    ],
+    "rotacao": -90
+  },
+  {
+    "figura": "montagens",
+    "painel": "c",
+    "placa": "stm32f407",
+    "fonte": "evidencias/bancada/stm32f407/com_framework/sessao_20261108_164613_532106/00_montagem.jpeg",
+    "crop": [
+      0,
+      60,
+      1170,
+      1599
+    ],
+    "rotacao": 0
+  },
+  {
+    "figura": "montagens",
+    "painel": "d",
+    "placa": "stm32f411",
+    "fonte": "evidencias/bancada/stm32f411/com_framework/sessao_20261108_180202_079953/00_montagem.jpeg",
+    "crop": [
+      200,
+      0,
+      815,
+      1599
+    ],
+    "rotacao": 0
+  },
+  {
+    "figura": "telas",
+    "painel": "a",
+    "placa": "esp32",
+    "fonte": "evidencias/bancada/esp32/com_framework/sessao_20261107_144706_426737/01_tela_leituras.jpeg",
+    "crop": [
+      410,
+      850,
+      840,
+      1275
+    ],
+    "rotacao": 0
+  },
+  {
+    "figura": "telas",
+    "painel": "b",
+    "placa": "esp32",
+    "fonte": "evidencias/bancada/esp32/com_framework/sessao_20261107_144706_426737/02_tela_diagnostico.jpeg",
+    "crop": [
+      375,
+      850,
+      800,
+      1275
+    ],
+    "rotacao": 0
+  }
+]

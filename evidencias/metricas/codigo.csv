@@ -1,0 +1,9 @@
+projeto;arquivos_autorais;loc_total;loc_comum;loc_especifico;pcomp_percent;loc_normalizadas_total;loc_normalizadas_comum;pcomp_normalizado_percent;loc_identico_nas_quatro_por_conteudo;percent_identico_nas_quatro_por_conteudo;arquivos_sdk_direto;percent_arquivos_sdk_direto
+esp32_framework;54;2783;1815;968;65.2174;2775;1800;64.8649;1815;65.2174;8;14.8148
+esp32_sem_framework;17;875;0;875;0.0;925;0;0.0;486;55.5429;6;35.2941
+nrf52840_framework;54;2572;1815;757;70.5677;2656;1800;67.7711;1815;70.5677;9;16.6667
+nrf52840_sem_framework;18;969;0;969;0.0;1041;0;0.0;486;50.1548;7;38.8889
+stm32f407_framework;55;3138;1815;1323;57.8394;3123;1800;57.6369;1815;57.8394;8;14.5455
+stm32f407_sem_framework;29;1049;0;1049;0.0;1129;0;0.0;486;46.3298;16;55.1724
+stm32f411_framework;55;3138;1815;1323;57.8394;3123;1800;57.6369;1815;57.8394;8;14.5455
+stm32f411_sem_framework;29;1049;0;1049;0.0;1129;0;0.0;486;46.3298;16;55.1724

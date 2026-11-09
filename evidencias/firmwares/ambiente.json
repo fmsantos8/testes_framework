@@ -1,0 +1,20 @@
+{
+  "cmake": "/usr/bin/cmake",
+  "esp_python": "/home/fbcms/.espressif/tools/python/v6.1/venv/bin/python",
+  "nrf_python": "/home/fbcms/Documents/ucs/tcc_master/build/deps/venv/bin/python",
+  "path_prefix": [
+    "/home/fbcms/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin",
+    "/home/fbcms/.local/share/stm32cube/bundles/ninja/1.13.2+st.1/bin",
+    "/home/fbcms/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin",
+    "/home/fbcms/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
+  ],
+  "variables": {
+    "IDF_PATH": "/home/fbcms/.espressif/v6.1/esp-idf",
+    "IDF_TOOLS_PATH": "/home/fbcms/.espressif/tools",
+    "IDF_PYTHON_ENV_PATH": "/home/fbcms/.espressif/tools/python/v6.1/venv",
+    "STM32F4_SDK_DIR": "/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4",
+    "NRF_CONNECT_SDK_DIR": "/home/fbcms/Documents/ucs/tcc_master/build/deps/nrf-connect-sdk-v3.1.0",
+    "ZEPHYR_TOOLCHAIN_VARIANT": "gnuarmemb",
+    "GNUARMEMB_TOOLCHAIN_PATH": "/home/fbcms/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2"
+  }
+}

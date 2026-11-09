@@ -1,0 +1,216 @@
+{
+  "project": "nrf52840_sem_framework",
+  "elf": "evidencias/firmwares/nrf52840_sem_framework/artefatos/zephyr/zephyr.elf",
+  "elf_sha256": "90c2a8823e0683e3017a120337d1b24132375bdec347fc3bfc6b235ef7751838",
+  "application_bin": "evidencias/firmwares/nrf52840_sem_framework/artefatos/zephyr/zephyr.bin",
+  "application_bin_sha256": "8a35a2a76fd07c8ec9db733c10da572ca8b89bb1780c59f1d62934422ce717b5",
+  "flash_bytes": 85300,
+  "flash_initialized_payload_bytes": 85300,
+  "image_alignment_and_packaging_bytes": 0,
+  "ram_bytes": 16640,
+  "ram_regions": [
+    {
+      "region": "RAM",
+      "origin": 536870912,
+      "length": 262144,
+      "used_bytes": 16640,
+      "sections": [
+        {
+          "name": "datas",
+          "type": "SHT_PROGBITS",
+          "address": 536870912,
+          "size": 1748
+        },
+        {
+          "name": "device_states",
+          "type": "SHT_PROGBITS",
+          "address": 536872660,
+          "size": 8
+        },
+        {
+          "name": "k_timer_area",
+          "type": "SHT_PROGBITS",
+          "address": 536872672,
+          "size": 56
+        },
+        {
+          "name": "k_heap_area",
+          "type": "SHT_PROGBITS",
+          "address": 536872728,
+          "size": 24
+        },
+        {
+          "name": "k_mutex_area",
+          "type": "SHT_PROGBITS",
+          "address": 536872752,
+          "size": 40
+        },
+        {
+          "name": "k_sem_area",
+          "type": "SHT_PROGBITS",
+          "address": 536872792,
+          "size": 32
+        },
+        {
+          "name": "bss",
+          "type": "SHT_NOBITS",
+          "address": 536872824,
+          "size": 3483
+        },
+        {
+          "name": "noinit",
+          "type": "SHT_NOBITS",
+          "address": 536876416,
+          "size": 11136
+        }
+      ]
+    }
+  ],
+  "sdk_or_linker_ram_summary_bytes": 16640,
+  "extra_ram_noinit_and_alignment_bytes": 0,
+  "load_segments": [
+    {
+      "p_vaddr": 155648,
+      "p_paddr": 155648,
+      "p_filesz": 83384,
+      "p_memsz": 83384
+    },
+    {
+      "p_vaddr": 536870912,
+      "p_paddr": 239032,
+      "p_filesz": 1912,
+      "p_memsz": 1912
+    },
+    {
+      "p_vaddr": 240944,
+      "p_paddr": 240944,
+      "p_filesz": 4,
+      "p_memsz": 4
+    },
+    {
+      "p_vaddr": 536872824,
+      "p_paddr": 536872824,
+      "p_filesz": 0,
+      "p_memsz": 14728
+    }
+  ],
+  "allocated_sections": [
+    {
+      "name": "rom_start",
+      "type": "SHT_PROGBITS",
+      "address": 155648,
+      "size": 256
+    },
+    {
+      "name": "text",
+      "type": "SHT_PROGBITS",
+      "address": 155904,
+      "size": 73564
+    },
+    {
+      "name": ".ARM.exidx",
+      "type": "SHT_ARM_EXIDX",
+      "address": 229468,
+      "size": 8
+    },
+    {
+      "name": "initlevel",
+      "type": "SHT_PROGBITS",
+      "address": 229476,
+      "size": 80
+    },
+    {
+      "name": "device_area",
+      "type": "SHT_PROGBITS",
+      "address": 229556,
+      "size": 128
+    },
+    {
+      "name": "sw_isr_table",
+      "type": "SHT_PROGBITS",
+      "address": 229684,
+      "size": 384
+    },
+    {
+      "name": "gpio_driver_api_area",
+      "type": "SHT_PROGBITS",
+      "address": 230068,
+      "size": 36
+    },
+    {
+      "name": "sensor_driver_api_area",
+      "type": "SHT_PROGBITS",
+      "address": 230104,
+      "size": 28
+    },
+    {
+      "name": "clock_control_driver_api_area",
+      "type": "SHT_PROGBITS",
+      "address": 230132,
+      "size": 28
+    },
+    {
+      "name": "rodata",
+      "type": "SHT_PROGBITS",
+      "address": 230160,
+      "size": 8872
+    },
+    {
+      "name": "datas",
+      "type": "SHT_PROGBITS",
+      "address": 536870912,
+      "size": 1748
+    },
+    {
+      "name": "device_states",
+      "type": "SHT_PROGBITS",
+      "address": 536872660,
+      "size": 8
+    },
+    {
+      "name": "k_timer_area",
+      "type": "SHT_PROGBITS",
+      "address": 536872672,
+      "size": 56
+    },
+    {
+      "name": "k_heap_area",
+      "type": "SHT_PROGBITS",
+      "address": 536872728,
+      "size": 24
+    },
+    {
+      "name": "k_mutex_area",
+      "type": "SHT_PROGBITS",
+      "address": 536872752,
+      "size": 40
+    },
+    {
+      "name": "k_sem_area",
+      "type": "SHT_PROGBITS",
+      "address": 536872792,
+      "size": 32
+    },
+    {
+      "name": ".last_section",
+      "type": "SHT_PROGBITS",
+      "address": 240944,
+      "size": 4
+    },
+    {
+      "name": "bss",
+      "type": "SHT_NOBITS",
+      "address": 536872824,
+      "size": 3483
+    },
+    {
+      "name": "noinit",
+      "type": "SHT_NOBITS",
+      "address": 536876416,
+      "size": 11136
+    }
+  ],
+  "map_sha256": "9a171f75bd02dba1524d4bc8971df74bb23ea34c58b1227e6b637011555b0be6",
+  "raw_report": "evidencias/firmwares/nrf52840_sem_framework/memoria.txt",
+  "configuration": "Debug (-Og)"
+}

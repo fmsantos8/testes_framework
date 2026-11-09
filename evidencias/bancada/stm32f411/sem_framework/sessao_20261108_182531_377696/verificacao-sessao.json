@@ -1,0 +1,201 @@
+{
+  "checked_at": "2026-11-08T18:33:48-03:00",
+  "project": "stm32f411_sem_framework",
+  "ready": true,
+  "evidence_profile": "captura_continua_v2",
+  "state": "COMPLETA",
+  "pending": 0,
+  "limited": 0,
+  "ok": 26,
+  "stale": false,
+  "items": [
+    {
+      "key": "continuous_run",
+      "label": "Ensaio contínuo encerrado",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "finalizar"
+    },
+    {
+      "key": "operator",
+      "label": "Responsável pela sessão",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "preparar"
+    },
+    {
+      "key": "identity_record",
+      "label": "Conferência 4B registrada",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "identidade"
+    },
+    {
+      "key": "identity_current",
+      "label": "Integridade atual dos artefatos",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "identidade"
+    },
+    {
+      "key": "result_inicializacao",
+      "label": "Inicialização · resultado",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "inicio"
+    },
+    {
+      "key": "result_leituras",
+      "label": "Leituras normais · resultado",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "normal"
+    },
+    {
+      "key": "result_botao_telas",
+      "label": "Botão e telas · resultado",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "botao"
+    },
+    {
+      "key": "result_uart",
+      "label": "UART · resultado",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "normal"
+    },
+    {
+      "key": "result_falha_sensor",
+      "label": "Falha do sensor · resultado",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "sensor_falha"
+    },
+    {
+      "key": "result_recuperacao_sensor",
+      "label": "Recuperação do sensor · resultado",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "sensor_recuperacao"
+    },
+    {
+      "key": "result_falha_display",
+      "label": "Falha do display · resultado",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "display_falha"
+    },
+    {
+      "key": "result_recuperacao_display",
+      "label": "Recuperação do display · resultado",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "display_recuperacao"
+    },
+    {
+      "key": "file_0",
+      "label": "Anexo · 00_montagem.jpeg",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "files"
+    },
+    {
+      "key": "file_1",
+      "label": "Anexo · 01_tela_leituras.jpeg",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "files"
+    },
+    {
+      "key": "file_2",
+      "label": "Anexo · 02_tela_diagnostico.jpeg",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "files"
+    },
+    {
+      "key": "file_3",
+      "label": "Anexo · 03a_falha_sensor.jpeg",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "files"
+    },
+    {
+      "key": "file_4",
+      "label": "Anexo · 04a_falha_display.jpeg",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "files"
+    },
+    {
+      "key": "mount_photo",
+      "label": "Montagem documentada",
+      "status": "OK",
+      "detail": "Arquivo(s): 00_montagem.jpeg",
+      "target": "files",
+      "evidence_key": "mount_photo"
+    },
+    {
+      "key": "readings_picture",
+      "label": "Foto da tela de leituras",
+      "status": "OK",
+      "detail": "Arquivo(s): 01_tela_leituras.jpeg",
+      "target": "files",
+      "evidence_key": "readings_picture"
+    },
+    {
+      "key": "diagnostics_picture",
+      "label": "Foto da tela de diagnóstico",
+      "status": "OK",
+      "detail": "Arquivo(s): 02_tela_diagnostico.jpeg",
+      "target": "files",
+      "evidence_key": "diagnostics_picture"
+    },
+    {
+      "key": "visual_falha_sensor",
+      "label": "Foto da falha do sensor",
+      "status": "OK",
+      "detail": "Arquivo(s): 03a_falha_sensor.jpeg",
+      "target": "files",
+      "evidence_key": "visual_falha_sensor"
+    },
+    {
+      "key": "visual_falha_display",
+      "label": "Foto da falha do display",
+      "status": "OK",
+      "detail": "Arquivo(s): 04a_falha_display.jpeg",
+      "target": "files",
+      "evidence_key": "visual_falha_display"
+    },
+    {
+      "key": "flash",
+      "label": "Envio do firmware e log da última tentativa",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "gravar"
+    },
+    {
+      "key": "uart_files_0",
+      "label": "Arquivos UART · serial_20261108_182635_082194.log",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "files"
+    },
+    {
+      "key": "uart_received",
+      "label": "Log UART recebido",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "inicio"
+    },
+    {
+      "key": "normal_samples",
+      "label": "Pelo menos três SAMPLE completos no registro",
+      "status": "OK",
+      "detail": "Registrado.",
+      "target": "normal"
+    }
+  ],
+  "scope": "Confere presença, associação e preenchimento. Conteúdo e interpretação das evidências são confirmados pelo responsável."
+}

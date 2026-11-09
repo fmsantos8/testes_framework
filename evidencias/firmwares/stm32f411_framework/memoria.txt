@@ -1,0 +1,36 @@
+
+$ /home/fbcms/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-size /home/fbcms/Documents/ucs/tcc_master/stm32f411_framework/build/Debug/stm32f411_framework.elf
+   text	   data	    bss	    dec	    hex	filename
+  33728	    108	   8512	  42348	   a56c	/home/fbcms/Documents/ucs/tcc_master/stm32f411_framework/build/Debug/stm32f411_framework.elf
+
+$ /home/fbcms/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-size -A /home/fbcms/Documents/ucs/tcc_master/stm32f411_framework/build/Debug/stm32f411_framework.elf
+/home/fbcms/Documents/ucs/tcc_master/stm32f411_framework/build/Debug/stm32f411_framework.elf  :
+section                size        addr
+.isr_vector             408   134217728
+.text                 26764   134218144
+.rodata                6540   134244908
+.ARM.extab                0   134251448
+.ARM                      8   134251448
+.preinit_array            0   134251456
+.init_array               4   134251456
+.fini_array               4   134251460
+.data                   108   536870912
+.tdata                    0   536871020
+.tbss                     0   536871020
+.bss                   3900   536871024
+._user_heap_stack      4612   536874924
+.ARM.attributes          48           0
+.debug_info          109006           0
+.debug_abbrev         16915           0
+.debug_loclists       57695           0
+.debug_aranges         4824           0
+.debug_rnglists        3911           0
+.debug_macro         102276           0
+.debug_line          122497           0
+.debug_str           611284           0
+.comment                 67           0
+.debug_frame          16248           0
+.debug_line_str         171           0
+Total               1087290
+
+

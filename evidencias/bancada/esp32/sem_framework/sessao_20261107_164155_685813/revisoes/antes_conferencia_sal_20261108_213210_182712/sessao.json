@@ -1,0 +1,676 @@
+{
+  "schema": 1,
+  "id": "b7f74324ee5a411495563ce0fd39f27e",
+  "created_at": "2026-11-07T16:41:55-03:00",
+  "updated_at": "2026-11-07T16:57:44-03:00",
+  "board": "esp32",
+  "variant": "sem_framework",
+  "operator": "fbcms",
+  "identity": {
+    "project": "esp32_sem_framework",
+    "configuration": "default (-Og)",
+    "artifacts": [
+      {
+        "path": "evidencias/firmwares/esp32_sem_framework/artefatos/esp32_sem_framework.elf",
+        "sha256": "1cd5e6d8194b2b259115e78903ef325c9c113c985155db5d7d343ab2f9455561"
+      },
+      {
+        "path": "evidencias/firmwares/esp32_sem_framework/artefatos/esp32_sem_framework.bin",
+        "sha256": "aa4c0e491711f27d621269f86319ae39ccf116c2f3b5c06d9bc4a012e5d33c70"
+      },
+      {
+        "path": "evidencias/firmwares/esp32_sem_framework/artefatos/esp32_sem_framework.map",
+        "sha256": "bf6148516a3610cc3c333a876a3882829d0f3c67749aaabc50c74e4a0387e4fc"
+      },
+      {
+        "path": "evidencias/firmwares/esp32_sem_framework/artefatos/bootloader/bootloader.bin",
+        "sha256": "d7d45931c9229214f1b8c7e06aa00b3b30a2432eacacd41500ec52d8136637b3"
+      },
+      {
+        "path": "evidencias/firmwares/esp32_sem_framework/artefatos/partition_table/partition-table.bin",
+        "sha256": "7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820"
+      },
+      {
+        "path": "evidencias/firmwares/esp32_sem_framework/artefatos/flasher_args.json",
+        "sha256": "72f6858d60652ab451cc66e7c66c0b2b23c249b05b722db3a106197af53fdd60"
+      },
+      {
+        "path": "evidencias/firmwares/esp32_sem_framework/artefatos/flash_args",
+        "sha256": "4a9550cf789b59908fb76c0c6433fce70f172f2d39b9466bdd58d21b6fbed495"
+      }
+    ],
+    "elf": "evidencias/firmwares/esp32_sem_framework/artefatos/esp32_sem_framework.elf",
+    "elf_sha256": "1cd5e6d8194b2b259115e78903ef325c9c113c985155db5d7d343ab2f9455561"
+  },
+  "manifest_sha256": "bcb70f6b1327926987382d5c23aa06139a57a12767e6bec4af3eeecee1ded11f",
+  "current_step": 10,
+  "stages": {
+    "preparar": "CONCLUIDO",
+    "inicio": "CONCLUIDO",
+    "normal": "CONCLUIDO",
+    "botao": "CONCLUIDO",
+    "sensor_falha": "CONCLUIDO",
+    "sensor_recuperacao": "CONCLUIDO",
+    "display_falha": "CONCLUIDO",
+    "display_recuperacao": "CONCLUIDO",
+    "identidade": "CONCLUIDO",
+    "gravar": "CONCLUIDO",
+    "finalizar": "CONCLUIDO"
+  },
+  "notes": {
+    "botao": "O responsável confirmou nesta revisão que o acionamento do botão provocou uma única troca de tela. Enquanto o botão permaneceu pressionado, não houve novas trocas. A navegação entre as telas permaneceu funcional.",
+    "display_recuperacao": "O responsável confirmou nesta revisão que, após reinserir o módulo OLED, as telas voltaram a ser exibidas normalmente, sem reiniciar a placa. As amostras UART continuaram sendo recebidas."
+  },
+  "outcomes": {
+    "inicializacao": "APROVADO",
+    "leituras": "APROVADO",
+    "botao_telas": "APROVADO",
+    "uart": "APROVADO",
+    "falha_sensor": "APROVADO",
+    "recuperacao_sensor": "APROVADO",
+    "falha_display": "APROVADO",
+    "recuperacao_display": "APROVADO"
+  },
+  "groups": {
+    "GPIO": {
+      "result": "APROVADO_FISICO",
+      "case": "Níveis de LED/botão e relação com o comportamento observado.",
+      "simulated": "Consultar evidencias/simulacao/conformidade/MATRIZ.md.",
+      "limitations": ""
+    },
+    "I2C": {
+      "result": "APROVADO_FISICO",
+      "case": "Endereços, comando, leitura separada, STOP e falha/recuperação.",
+      "simulated": "Consultar evidencias/simulacao/conformidade/MATRIZ.md.",
+      "limitations": ""
+    },
+    "UART": {
+      "result": "APROVADO_FISICO",
+      "case": "Registros SAMPLE/ERROR e CRLF no fio, a 115200 8N1.",
+      "simulated": "Consultar evidencias/simulacao/conformidade/MATRIZ.md.",
+      "limitations": ""
+    },
+    "TIMER": {
+      "result": "LIMITADO",
+      "case": "Periodicidade do LED em erro: evidência indireta da base de tempo.",
+      "simulated": "Consultar evidencias/simulacao/conformidade/MATRIZ.md.",
+      "limitations": "Período de 1 ms das interrupções não medido diretamente"
+    }
+  },
+  "attachments": [
+    {
+      "path": "00_montagem.jpeg",
+      "step": "preparar",
+      "kind": "jpeg",
+      "role": "montagem",
+      "at": "2026-11-07T16:51:04-03:00"
+    },
+    {
+      "path": "01_tela_leituras.jpeg",
+      "step": "normal",
+      "kind": "jpeg",
+      "role": "tela_leituras",
+      "at": "2026-11-07T16:51:07-03:00"
+    },
+    {
+      "path": "02_tela_diagnostico.jpeg",
+      "step": "botao",
+      "kind": "jpeg",
+      "role": "tela_diagnostico",
+      "at": "2026-11-07T16:51:09-03:00"
+    },
+    {
+      "path": "03a_falha_sensor.jpeg",
+      "step": "sensor_falha",
+      "kind": "jpeg",
+      "role": "foto_falha_sensor",
+      "at": "2026-11-07T16:51:12-03:00"
+    },
+    {
+      "path": "04a_falha_display.jpeg",
+      "step": "display_falha",
+      "kind": "jpeg",
+      "role": "foto_falha_display",
+      "at": "2026-11-07T16:51:16-03:00"
+    }
+  ],
+  "uart_logs": [
+    {
+      "text": "serial_20261107_164215_743776.log",
+      "raw": "serial_20261107_164215_743776.bin",
+      "started_at": "2026-11-07T16:42:15-03:00",
+      "port": "/dev/ttyUSB0",
+      "ended_at": "2026-11-07T16:45:49-03:00",
+      "stats": {
+        "samples": 84,
+        "sensor_errors": 24,
+        "display_errors": 15,
+        "bytes": 6251,
+        "last": "SAMPLE;temperature_mC=26210;humidity_mpercent=61805"
+      }
+    }
+  ],
+  "flashes": [
+    {
+      "at": "2026-11-07T16:41:57-03:00",
+      "command": [
+        "/home/fbcms/.espressif/tools/python/v6.1/venv/bin/python",
+        "-m",
+        "esptool",
+        "--chip",
+        "esp32",
+        "--port",
+        "/dev/ttyUSB0",
+        "--baud",
+        "460800",
+        "--before",
+        "default-reset",
+        "--after",
+        "hard-reset",
+        "write-flash",
+        "@flash_args"
+      ],
+      "log": "gravacao_20261107_164157_562135.log",
+      "result": "ENVIADO",
+      "exit_code": 0,
+      "finished_at": "2026-11-07T16:42:02-03:00"
+    }
+  ],
+  "verification": {
+    "at": "2026-11-07T16:41:56-03:00",
+    "artifacts": [
+      {
+        "path": "evidencias/firmwares/esp32_sem_framework/artefatos/esp32_sem_framework.elf",
+        "sha256": "1cd5e6d8194b2b259115e78903ef325c9c113c985155db5d7d343ab2f9455561",
+        "bytes": 3352280
+      },
+      {
+        "path": "evidencias/firmwares/esp32_sem_framework/artefatos/esp32_sem_framework.bin",
+        "sha256": "aa4c0e491711f27d621269f86319ae39ccf116c2f3b5c06d9bc4a012e5d33c70",
+        "bytes": 200928
+      },
+      {
+        "path": "evidencias/firmwares/esp32_sem_framework/artefatos/esp32_sem_framework.map",
+        "sha256": "bf6148516a3610cc3c333a876a3882829d0f3c67749aaabc50c74e4a0387e4fc",
+        "bytes": 3399309
+      },
+      {
+        "path": "evidencias/firmwares/esp32_sem_framework/artefatos/bootloader/bootloader.bin",
+        "sha256": "d7d45931c9229214f1b8c7e06aa00b3b30a2432eacacd41500ec52d8136637b3",
+        "bytes": 26336
+      },
+      {
+        "path": "evidencias/firmwares/esp32_sem_framework/artefatos/partition_table/partition-table.bin",
+        "sha256": "7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820",
+        "bytes": 3072
+      },
+      {
+        "path": "evidencias/firmwares/esp32_sem_framework/artefatos/flasher_args.json",
+        "sha256": "72f6858d60652ab451cc66e7c66c0b2b23c249b05b722db3a106197af53fdd60",
+        "bytes": 933
+      },
+      {
+        "path": "evidencias/firmwares/esp32_sem_framework/artefatos/flash_args",
+        "sha256": "4a9550cf789b59908fb76c0c6433fce70f172f2d39b9466bdd58d21b6fbed495",
+        "bytes": 159
+      }
+    ]
+  },
+  "settings": {
+    "port": "/dev/ttyUSB0",
+    "python": "/home/fbcms/.espressif/tools/python/v6.1/venv/bin/python",
+    "stm_tool": "cube",
+    "programmer": "",
+    "volume": "",
+    "baud": "460800",
+    "operator": "fbcms",
+    "saleae": "",
+    "led_column": ""
+  },
+  "led": null,
+  "published_at": "2026-11-07T16:57:44-03:00",
+  "fault_method": "Remoção completa e reinserção de cada módulo, interrompendo sua alimentação e comunicação. O outro periférico permanece conectado; o microcontrolador não é reiniciado durante a recuperação.",
+  "completeness": {
+    "checked_at": "2026-11-07T16:57:44-03:00",
+    "project": "esp32_sem_framework",
+    "ready": true,
+    "evidence_profile": "captura_continua_v2",
+    "state": "COMPLETA",
+    "pending": 0,
+    "limited": 0,
+    "ok": 26,
+    "stale": false,
+    "items": [
+      {
+        "key": "continuous_run",
+        "label": "Ensaio contínuo encerrado",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "finalizar"
+      },
+      {
+        "key": "operator",
+        "label": "Responsável pela sessão",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "preparar"
+      },
+      {
+        "key": "identity_record",
+        "label": "Conferência 4B registrada",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "identidade"
+      },
+      {
+        "key": "identity_current",
+        "label": "Integridade atual dos artefatos",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "identidade"
+      },
+      {
+        "key": "result_inicializacao",
+        "label": "Inicialização · resultado",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "inicio"
+      },
+      {
+        "key": "result_leituras",
+        "label": "Leituras normais · resultado",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "normal"
+      },
+      {
+        "key": "result_botao_telas",
+        "label": "Botão e telas · resultado",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "botao"
+      },
+      {
+        "key": "result_uart",
+        "label": "UART · resultado",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "normal"
+      },
+      {
+        "key": "result_falha_sensor",
+        "label": "Falha do sensor · resultado",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "sensor_falha"
+      },
+      {
+        "key": "result_recuperacao_sensor",
+        "label": "Recuperação do sensor · resultado",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "sensor_recuperacao"
+      },
+      {
+        "key": "result_falha_display",
+        "label": "Falha do display · resultado",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "display_falha"
+      },
+      {
+        "key": "result_recuperacao_display",
+        "label": "Recuperação do display · resultado",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "display_recuperacao"
+      },
+      {
+        "key": "file_0",
+        "label": "Anexo · 00_montagem.jpeg",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "files"
+      },
+      {
+        "key": "file_1",
+        "label": "Anexo · 01_tela_leituras.jpeg",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "files"
+      },
+      {
+        "key": "file_2",
+        "label": "Anexo · 02_tela_diagnostico.jpeg",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "files"
+      },
+      {
+        "key": "file_3",
+        "label": "Anexo · 03a_falha_sensor.jpeg",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "files"
+      },
+      {
+        "key": "file_4",
+        "label": "Anexo · 04a_falha_display.jpeg",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "files"
+      },
+      {
+        "key": "mount_photo",
+        "label": "Montagem documentada",
+        "status": "OK",
+        "detail": "Arquivo(s): 00_montagem.jpeg",
+        "target": "files",
+        "evidence_key": "mount_photo"
+      },
+      {
+        "key": "readings_picture",
+        "label": "Foto da tela de leituras",
+        "status": "OK",
+        "detail": "Arquivo(s): 01_tela_leituras.jpeg",
+        "target": "files",
+        "evidence_key": "readings_picture"
+      },
+      {
+        "key": "diagnostics_picture",
+        "label": "Foto da tela de diagnóstico",
+        "status": "OK",
+        "detail": "Arquivo(s): 02_tela_diagnostico.jpeg",
+        "target": "files",
+        "evidence_key": "diagnostics_picture"
+      },
+      {
+        "key": "visual_falha_sensor",
+        "label": "Foto da falha do sensor",
+        "status": "OK",
+        "detail": "Arquivo(s): 03a_falha_sensor.jpeg",
+        "target": "files",
+        "evidence_key": "visual_falha_sensor"
+      },
+      {
+        "key": "visual_falha_display",
+        "label": "Foto da falha do display",
+        "status": "OK",
+        "detail": "Arquivo(s): 04a_falha_display.jpeg",
+        "target": "files",
+        "evidence_key": "visual_falha_display"
+      },
+      {
+        "key": "flash",
+        "label": "Envio do firmware e log da última tentativa",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "gravar"
+      },
+      {
+        "key": "uart_files_0",
+        "label": "Arquivos UART · serial_20261107_164215_743776.log",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "files"
+      },
+      {
+        "key": "uart_received",
+        "label": "Log UART recebido",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "inicio"
+      },
+      {
+        "key": "normal_samples",
+        "label": "Pelo menos três SAMPLE completos no registro",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "normal"
+      }
+    ],
+    "scope": "Confere presença, associação e preenchimento. Conteúdo e interpretação das evidências são confirmados pelo responsável."
+  },
+  "metadata": {},
+  "continuous_runs": [
+    {
+      "state": "CONCLUIDO",
+      "started_at": "2026-11-07T16:42:19-03:00",
+      "action_started_at": "2026-11-07T16:45:49-03:00",
+      "baseline": {
+        "samples": 84,
+        "sensor_errors": 24,
+        "display_errors": 15,
+        "bytes": 6251,
+        "last": "SAMPLE;temperature_mC=26210;humidity_mpercent=61805"
+      },
+      "actions": [
+        {
+          "key": "reset",
+          "stage": "inicio",
+          "description": "Pressione reset uma vez",
+          "at": "2026-11-07T16:42:26-03:00",
+          "elapsed_s": 7.0,
+          "uart": {
+            "samples": 6,
+            "sensor_errors": 0,
+            "display_errors": 0,
+            "bytes": 1010,
+            "last": "SAMPLE;temperature_mC=24148;humidity_mpercent=65481"
+          }
+        },
+        {
+          "key": "normal",
+          "stage": "normal",
+          "description": "Observe três amostras e fotografe as leituras",
+          "at": "2026-11-07T16:42:52-03:00",
+          "elapsed_s": 33.0,
+          "uart": {
+            "samples": 19,
+            "sensor_errors": 0,
+            "display_errors": 0,
+            "bytes": 1699,
+            "last": "SAMPLE;temperature_mC=24303;humidity_mpercent=66879"
+          }
+        },
+        {
+          "key": "diagnostico",
+          "stage": "botao",
+          "description": "Abra o diagnóstico e tire a foto",
+          "at": "2026-11-07T16:43:13-03:00",
+          "elapsed_s": 54.0,
+          "uart": {
+            "samples": 30,
+            "sensor_errors": 0,
+            "display_errors": 0,
+            "bytes": 2282,
+            "last": "SAMPLE;temperature_mC=24316;humidity_mpercent=66293"
+          }
+        },
+        {
+          "key": "voltar_leituras",
+          "stage": "botao",
+          "description": "Volte à tela de leituras",
+          "at": "2026-11-07T16:43:20-03:00",
+          "elapsed_s": 61.0,
+          "uart": {
+            "samples": 33,
+            "sensor_errors": 0,
+            "display_errors": 0,
+            "bytes": 2441,
+            "last": "SAMPLE;temperature_mC=24346;humidity_mpercent=67454"
+          }
+        },
+        {
+          "key": "botao_mantido",
+          "stage": "botao",
+          "description": "Mantenha o botão pressionado",
+          "at": "2026-11-07T16:43:35-03:00",
+          "elapsed_s": 76.0,
+          "uart": {
+            "samples": 41,
+            "sensor_errors": 0,
+            "display_errors": 0,
+            "bytes": 2865,
+            "last": "SAMPLE;temperature_mC=24615;humidity_mpercent=70541"
+          }
+        },
+        {
+          "key": "botao_final",
+          "stage": "botao",
+          "description": "Termine o teste do botão na tela de leituras",
+          "at": "2026-11-07T16:43:45-03:00",
+          "elapsed_s": 86.0,
+          "uart": {
+            "samples": 46,
+            "sensor_errors": 0,
+            "display_errors": 0,
+            "bytes": 3130,
+            "last": "SAMPLE;temperature_mC=24602;humidity_mpercent=68357"
+          }
+        },
+        {
+          "key": "desconectar_sensor",
+          "stage": "sensor_falha",
+          "description": "Remova o módulo do sensor",
+          "at": "2026-11-07T16:44:00-03:00",
+          "elapsed_s": 101.0,
+          "uart": {
+            "samples": 49,
+            "sensor_errors": 5,
+            "display_errors": 0,
+            "bytes": 3429,
+            "last": "ERROR;source=SHT31D;code=6"
+          }
+        },
+        {
+          "key": "erro_sensor",
+          "stage": "sensor_falha",
+          "description": "Observe a falha do sensor e tire a foto",
+          "at": "2026-11-07T16:44:11-03:00",
+          "elapsed_s": 112.0,
+          "uart": {
+            "samples": 49,
+            "sensor_errors": 10,
+            "display_errors": 0,
+            "bytes": 3569,
+            "last": "ERROR;source=SHT31D;code=6"
+          }
+        },
+        {
+          "key": "led",
+          "stage": "sensor_falha",
+          "description": "Mantenha a falha e observe dez ciclos do LED",
+          "at": "2026-11-07T16:44:32-03:00",
+          "elapsed_s": 133.0,
+          "uart": {
+            "samples": 49,
+            "sensor_errors": 21,
+            "display_errors": 0,
+            "bytes": 3877,
+            "last": "ERROR;source=SHT31D;code=6"
+          }
+        },
+        {
+          "key": "reconectar_sensor",
+          "stage": "sensor_recuperacao",
+          "description": "Reconecte o sensor sem reset",
+          "at": "2026-11-07T16:44:42-03:00",
+          "elapsed_s": 143.0,
+          "uart": {
+            "samples": 50,
+            "sensor_errors": 24,
+            "display_errors": 0,
+            "bytes": 4014,
+            "last": "SAMPLE;temperature_mC=31131;humidity_mpercent=63862"
+          }
+        },
+        {
+          "key": "sensor_recuperado",
+          "stage": "sensor_recuperacao",
+          "description": "Confira a recuperação do sensor",
+          "at": "2026-11-07T16:45:07-03:00",
+          "elapsed_s": 168.0,
+          "uart": {
+            "samples": 63,
+            "sensor_errors": 24,
+            "display_errors": 0,
+            "bytes": 4703,
+            "last": "SAMPLE;temperature_mC=28042;humidity_mpercent=56207"
+          }
+        },
+        {
+          "key": "desconectar_display",
+          "stage": "display_falha",
+          "description": "Remova o módulo do display",
+          "at": "2026-11-07T16:45:19-03:00",
+          "elapsed_s": 180.0,
+          "uart": {
+            "samples": 69,
+            "sensor_errors": 24,
+            "display_errors": 1,
+            "bytes": 5050,
+            "last": "ERROR;source=SSD1306;code=5"
+          }
+        },
+        {
+          "key": "erro_display",
+          "stage": "display_falha",
+          "description": "Observe a falha do display e tire a foto",
+          "at": "2026-11-07T16:45:28-03:00",
+          "elapsed_s": 189.0,
+          "uart": {
+            "samples": 73,
+            "sensor_errors": 24,
+            "display_errors": 10,
+            "bytes": 5523,
+            "last": "ERROR;source=SSD1306;code=5"
+          }
+        },
+        {
+          "key": "reconectar_display",
+          "stage": "display_recuperacao",
+          "description": "Reconecte o display sem reset",
+          "at": "2026-11-07T16:45:35-03:00",
+          "elapsed_s": 196.0,
+          "uart": {
+            "samples": 77,
+            "sensor_errors": 24,
+            "display_errors": 15,
+            "bytes": 5880,
+            "last": "SAMPLE;temperature_mC=26717;humidity_mpercent=63107"
+          }
+        },
+        {
+          "key": "display_recuperado",
+          "stage": "display_recuperacao",
+          "description": "Confira a recuperação e as duas telas",
+          "at": "2026-11-07T16:45:42-03:00",
+          "elapsed_s": 203.0,
+          "uart": {
+            "samples": 81,
+            "sensor_errors": 24,
+            "display_errors": 15,
+            "bytes": 6092,
+            "last": "SAMPLE;temperature_mC=26391;humidity_mpercent=62318"
+          }
+        },
+        {
+          "key": "encerrar",
+          "stage": "finalizar",
+          "description": "Conclua a observação contínua",
+          "at": "2026-11-07T16:45:49-03:00",
+          "elapsed_s": 210.0,
+          "uart": {
+            "samples": 84,
+            "sensor_errors": 24,
+            "display_errors": 15,
+            "bytes": 6251,
+            "last": "SAMPLE;temperature_mC=26210;humidity_mpercent=61805"
+          }
+        }
+      ],
+      "ended_at": "2026-11-07T16:45:49-03:00"
+    }
+  ]
+}

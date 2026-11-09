@@ -1,0 +1,701 @@
+{
+  "schema": 1,
+  "id": "045302c61b2d435f9fa4a759dbe19c52",
+  "created_at": "2026-11-08T15:10:09-03:00",
+  "updated_at": "2026-11-08T17:38:51-03:00",
+  "board": "nrf52840",
+  "variant": "sem_framework",
+  "operator": "fbcms",
+  "identity": {
+    "project": "nrf52840_sem_framework",
+    "configuration": "Debug (-Og)",
+    "artifacts": [
+      {
+        "path": "evidencias/firmwares/nrf52840_sem_framework/artefatos/zephyr/zephyr.elf",
+        "sha256": "90c2a8823e0683e3017a120337d1b24132375bdec347fc3bfc6b235ef7751838"
+      },
+      {
+        "path": "evidencias/firmwares/nrf52840_sem_framework/artefatos/zephyr/zephyr.hex",
+        "sha256": "90c7411df4d2dae0e71e2c23485ea2713c015f8229056ce13ec08f6b546e09c5"
+      },
+      {
+        "path": "evidencias/firmwares/nrf52840_sem_framework/artefatos/zephyr/zephyr.bin",
+        "sha256": "8a35a2a76fd07c8ec9db733c10da572ca8b89bb1780c59f1d62934422ce717b5"
+      },
+      {
+        "path": "evidencias/firmwares/nrf52840_sem_framework/artefatos/zephyr/zephyr.uf2",
+        "sha256": "d97f8fbff9a4cb09b6cbdc8fc5ace2e1a12e4042fdc34f53609e4a561d53712e"
+      },
+      {
+        "path": "evidencias/firmwares/nrf52840_sem_framework/artefatos/zephyr/zephyr.map",
+        "sha256": "9a171f75bd02dba1524d4bc8971df74bb23ea34c58b1227e6b637011555b0be6"
+      }
+    ],
+    "elf": "evidencias/firmwares/nrf52840_sem_framework/artefatos/zephyr/zephyr.elf",
+    "elf_sha256": "90c2a8823e0683e3017a120337d1b24132375bdec347fc3bfc6b235ef7751838"
+  },
+  "manifest_sha256": "bcb70f6b1327926987382d5c23aa06139a57a12767e6bec4af3eeecee1ded11f",
+  "current_step": 10,
+  "stages": {
+    "preparar": "CONCLUIDO",
+    "inicio": "CONCLUIDO",
+    "normal": "CONCLUIDO",
+    "botao": "CONCLUIDO",
+    "sensor_falha": "CONCLUIDO",
+    "sensor_recuperacao": "CONCLUIDO",
+    "display_falha": "CONCLUIDO",
+    "display_recuperacao": "CONCLUIDO",
+    "identidade": "CONCLUIDO",
+    "gravar": "CONCLUIDO",
+    "finalizar": "CONCLUIDO"
+  },
+  "notes": {
+    "botao": "Confirmação já fornecida pelo responsável na revisão desta execução sem framework: o botão provocou uma única troca de tela ao ser acionado. Enquanto permaneceu pressionado, não houve novas trocas; a navegação entre as telas funcionou normalmente. Essas observações foram restauradas na revisão conjunta, pois não constavam no arquivo atual.",
+    "display_recuperacao": "Confirmação já fornecida pelo responsável na revisão desta execução sem framework: após reinserir o OLED, as telas voltaram a ser exibidas normalmente, sem reset do microcontrolador. As amostras UART continuaram sendo recebidas. A observação foi restaurada na revisão conjunta."
+  },
+  "outcomes": {
+    "inicializacao": "APROVADO",
+    "leituras": "APROVADO",
+    "botao_telas": "APROVADO",
+    "uart": "APROVADO",
+    "falha_sensor": "APROVADO",
+    "recuperacao_sensor": "APROVADO",
+    "falha_display": "APROVADO",
+    "recuperacao_display": "APROVADO"
+  },
+  "groups": {
+    "GPIO": {
+      "result": "APROVADO_FISICO",
+      "case": "Níveis de LED/botão e relação com o comportamento observado.",
+      "simulated": "Consultar evidencias/simulacao/conformidade/MATRIZ.md.",
+      "limitations": ""
+    },
+    "I2C": {
+      "result": "APROVADO_FISICO",
+      "case": "Endereços, comando, leitura separada, STOP e falha/recuperação.",
+      "simulated": "Consultar evidencias/simulacao/conformidade/MATRIZ.md.",
+      "limitations": ""
+    },
+    "UART": {
+      "result": "APROVADO_FISICO",
+      "case": "Registros SAMPLE/ERROR e CRLF no fio, a 115200 8N1.",
+      "simulated": "Consultar evidencias/simulacao/conformidade/MATRIZ.md.",
+      "limitations": ""
+    },
+    "TIMER": {
+      "result": "LIMITADO",
+      "case": "Periodicidade do LED em erro: evidência indireta da base de tempo.",
+      "simulated": "Consultar evidencias/simulacao/conformidade/MATRIZ.md.",
+      "limitations": "Período de 1 ms das interrupções não medido diretamente. O LED incorpora atrasos do laço e possíveis perdas/aglutinações."
+    }
+  },
+  "attachments": [
+    {
+      "path": "00_montagem.jpeg",
+      "step": "preparar",
+      "kind": "jpeg",
+      "role": "montagem",
+      "at": "2026-11-08T15:24:55-03:00"
+    },
+    {
+      "path": "01_tela_leituras.jpeg",
+      "step": "normal",
+      "kind": "jpeg",
+      "role": "tela_leituras",
+      "at": "2026-11-08T15:24:57-03:00"
+    },
+    {
+      "path": "02_tela_diagnostico.jpeg",
+      "step": "botao",
+      "kind": "jpeg",
+      "role": "tela_diagnostico",
+      "at": "2026-11-08T15:25:00-03:00"
+    },
+    {
+      "path": "03a_falha_sensor.jpeg",
+      "step": "sensor_falha",
+      "kind": "jpeg",
+      "role": "foto_falha_sensor",
+      "at": "2026-11-08T15:25:04-03:00"
+    },
+    {
+      "path": "04a_falha_display.jpeg",
+      "step": "display_falha",
+      "kind": "jpeg",
+      "role": "foto_falha_display",
+      "at": "2026-11-08T15:25:07-03:00"
+    },
+    {
+      "path": "digital.csv",
+      "step": "sensor_falha",
+      "kind": "csv_led_original",
+      "role": "csv_led_original",
+      "at": "2026-11-08T15:26:12-03:00"
+    },
+    {
+      "path": "led_intervalos_20261108_152612_219381.csv",
+      "step": "sensor_falha",
+      "kind": "intervalos_led",
+      "role": "intervalos_led",
+      "at": "2026-11-08T15:26:12-03:00"
+    }
+  ],
+  "uart_logs": [
+    {
+      "text": "serial_20261108_151059_885089.log",
+      "raw": "serial_20261108_151059_885089.bin",
+      "started_at": "2026-11-08T15:10:59-03:00",
+      "port": "/dev/ttyUSB0",
+      "ended_at": "2026-11-08T15:14:04-03:00",
+      "stats": {
+        "samples": 68,
+        "sensor_errors": 20,
+        "display_errors": 18,
+        "bytes": 4686,
+        "last": "SAMPLE;temperature_mC=22132;humidity_mpercent=52119"
+      }
+    }
+  ],
+  "flashes": [
+    {
+      "at": "2026-11-08T15:10:45-03:00",
+      "command": [],
+      "log": "gravacao_20261108_151045_609259.log",
+      "result": "ENVIADO",
+      "warning": "Todos os 171008 bytes UF2 foram enviados, mas o volume desconectou durante a finalização. Possível reinício do bootloader; confirme a execução da aplicação no próximo passo.",
+      "exit_code": 0,
+      "finished_at": "2026-11-08T15:10:46-03:00"
+    }
+  ],
+  "verification": {
+    "at": "2026-11-08T15:10:10-03:00",
+    "artifacts": [
+      {
+        "path": "evidencias/firmwares/nrf52840_sem_framework/artefatos/zephyr/zephyr.elf",
+        "sha256": "90c2a8823e0683e3017a120337d1b24132375bdec347fc3bfc6b235ef7751838",
+        "bytes": 1250512
+      },
+      {
+        "path": "evidencias/firmwares/nrf52840_sem_framework/artefatos/zephyr/zephyr.hex",
+        "sha256": "90c7411df4d2dae0e71e2c23485ea2713c015f8229056ce13ec08f6b546e09c5",
+        "bytes": 240041
+      },
+      {
+        "path": "evidencias/firmwares/nrf52840_sem_framework/artefatos/zephyr/zephyr.bin",
+        "sha256": "8a35a2a76fd07c8ec9db733c10da572ca8b89bb1780c59f1d62934422ce717b5",
+        "bytes": 85300
+      },
+      {
+        "path": "evidencias/firmwares/nrf52840_sem_framework/artefatos/zephyr/zephyr.uf2",
+        "sha256": "d97f8fbff9a4cb09b6cbdc8fc5ace2e1a12e4042fdc34f53609e4a561d53712e",
+        "bytes": 171008
+      },
+      {
+        "path": "evidencias/firmwares/nrf52840_sem_framework/artefatos/zephyr/zephyr.map",
+        "sha256": "9a171f75bd02dba1524d4bc8971df74bb23ea34c58b1227e6b637011555b0be6",
+        "bytes": 444913
+      }
+    ]
+  },
+  "settings": {
+    "port": "/dev/ttyUSB0",
+    "python": "/home/fbcms/.espressif/tools/python/v6.1/venv/bin/python",
+    "stm_tool": "cube",
+    "programmer": "",
+    "volume": "/run/media/fbcms/NICENANO",
+    "baud": "460800",
+    "operator": "fbcms",
+    "saleae": "",
+    "led_column": ""
+  },
+  "led": {
+    "source": "digital.csv",
+    "column": "LED",
+    "cycles": 39,
+    "at_least_ten": true,
+    "unit": "ms",
+    "statistics": {
+      "alto_ms": {
+        "media": 500.0779358974355,
+        "minimo": 499.05749999999216,
+        "maximo": 500.76000000001386
+      },
+      "baixo_ms": {
+        "media": 500.1155256410262,
+        "minimo": 498.9995000000107,
+        "maximo": 500.3655000000009
+      },
+      "periodo_ms": {
+        "media": 1000.1934615384617,
+        "minimo": 999.220500000007,
+        "maximo": 1000.9594999999933
+      }
+    },
+    "window_start_s": 103.029489,
+    "window_end_s": 142.037034,
+    "selection_start_s": 102.5298965,
+    "selection_end_s": 142.037034,
+    "limitation": "Período de 1 ms das interrupções não medido diretamente. O LED incorpora atrasos do laço e possíveis perdas/aglutinações.",
+    "method": "csv",
+    "table": "led_intervalos_20261108_152612_219381.csv"
+  },
+  "published_at": "2026-11-08T17:38:51-03:00",
+  "fault_method": "Remoção completa e reinserção de cada módulo, interrompendo sua alimentação e comunicação. O outro periférico permanece conectado; o microcontrolador não é reiniciado durante a recuperação.",
+  "completeness": {
+    "checked_at": "2026-11-08T17:38:51-03:00",
+    "project": "nrf52840_sem_framework",
+    "ready": true,
+    "evidence_profile": "captura_continua_v2",
+    "state": "COMPLETA",
+    "pending": 0,
+    "limited": 0,
+    "ok": 28,
+    "stale": false,
+    "items": [
+      {
+        "key": "continuous_run",
+        "label": "Ensaio contínuo encerrado",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "finalizar"
+      },
+      {
+        "key": "operator",
+        "label": "Responsável pela sessão",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "preparar"
+      },
+      {
+        "key": "identity_record",
+        "label": "Conferência 4B registrada",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "identidade"
+      },
+      {
+        "key": "identity_current",
+        "label": "Integridade atual dos artefatos",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "identidade"
+      },
+      {
+        "key": "result_inicializacao",
+        "label": "Inicialização · resultado",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "inicio"
+      },
+      {
+        "key": "result_leituras",
+        "label": "Leituras normais · resultado",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "normal"
+      },
+      {
+        "key": "result_botao_telas",
+        "label": "Botão e telas · resultado",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "botao"
+      },
+      {
+        "key": "result_uart",
+        "label": "UART · resultado",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "normal"
+      },
+      {
+        "key": "result_falha_sensor",
+        "label": "Falha do sensor · resultado",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "sensor_falha"
+      },
+      {
+        "key": "result_recuperacao_sensor",
+        "label": "Recuperação do sensor · resultado",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "sensor_recuperacao"
+      },
+      {
+        "key": "result_falha_display",
+        "label": "Falha do display · resultado",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "display_falha"
+      },
+      {
+        "key": "result_recuperacao_display",
+        "label": "Recuperação do display · resultado",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "display_recuperacao"
+      },
+      {
+        "key": "file_0",
+        "label": "Anexo · 00_montagem.jpeg",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "files"
+      },
+      {
+        "key": "file_1",
+        "label": "Anexo · 01_tela_leituras.jpeg",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "files"
+      },
+      {
+        "key": "file_2",
+        "label": "Anexo · 02_tela_diagnostico.jpeg",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "files"
+      },
+      {
+        "key": "file_3",
+        "label": "Anexo · 03a_falha_sensor.jpeg",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "files"
+      },
+      {
+        "key": "file_4",
+        "label": "Anexo · 04a_falha_display.jpeg",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "files"
+      },
+      {
+        "key": "legacy_file_5",
+        "label": "CSV do LED · digital.csv",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "files"
+      },
+      {
+        "key": "legacy_file_6",
+        "label": "CSV do LED · led_intervalos_20261108_152612_219381.csv",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "files"
+      },
+      {
+        "key": "mount_photo",
+        "label": "Montagem documentada",
+        "status": "OK",
+        "detail": "Arquivo(s): 00_montagem.jpeg",
+        "target": "files",
+        "evidence_key": "mount_photo"
+      },
+      {
+        "key": "readings_picture",
+        "label": "Foto da tela de leituras",
+        "status": "OK",
+        "detail": "Arquivo(s): 01_tela_leituras.jpeg",
+        "target": "files",
+        "evidence_key": "readings_picture"
+      },
+      {
+        "key": "diagnostics_picture",
+        "label": "Foto da tela de diagnóstico",
+        "status": "OK",
+        "detail": "Arquivo(s): 02_tela_diagnostico.jpeg",
+        "target": "files",
+        "evidence_key": "diagnostics_picture"
+      },
+      {
+        "key": "visual_falha_sensor",
+        "label": "Foto da falha do sensor",
+        "status": "OK",
+        "detail": "Arquivo(s): 03a_falha_sensor.jpeg",
+        "target": "files",
+        "evidence_key": "visual_falha_sensor"
+      },
+      {
+        "key": "visual_falha_display",
+        "label": "Foto da falha do display",
+        "status": "OK",
+        "detail": "Arquivo(s): 04a_falha_display.jpeg",
+        "target": "files",
+        "evidence_key": "visual_falha_display"
+      },
+      {
+        "key": "flash",
+        "label": "Envio do firmware e log da última tentativa",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "gravar"
+      },
+      {
+        "key": "uart_files_0",
+        "label": "Arquivos UART · serial_20261108_151059_885089.log",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "files"
+      },
+      {
+        "key": "uart_received",
+        "label": "Log UART recebido",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "inicio"
+      },
+      {
+        "key": "normal_samples",
+        "label": "Pelo menos três SAMPLE completos no registro",
+        "status": "OK",
+        "detail": "Registrado.",
+        "target": "normal"
+      }
+    ],
+    "scope": "Confere presença, associação e preenchimento. Conteúdo e interpretação das evidências são confirmados pelo responsável."
+  },
+  "metadata": {},
+  "continuous_runs": [
+    {
+      "state": "CONCLUIDO",
+      "started_at": "2026-11-08T15:11:03-03:00",
+      "action_started_at": "2026-11-08T15:14:04-03:00",
+      "baseline": {
+        "samples": 68,
+        "sensor_errors": 20,
+        "display_errors": 18,
+        "bytes": 4686,
+        "last": "SAMPLE;temperature_mC=22132;humidity_mpercent=52119"
+      },
+      "actions": [
+        {
+          "key": "reset",
+          "stage": "inicio",
+          "description": "Pressione reset uma vez",
+          "at": "2026-11-08T15:11:24-03:00",
+          "elapsed_s": 21.0,
+          "uart": {
+            "samples": 8,
+            "sensor_errors": 0,
+            "display_errors": 0,
+            "bytes": 424,
+            "last": "SAMPLE;temperature_mC=21216;humidity_mpercent=60658"
+          }
+        },
+        {
+          "key": "normal",
+          "stage": "normal",
+          "description": "Observe três amostras e fotografe as leituras",
+          "at": "2026-11-08T15:11:50-03:00",
+          "elapsed_s": 47.0,
+          "uart": {
+            "samples": 21,
+            "sensor_errors": 0,
+            "display_errors": 0,
+            "bytes": 1113,
+            "last": "SAMPLE;temperature_mC=21315;humidity_mpercent=56286"
+          }
+        },
+        {
+          "key": "diagnostico",
+          "stage": "botao",
+          "description": "Abra o diagnóstico e tire a foto",
+          "at": "2026-11-08T15:12:15-03:00",
+          "elapsed_s": 72.0,
+          "uart": {
+            "samples": 34,
+            "sensor_errors": 0,
+            "display_errors": 0,
+            "bytes": 1802,
+            "last": "SAMPLE;temperature_mC=21302;humidity_mpercent=54166"
+          }
+        },
+        {
+          "key": "voltar_leituras",
+          "stage": "botao",
+          "description": "Volte à tela de leituras",
+          "at": "2026-11-08T15:12:21-03:00",
+          "elapsed_s": 78.0,
+          "uart": {
+            "samples": 37,
+            "sensor_errors": 0,
+            "display_errors": 0,
+            "bytes": 1961,
+            "last": "SAMPLE;temperature_mC=21286;humidity_mpercent=53915"
+          }
+        },
+        {
+          "key": "botao_mantido",
+          "stage": "botao",
+          "description": "Mantenha o botão pressionado",
+          "at": "2026-11-08T15:12:29-03:00",
+          "elapsed_s": 86.0,
+          "uart": {
+            "samples": 41,
+            "sensor_errors": 0,
+            "display_errors": 0,
+            "bytes": 2173,
+            "last": "SAMPLE;temperature_mC=21328;humidity_mpercent=55236"
+          }
+        },
+        {
+          "key": "botao_final",
+          "stage": "botao",
+          "description": "Termine o teste do botão na tela de leituras",
+          "at": "2026-11-08T15:12:35-03:00",
+          "elapsed_s": 92.0,
+          "uart": {
+            "samples": 43,
+            "sensor_errors": 0,
+            "display_errors": 0,
+            "bytes": 2279,
+            "last": "SAMPLE;temperature_mC=21328;humidity_mpercent=55703"
+          }
+        },
+        {
+          "key": "desconectar_sensor",
+          "stage": "sensor_falha",
+          "description": "Remova o módulo do sensor",
+          "at": "2026-11-08T15:12:40-03:00",
+          "elapsed_s": 97.0,
+          "uart": {
+            "samples": 45,
+            "sensor_errors": 1,
+            "display_errors": 0,
+            "bytes": 2413,
+            "last": "ERROR;source=SHT31D;code=6"
+          }
+        },
+        {
+          "key": "erro_sensor",
+          "stage": "sensor_falha",
+          "description": "Observe a falha do sensor e tire a foto",
+          "at": "2026-11-08T15:12:59-03:00",
+          "elapsed_s": 116.0,
+          "uart": {
+            "samples": 45,
+            "sensor_errors": 11,
+            "display_errors": 0,
+            "bytes": 2693,
+            "last": "ERROR;source=SHT31D;code=6"
+          }
+        },
+        {
+          "key": "led",
+          "stage": "sensor_falha",
+          "description": "Mantenha a falha e observe dez ciclos do LED",
+          "at": "2026-11-08T15:13:15-03:00",
+          "elapsed_s": 132.0,
+          "uart": {
+            "samples": 45,
+            "sensor_errors": 19,
+            "display_errors": 0,
+            "bytes": 2917,
+            "last": "ERROR;source=SHT31D;code=6"
+          }
+        },
+        {
+          "key": "reconectar_sensor",
+          "stage": "sensor_recuperacao",
+          "description": "Reconecte o sensor sem reset",
+          "at": "2026-11-08T15:13:20-03:00",
+          "elapsed_s": 137.0,
+          "uart": {
+            "samples": 46,
+            "sensor_errors": 20,
+            "display_errors": 0,
+            "bytes": 2998,
+            "last": "SAMPLE;temperature_mC=23852;humidity_mpercent=53397"
+          }
+        },
+        {
+          "key": "sensor_recuperado",
+          "stage": "sensor_recuperacao",
+          "description": "Confira a recuperação do sensor",
+          "at": "2026-11-08T15:13:29-03:00",
+          "elapsed_s": 146.0,
+          "uart": {
+            "samples": 51,
+            "sensor_errors": 20,
+            "display_errors": 0,
+            "bytes": 3263,
+            "last": "SAMPLE;temperature_mC=23529;humidity_mpercent=52457"
+          }
+        },
+        {
+          "key": "desconectar_display",
+          "stage": "display_falha",
+          "description": "Remova o módulo do display",
+          "at": "2026-11-08T15:13:36-03:00",
+          "elapsed_s": 153.0,
+          "uart": {
+            "samples": 54,
+            "sensor_errors": 20,
+            "display_errors": 2,
+            "bytes": 3480,
+            "last": "ERROR;source=SSD1306;code=5"
+          }
+        },
+        {
+          "key": "erro_display",
+          "stage": "display_falha",
+          "description": "Observe a falha do display e tire a foto",
+          "at": "2026-11-08T15:13:49-03:00",
+          "elapsed_s": 166.0,
+          "uart": {
+            "samples": 61,
+            "sensor_errors": 20,
+            "display_errors": 15,
+            "bytes": 4228,
+            "last": "ERROR;source=SSD1306;code=5"
+          }
+        },
+        {
+          "key": "reconectar_display",
+          "stage": "display_recuperacao",
+          "description": "Reconecte o display sem reset",
+          "at": "2026-11-08T15:13:54-03:00",
+          "elapsed_s": 171.0,
+          "uart": {
+            "samples": 63,
+            "sensor_errors": 20,
+            "display_errors": 18,
+            "bytes": 4421,
+            "last": "SAMPLE;temperature_mC=22359;humidity_mpercent=51048"
+          }
+        },
+        {
+          "key": "display_recuperado",
+          "stage": "display_recuperacao",
+          "description": "Confira a recuperação e as duas telas",
+          "at": "2026-11-08T15:14:01-03:00",
+          "elapsed_s": 178.0,
+          "uart": {
+            "samples": 67,
+            "sensor_errors": 20,
+            "display_errors": 18,
+            "bytes": 4633,
+            "last": "SAMPLE;temperature_mC=22145;humidity_mpercent=52143"
+          }
+        },
+        {
+          "key": "encerrar",
+          "stage": "finalizar",
+          "description": "Conclua a observação contínua",
+          "at": "2026-11-08T15:14:04-03:00",
+          "elapsed_s": 181.0,
+          "uart": {
+            "samples": 68,
+            "sensor_errors": 20,
+            "display_errors": 18,
+            "bytes": 4686,
+            "last": "SAMPLE;temperature_mC=22132;humidity_mpercent=52119"
+          }
+        }
+      ],
+      "ended_at": "2026-11-08T15:14:04-03:00"
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "executed_utc": "2026-11-02T18:56:58.234458+00:00",
+  "physical_validation": false,
+  "flashing_performed": false,
+  "builds": {
+    "esp32_framework": {
+      "status": "APROVADO_COMPILACAO",
+      "source_files": 66,
+      "artifacts_and_configs_checked": 11,
+      "elf": "evidencias/firmwares/esp32_framework/artefatos/esp32_framework.elf",
+      "elf_sha256": "f631e7dcdc06a54d924510d1573cf382ffd51a9e6f8b31911a18a67d113dcec9",
+      "compiler": "/home/fbcms/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc",
+      "optimization": "-Og",
+      "ndebug_defined": false,
+      "fpu_options": []
+    },
+    "esp32_sem_framework": {
+      "status": "APROVADO_COMPILACAO",
+      "source_files": 21,
+      "artifacts_and_configs_checked": 11,
+      "elf": "evidencias/firmwares/esp32_sem_framework/artefatos/esp32_sem_framework.elf",
+      "elf_sha256": "1cd5e6d8194b2b259115e78903ef325c9c113c985155db5d7d343ab2f9455561",
+      "compiler": "/home/fbcms/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc",
+      "optimization": "-Og",
+      "ndebug_defined": false,
+      "fpu_options": []
+    },
+    "nrf52840_framework": {
+      "status": "APROVADO_COMPILACAO",
+      "source_files": 75,
+      "artifacts_and_configs_checked": 9,
+      "elf": "evidencias/firmwares/nrf52840_framework/artefatos/zephyr/zephyr.elf",
+      "elf_sha256": "2d8b046629157a6ed126340b43b0878a032e83ec967eca85e793a35f3e895765",
+      "compiler": "/home/fbcms/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-gcc",
+      "optimization": "-Og",
+      "ndebug_defined": false,
+      "fpu_options": [
+        "-mfpu=fpv4-sp-d16",
+        "-mfloat-abi=hard"
+      ]
+    },
+    "nrf52840_sem_framework": {
+      "status": "APROVADO_COMPILACAO",
+      "source_files": 28,
+      "artifacts_and_configs_checked": 9,
+      "elf": "evidencias/firmwares/nrf52840_sem_framework/artefatos/zephyr/zephyr.elf",
+      "elf_sha256": "90c2a8823e0683e3017a120337d1b24132375bdec347fc3bfc6b235ef7751838",
+      "compiler": "/home/fbcms/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-gcc",
+      "optimization": "-Og",
+      "ndebug_defined": false,
+      "fpu_options": [
+        "-mfpu=fpv4-sp-d16",
+        "-mfloat-abi=hard"
+      ]
+    },
+    "stm32f407_framework": {
+      "status": "APROVADO_COMPILACAO",
+      "source_files": 83,
+      "artifacts_and_configs_checked": 6,
+      "elf": "evidencias/firmwares/stm32f407_framework/artefatos/stm32f407_framework.elf",
+      "elf_sha256": "1129efdd60735e767d37f81e426caebb41a83347d54fcf0820a9a64af02b2538",
+      "compiler": "/home/fbcms/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-gcc",
+      "optimization": "-Og",
+      "ndebug_defined": false,
+      "fpu_options": [
+        "-mfpu=fpv4-sp-d16",
+        "-mfloat-abi=hard"
+      ]
+    },
+    "stm32f407_sem_framework": {
+      "status": "APROVADO_COMPILACAO",
+      "source_files": 41,
+      "artifacts_and_configs_checked": 6,
+      "elf": "evidencias/firmwares/stm32f407_sem_framework/artefatos/stm32f407_sem_framework.elf",
+      "elf_sha256": "23661c09ac961be35878ca614ff56c4cb64bcd0e6866b73ce23271e0ba438eb7",
+      "compiler": "/home/fbcms/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-gcc",
+      "optimization": "-Og",
+      "ndebug_defined": false,
+      "fpu_options": [
+        "-mfpu=fpv4-sp-d16",
+        "-mfloat-abi=hard"
+      ]
+    },
+    "stm32f411_framework": {
+      "status": "APROVADO_COMPILACAO",
+      "source_files": 83,
+      "artifacts_and_configs_checked": 6,
+      "elf": "evidencias/firmwares/stm32f411_framework/artefatos/stm32f411_framework.elf",
+      "elf_sha256": "67ac69d835b716d9a86dbea753ee7fb5ae28ea8967133b7532618fc1a3e4442d",
+      "compiler": "/home/fbcms/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-gcc",
+      "optimization": "-Og",
+      "ndebug_defined": false,
+      "fpu_options": [
+        "-mfpu=fpv4-sp-d16",
+        "-mfloat-abi=hard"
+      ]
+    },
+    "stm32f411_sem_framework": {
+      "status": "APROVADO_COMPILACAO",
+      "source_files": 41,
+      "artifacts_and_configs_checked": 6,
+      "elf": "evidencias/firmwares/stm32f411_sem_framework/artefatos/stm32f411_sem_framework.elf",
+      "elf_sha256": "a5a849702ef9e479c7041956d30308e94a20048fed054b80082acb436f320402",
+      "compiler": "/home/fbcms/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-gcc",
+      "optimization": "-Og",
+      "ndebug_defined": false,
+      "fpu_options": [
+        "-mfpu=fpv4-sp-d16",
+        "-mfloat-abi=hard"
+      ]
+    }
+  },
+  "pairs": {
+    "esp32": {
+      "effective_sdkconfig_identical": true,
+      "optimization": "-Og",
+      "cpu_mhz": 160,
+      "main_stack_bytes": 3584,
+      "power_management": false
+    },
+    "nrf52840": {
+      "effective_kconfig_differences": {
+        "CONFIG_DT_HAS_GPIO_KEYS_ENABLED": [
+          null,
+          "y"
+        ]
+      },
+      "difference_explanation": "Marcador derivado do nó gpio-keys da versão convencional; não habilita um serviço adicional neste build.",
+      "same_newlib_fpu_clock_and_services": true,
+      "optimization": "-Og",
+      "main_stack_bytes": 4096,
+      "workqueue_stack_bytes": 2048,
+      "heap_bytes": 2048
+    },
+    "stm32f407": {
+      "optimization": "-Og",
+      "libc": "newlib-nano",
+      "assertions_enabled": true,
+      "lto": false,
+      "reservations": {
+        "_Min_Heap_Size": 512,
+        "_Min_Stack_Size": 4096
+      }
+    },
+    "stm32f411": {
+      "optimization": "-Og",
+      "libc": "newlib-nano",
+      "assertions_enabled": true,
+      "lto": false,
+      "reservations": {
+        "_Min_Heap_Size": 512,
+        "_Min_Stack_Size": 4096
+      }
+    }
+  },
+  "common_sources": {
+    "app": {
+      "identical": true,
+      "files_per_target": 15
+    },
+    "components": {
+      "identical": true,
+      "files_per_target": 21
+    },
+    "hal/interface": {
+      "identical": true,
+      "files_per_target": 7
+    },
+    "hal/memory": {
+      "identical": true,
+      "files_per_target": 2
+    }
+  },
+  "stm32_port": {
+    "identical": true,
+    "files_per_target": 7
+  },
+  "status": "APROVADO",
+  "verifier_sha256": "a8229ccf0444978704f0accb859edf6b0281c795eb31db03f185e7cd90fff442"
+}

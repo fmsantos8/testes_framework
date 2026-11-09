@@ -1,0 +1,15 @@
+placa;versao;tema;limite;fonte
+todas;ambas;funcionamento;Aprovações correspondem aos oito cenários publicados e incluem confirmação visual do responsável. Completude documental não é novo ensaio físico.;evidencias/resultados-funcionais.csv
+todas;com_framework;timer;Período de 1 ms das interrupções não medido diretamente. LED em erro é evidência indireta e inclui laço e possíveis perdas/aglutinações.;evidencias/resultados-conformidade.csv
+stm32f411;com_framework;timer;LED com média de 1030.122914 ms em 35 ciclos estáveis e desvio de +3.012291%. Causa não isolada e sem tolerância rígida no roteiro.;evidencias/bancada/stm32f411/com_framework/sessao_20261108_180202_079953/observacoes.md
+todas;ambas;injecao_falha;Retirada integral dos módulos interrompe alimentação e comunicação. Não isola somente o sinal de comunicação nem comprova barramento retido.;ROTEIRO.md
+esp32;com_framework;uart;Três ERROR adicionais do sensor no .sal em 112.753343–116.740816 s estão ausentes dos logs atuais. Janela principal mantém seis erros entre 150.985310–160.973646 s.;evidencias/bancada/esp32/com_framework/sessao_20261107_144706_426737/observacoes.md
+stm32f407;sem_framework;recuperacao_display;Manipulação adicional das conexões confirmada pelo responsável produziu erros simultâneos de sensor e display após a confirmação de reconexão do OLED. Esse trecho não é recuperação isolada controlada.;evidencias/bancada/stm32f407/sem_framework/sessao_20261108_170808_436621/observacoes.md
+todas;com_framework;uart;Decodificador configurado a 115200 8N1 e CR LF conferido. Baud físico e UART parcial/timeout real não medidos.;evidencias/resultados-conformidade.csv
+todas;ambas;botao;Troca única no acionamento mantido confirmada pelo responsável. Duração elétrica não medida na revisão. Não usar fotos para medir debounce.;evidencias/bancada/nrf52840/com_framework/sessao_20261108_101030_645518/observacoes.md
+todas;ambas;simulacao;Fontes reais dos portes com substitutos do SDK no computador. Não executa binários embarcados nem confirma caminhos físicos de timeout UART parcial e falhas específicas de SDK.;evidencias/simulacao/resumo.json
+esp32 nrf52840 stm32f407;sem_framework;capturas;Cobertura complementar das capturas difere do início/fim do monitor UART. No reset da ESP32 há transferência OLED parcial documentada.;evidencias/README.md
+stm32f411;sem_framework;capturas;Sem captura Saleae e medição do LED nesta versão. O roteiro exige esses registros apenas nas versões com framework.;evidencias/bancada/stm32f411/sem_framework/sessao_20261108_182531_377696/observacoes.md
+todas;ambas;memoria;Bytes de aplicação em -Og. RAM estática e reservada não mede pico em execução. Diferenças abrangem implementações completas.;evidencias/metricas/memoria.csv
+todas;sem_framework;reuso;Pcomp estrito zero por origens mantidas independentemente. Há 11 arquivos autorais idênticos e 486 LOC em cada versão.;evidencias/metricas/identidade-conteudo.csv
+todas;ambas;generalizacao;Quatro placas três ambientes e uma prova de conceito. Sem medidas de tempo de desenvolvimento defeitos manutenção calibração energia ou custo isolado de abstração.;ROTEIRO.md

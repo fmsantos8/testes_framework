@@ -1,0 +1,238 @@
+{
+  "project": "esp32_framework",
+  "elf": "evidencias/firmwares/esp32_framework/artefatos/esp32_framework.elf",
+  "elf_sha256": "f631e7dcdc06a54d924510d1573cf382ffd51a9e6f8b31911a18a67d113dcec9",
+  "application_bin": "evidencias/firmwares/esp32_framework/artefatos/esp32_framework.bin",
+  "application_bin_sha256": "d5296e35dbce7902017b8022a42cfb2777ee3610ef2a81f21eda1827d0ee1eba",
+  "flash_bytes": 208272,
+  "flash_initialized_payload_bytes": 208151,
+  "image_alignment_and_packaging_bytes": 121,
+  "ram_bytes": 63792,
+  "ram_regions": [
+    {
+      "region": "iram0_0_seg",
+      "origin": 1074266112,
+      "length": 131072,
+      "used_bytes": 47608,
+      "sections": [
+        {
+          "name": ".iram0.vectors",
+          "type": "SHT_PROGBITS",
+          "address": 1074266112,
+          "size": 1028
+        },
+        {
+          "name": ".iram0.text",
+          "type": "SHT_PROGBITS",
+          "address": 1074267140,
+          "size": 46579
+        },
+        {
+          "name": ".iram0.text_end",
+          "type": "SHT_NOBITS",
+          "address": 1074313719,
+          "size": 1
+        }
+      ]
+    },
+    {
+      "region": "dram0_0_seg",
+      "origin": 1073414144,
+      "length": 180736,
+      "used_bytes": 16120,
+      "sections": [
+        {
+          "name": ".dram0.data",
+          "type": "SHT_PROGBITS",
+          "address": 1073414144,
+          "size": 10950
+        },
+        {
+          "name": ".noinit",
+          "type": "SHT_NOBITS",
+          "address": 1073425094,
+          "size": 2
+        },
+        {
+          "name": ".dram0.bss",
+          "type": "SHT_NOBITS",
+          "address": 1073425096,
+          "size": 5168
+        }
+      ]
+    },
+    {
+      "region": "rtc_iram_seg",
+      "origin": 1074528256,
+      "length": 8192,
+      "used_bytes": 0,
+      "sections": []
+    },
+    {
+      "region": "rtc_data_seg",
+      "origin": 1073217536,
+      "length": 8192,
+      "used_bytes": 0,
+      "sections": []
+    },
+    {
+      "region": "rtc_fast_reserved_seg",
+      "origin": 1073225728,
+      "length": 0,
+      "used_bytes": 0,
+      "sections": []
+    },
+    {
+      "region": "rtc_slow_seg",
+      "origin": 1342177280,
+      "length": 8168,
+      "used_bytes": 40,
+      "sections": [
+        {
+          "name": ".rtc.force_slow",
+          "type": "SHT_PROGBITS",
+          "address": 1342177280,
+          "size": 40
+        }
+      ]
+    },
+    {
+      "region": "rtc_slow_reserved_seg",
+      "origin": 1342185448,
+      "length": 24,
+      "used_bytes": 24,
+      "sections": [
+        {
+          "name": ".rtc_slow_reserved",
+          "type": "SHT_NOBITS",
+          "address": 1342185448,
+          "size": 24
+        }
+      ]
+    },
+    {
+      "region": "extern_ram_seg",
+      "origin": 1065353216,
+      "length": 4194304,
+      "used_bytes": 0,
+      "sections": []
+    }
+  ],
+  "sdk_or_linker_ram_summary_bytes": 63789,
+  "extra_ram_noinit_and_alignment_bytes": 3,
+  "load_segments": [
+    {
+      "p_vaddr": 1061158944,
+      "p_paddr": 1061158944,
+      "p_filesz": 53596,
+      "p_memsz": 53596
+    },
+    {
+      "p_vaddr": 1073414144,
+      "p_paddr": 1073414144,
+      "p_filesz": 10950,
+      "p_memsz": 16120
+    },
+    {
+      "p_vaddr": 1074266112,
+      "p_paddr": 1074266112,
+      "p_filesz": 47607,
+      "p_memsz": 47608
+    },
+    {
+      "p_vaddr": 1074593824,
+      "p_paddr": 1074593824,
+      "p_filesz": 95958,
+      "p_memsz": 95958
+    },
+    {
+      "p_vaddr": 1342177280,
+      "p_paddr": 1342177280,
+      "p_filesz": 40,
+      "p_memsz": 40
+    },
+    {
+      "p_vaddr": 1342185448,
+      "p_paddr": 1342185448,
+      "p_filesz": 0,
+      "p_memsz": 24
+    }
+  ],
+  "allocated_sections": [
+    {
+      "name": ".rtc.force_slow",
+      "type": "SHT_PROGBITS",
+      "address": 1342177280,
+      "size": 40
+    },
+    {
+      "name": ".rtc_slow_reserved",
+      "type": "SHT_NOBITS",
+      "address": 1342185448,
+      "size": 24
+    },
+    {
+      "name": ".iram0.vectors",
+      "type": "SHT_PROGBITS",
+      "address": 1074266112,
+      "size": 1028
+    },
+    {
+      "name": ".iram0.text",
+      "type": "SHT_PROGBITS",
+      "address": 1074267140,
+      "size": 46579
+    },
+    {
+      "name": ".dram0.data",
+      "type": "SHT_PROGBITS",
+      "address": 1073414144,
+      "size": 10950
+    },
+    {
+      "name": ".noinit",
+      "type": "SHT_NOBITS",
+      "address": 1073425094,
+      "size": 2
+    },
+    {
+      "name": ".dram0.bss",
+      "type": "SHT_NOBITS",
+      "address": 1073425096,
+      "size": 5168
+    },
+    {
+      "name": ".flash.appdesc",
+      "type": "SHT_PROGBITS",
+      "address": 1061158944,
+      "size": 256
+    },
+    {
+      "name": ".flash.rodata",
+      "type": "SHT_PROGBITS",
+      "address": 1061159200,
+      "size": 53324
+    },
+    {
+      "name": ".flash.tdata",
+      "type": "SHT_PROGBITS",
+      "address": 1061212524,
+      "size": 16
+    },
+    {
+      "name": ".flash.text",
+      "type": "SHT_PROGBITS",
+      "address": 1074593824,
+      "size": 95958
+    },
+    {
+      "name": ".iram0.text_end",
+      "type": "SHT_NOBITS",
+      "address": 1074313719,
+      "size": 1
+    }
+  ],
+  "map_sha256": "3b4765e5b3d9ed3ebeaf56163f0ff27579a344a7fd91d4266c96a077847ea71b",
+  "raw_report": "evidencias/firmwares/esp32_framework/memoria.txt",
+  "configuration": "default (-Og)"
+}

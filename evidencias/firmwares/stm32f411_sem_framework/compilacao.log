@@ -1,0 +1,71 @@
+
+$ /usr/bin/cmake --fresh -S /home/fbcms/Documents/ucs/tcc_master/stm32f411_sem_framework -B /home/fbcms/Documents/ucs/tcc_master/stm32f411_sem_framework/build/Debug -G Ninja -DCMAKE_BUILD_TYPE=Debug
+-- The C compiler identification is GNU 14.3.1
+-- The ASM compiler identification is GNU
+-- Found assembler: /home/fbcms/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/fbcms/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/fbcms/Documents/ucs/tcc_master/stm32f411_sem_framework/build/Debug
+
+$ /usr/bin/cmake --build /home/fbcms/Documents/ucs/tcc_master/stm32f411_sem_framework/build/Debug --clean-first --parallel 4
+[1/1] Cleaning all built files...
+Cleaning... 0 files.
+[1/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/Core/Src/i2c.c.obj
+[2/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/Core/Src/system_stm32f4xx.c.obj
+[3/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/Core/Src/gpio.c.obj
+[4/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/Core/Src/main.c.obj
+[5/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/Core/Src/usart.c.obj
+[6/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+[7/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/Core/Src/stm32f4xx_it.c.obj
+[8/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/Core/Src/tim.c.obj
+[9/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/Core/Src/sysmem.c.obj
+[10/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/Core/Src/syscalls.c.obj
+[11/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/Core/Src/application.c.obj
+[12/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/Core/Src/sht31d.c.obj
+[13/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/Core/Src/telemetry.c.obj
+[14/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/Core/Src/ssd1306.c.obj
+[15/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/Core/Src/bitmaps.c.obj
+[16/37] Building ASM object CMakeFiles/stm32f411_sem_framework.dir/Core/Startup/startup_stm32f411xx.s.obj
+[17/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/Core/Src/fonts.c.obj
+[18/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/Core/Src/render.c.obj
+[19/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/Core/Src/graphics.c.obj
+[20/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+[21/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+[22/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+[23/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
+[24/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
+[25/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+[26/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
+[27/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
+[28/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
+/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c: In function 'FLASH_MassErase':
+/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:948:60: warning: unused parameter 'Banks' [-Wunused-parameter]
+  948 | static void FLASH_MassErase(uint8_t VoltageRange, uint32_t Banks)
+      |                                                   ~~~~~~~~~^~~~~
+/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c: In function 'FLASH_OB_EnableWRP':
+/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1027:74: warning: unused parameter 'Banks' [-Wunused-parameter]
+ 1027 | static HAL_StatusTypeDef FLASH_OB_EnableWRP(uint32_t WRPSector, uint32_t Banks)
+      |                                                                 ~~~~~~~~~^~~~~
+/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c: In function 'FLASH_OB_DisableWRP':
+/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1063:75: warning: unused parameter 'Banks' [-Wunused-parameter]
+ 1063 | static HAL_StatusTypeDef FLASH_OB_DisableWRP(uint32_t WRPSector, uint32_t Banks)
+      |                                                                  ~~~~~~~~~^~~~~
+[29/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+[30/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+[31/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
+[32/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+[33/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+[34/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+[35/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+[36/37] Building C object CMakeFiles/stm32f411_sem_framework.dir/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+[37/37] Linking C executable stm32f411_sem_framework.elf
+Memory region         Used Size  Region Size  %age Used
+             RAM:        6592 B       128 KB      5.03%
+           FLASH:       23100 B       512 KB      4.41%
+   text	   data	    bss	    dec	    hex	filename
+  23000	     92	   6496	  29588	   7394	/home/fbcms/Documents/ucs/tcc_master/stm32f411_sem_framework/build/Debug/stm32f411_sem_framework.elf

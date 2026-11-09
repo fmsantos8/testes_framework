@@ -1,0 +1,147 @@
+[16:42:15.956005] ets Jul 29 2019 12:21:46
+[16:42:15.956030] 
+[16:42:15.956035] rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+[16:42:15.956038] configsip: 0, SPIWP:0xee
+[16:42:15.956041] clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+[16:42:15.956045] mode:DIO, clock div:2
+[16:42:15.956049] load:0x3fff0040,len:6364
+[16:42:15.956052] ho 0 tail 12 room 4
+[16:42:15.956056] load:0x40078000,len:15880
+[16:42:15.956059] ho 0 tail 12 room 4
+[16:42:15.956062] load:0x40080400,len:4004
+[16:42:15.956066] entry 0x40080648
+[16:42:16.156305] SAMPLE;temperature_mC=24178;humidity_mpercent=65364
+[16:42:18.158721] SAMPLE;temperature_mC=24164;humidity_mpercent=65362
+[16:42:20.161721] SAMPLE;temperature_mC=24135;humidity_mpercent=65367
+[16:42:22.164390] SAMPLE;temperature_mC=24148;humidity_mpercent=65414
+[16:42:24.167281] SAMPLE;temperature_mC=24148;humidity_mpercent=65426
+[16:42:24.367563] ets Jul 29 2019 12:21:46
+[16:42:24.367587] 
+[16:42:24.367591] rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+[16:42:24.367594] configsip: 0, SPIWP:0xee
+[16:42:24.367597] clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+[16:42:24.367600] mode:DIO, clock div:2
+[16:42:24.367603] load:0x3fff0040,len:6364
+[16:42:24.367606] ho 0 tail 12 room 4
+[16:42:24.367608] load:0x40078000,len:15880
+[16:42:24.367611] ho 0 tail 12 room 4
+[16:42:24.367619] load:0x40080400,len:4004
+[16:42:24.367623] entry 0x40080648
+[16:42:24.768009] SAMPLE;temperature_mC=24148;humidity_mpercent=65481
+[16:42:26.770700] SAMPLE;temperature_mC=24135;humidity_mpercent=65478
+[16:42:28.773436] SAMPLE;temperature_mC=24121;humidity_mpercent=65556
+[16:42:30.775947] SAMPLE;temperature_mC=24121;humidity_mpercent=65600
+[16:42:32.778509] SAMPLE;temperature_mC=24135;humidity_mpercent=65647
+[16:42:34.780811] SAMPLE;temperature_mC=24135;humidity_mpercent=65748
+[16:42:36.783186] SAMPLE;temperature_mC=24164;humidity_mpercent=65971
+[16:42:38.786127] SAMPLE;temperature_mC=24148;humidity_mpercent=66021
+[16:42:40.788766] SAMPLE;temperature_mC=24191;humidity_mpercent=66268
+[16:42:42.791714] SAMPLE;temperature_mC=24234;humidity_mpercent=66604
+[16:42:44.594060] SAMPLE;temperature_mC=24234;humidity_mpercent=66819
+[16:42:46.596799] SAMPLE;temperature_mC=24260;humidity_mpercent=67005
+[16:42:48.599040] SAMPLE;temperature_mC=24276;humidity_mpercent=67042
+[16:42:50.601653] SAMPLE;temperature_mC=24303;humidity_mpercent=66879
+[16:42:52.603824] SAMPLE;temperature_mC=24290;humidity_mpercent=66740
+[16:42:54.606074] SAMPLE;temperature_mC=24290;humidity_mpercent=66639
+[16:42:56.608227] SAMPLE;temperature_mC=24290;humidity_mpercent=66639
+[16:42:58.610601] SAMPLE;temperature_mC=24247;humidity_mpercent=66429
+[16:43:00.612838] SAMPLE;temperature_mC=24260;humidity_mpercent=66238
+[16:43:02.615399] SAMPLE;temperature_mC=24260;humidity_mpercent=66091
+[16:43:04.617761] SAMPLE;temperature_mC=24260;humidity_mpercent=66000
+[16:43:06.620097] SAMPLE;temperature_mC=24290;humidity_mpercent=66064
+[16:43:08.622612] SAMPLE;temperature_mC=24276;humidity_mpercent=66195
+[16:43:10.625072] SAMPLE;temperature_mC=24247;humidity_mpercent=66291
+[16:43:12.630292] SAMPLE;temperature_mC=24316;humidity_mpercent=66293
+[16:43:14.632826] SAMPLE;temperature_mC=24346;humidity_mpercent=67034
+[16:43:16.635342] SAMPLE;temperature_mC=24332;humidity_mpercent=67584
+[16:43:18.637631] SAMPLE;temperature_mC=24346;humidity_mpercent=67454
+[16:43:20.640105] SAMPLE;temperature_mC=24332;humidity_mpercent=67211
+[16:43:22.642329] SAMPLE;temperature_mC=24359;humidity_mpercent=67080
+[16:43:24.644862] SAMPLE;temperature_mC=24431;humidity_mpercent=68301
+[16:43:26.647380] SAMPLE;temperature_mC=24461;humidity_mpercent=69177
+[16:43:28.649640] SAMPLE;temperature_mC=24517;humidity_mpercent=69445
+[16:43:30.652099] SAMPLE;temperature_mC=24573;humidity_mpercent=69834
+[16:43:32.654146] SAMPLE;temperature_mC=24602;humidity_mpercent=70658
+[16:43:34.656201] SAMPLE;temperature_mC=24615;humidity_mpercent=70541
+[16:43:36.658442] SAMPLE;temperature_mC=24586;humidity_mpercent=70115
+[16:43:38.660641] SAMPLE;temperature_mC=24602;humidity_mpercent=69442
+[16:43:40.663104] SAMPLE;temperature_mC=24629;humidity_mpercent=69406
+[16:43:42.668032] SAMPLE;temperature_mC=24602;humidity_mpercent=68980
+[16:43:44.670432] SAMPLE;temperature_mC=24602;humidity_mpercent=68357
+[16:43:46.672856] SAMPLE;temperature_mC=24629;humidity_mpercent=67913
+[16:43:48.675409] SAMPLE;temperature_mC=24602;humidity_mpercent=67639
+[16:43:50.677867] SAMPLE;temperature_mC=24797;humidity_mpercent=67669
+[16:43:52.682409] ERROR;source=SHT31D;code=6
+[16:43:54.684820] ERROR;source=SHT31D;code=6
+[16:43:56.687380] ERROR;source=SHT31D;code=6
+[16:43:58.689896] ERROR;source=SHT31D;code=6
+[16:44:00.692162] ERROR;source=SHT31D;code=6
+[16:44:02.695400] ERROR;source=SHT31D;code=6
+[16:44:04.697862] ERROR;source=SHT31D;code=6
+[16:44:06.700439] ERROR;source=SHT31D;code=6
+[16:44:08.703176] ERROR;source=SHT31D;code=6
+[16:44:10.705691] ERROR;source=SHT31D;code=6
+[16:44:12.708178] ERROR;source=SHT31D;code=6
+[16:44:14.710748] ERROR;source=SHT31D;code=6
+[16:44:16.713220] ERROR;source=SHT31D;code=6
+[16:44:18.718710] ERROR;source=SHT31D;code=6
+[16:44:20.721204] ERROR;source=SHT31D;code=6
+[16:44:22.724977] ERROR;source=SHT31D;code=6
+[16:44:24.727490] ERROR;source=SHT31D;code=6
+[16:44:26.729972] ERROR;source=SHT31D;code=6
+[16:44:28.732212] ERROR;source=SHT31D;code=6
+[16:44:30.734708] ERROR;source=SHT31D;code=6
+[16:44:32.737238] ERROR;source=SHT31D;code=6
+[16:44:34.739493] ERROR;source=SHT31D;code=6
+[16:44:36.741957] ERROR;source=SHT31D;code=6
+[16:44:38.744493] ERROR;source=SHT31D;code=6
+[16:44:40.749652] SAMPLE;temperature_mC=31131;humidity_mpercent=63862
+[16:44:42.752163] SAMPLE;temperature_mC=31003;humidity_mpercent=61857
+[16:44:44.754642] SAMPLE;temperature_mC=30763;humidity_mpercent=58918
+[16:44:46.756927] SAMPLE;temperature_mC=30439;humidity_mpercent=56551
+[16:44:48.759529] SAMPLE;temperature_mC=30156;humidity_mpercent=55297
+[16:44:50.761992] SAMPLE;temperature_mC=29833;humidity_mpercent=54606
+[16:44:52.764608] SAMPLE;temperature_mC=29524;humidity_mpercent=54339
+[16:44:54.766968] SAMPLE;temperature_mC=29254;humidity_mpercent=54334
+[16:44:56.769815] SAMPLE;temperature_mC=28987;humidity_mpercent=54907
+[16:44:58.772643] SAMPLE;temperature_mC=28789;humidity_mpercent=55256
+[16:45:00.775107] SAMPLE;temperature_mC=28565;humidity_mpercent=55442
+[16:45:02.777774] SAMPLE;temperature_mC=28367;humidity_mpercent=55547
+[16:45:04.780532] SAMPLE;temperature_mC=28167;humidity_mpercent=55822
+[16:45:06.782957] SAMPLE;temperature_mC=28042;humidity_mpercent=56207
+[16:45:08.785124] SAMPLE;temperature_mC=27844;humidity_mpercent=56555
+[16:45:10.787758] SAMPLE;temperature_mC=27689;humidity_mpercent=56785
+[16:45:12.790729] SAMPLE;temperature_mC=27547;humidity_mpercent=57923
+[16:45:14.595607] SAMPLE;temperature_mC=27449;humidity_mpercent=59765
+[16:45:16.597904] SAMPLE;temperature_mC=27435;humidity_mpercent=60557
+[16:45:18.600525] SAMPLE;temperature_mC=27379;humidity_mpercent=61230
+[16:45:18.600552] ERROR;source=SSD1306;code=5
+[16:45:19.601536] ERROR;source=SSD1306;code=5
+[16:45:20.602514] SAMPLE;temperature_mC=27238;humidity_mpercent=61512
+[16:45:20.602533] ERROR;source=SSD1306;code=5
+[16:45:21.603734] ERROR;source=SSD1306;code=5
+[16:45:22.604910] SAMPLE;temperature_mC=27123;humidity_mpercent=61093
+[16:45:22.604937] ERROR;source=SSD1306;code=5
+[16:45:23.606301] ERROR;source=SSD1306;code=5
+[16:45:24.607731] SAMPLE;temperature_mC=26997;humidity_mpercent=60795
+[16:45:24.607757] ERROR;source=SSD1306;code=5
+[16:45:25.611737] ERROR;source=SSD1306;code=5
+[16:45:26.612827] SAMPLE;temperature_mC=26941;humidity_mpercent=60603
+[16:45:26.612856] ERROR;source=SSD1306;code=5
+[16:45:27.614088] ERROR;source=SSD1306;code=5
+[16:45:28.615330] SAMPLE;temperature_mC=26816;humidity_mpercent=60520
+[16:45:28.615358] ERROR;source=SSD1306;code=5
+[16:45:29.616559] ERROR;source=SSD1306;code=5
+[16:45:30.617606] SAMPLE;temperature_mC=26717;humidity_mpercent=60575
+[16:45:30.617638] ERROR;source=SSD1306;code=5
+[16:45:31.618691] ERROR;source=SSD1306;code=5
+[16:45:32.619905] SAMPLE;temperature_mC=26730;humidity_mpercent=60941
+[16:45:32.619931] ERROR;source=SSD1306;code=5
+[16:45:34.622301] SAMPLE;temperature_mC=26717;humidity_mpercent=63107
+[16:45:36.624805] SAMPLE;temperature_mC=26645;humidity_mpercent=64050
+[16:45:38.627309] SAMPLE;temperature_mC=26589;humidity_mpercent=63549
+[16:45:40.629983] SAMPLE;temperature_mC=26503;humidity_mpercent=62919
+[16:45:42.635097] SAMPLE;temperature_mC=26391;humidity_mpercent=62318
+[16:45:44.637637] SAMPLE;temperature_mC=26322;humidity_mpercent=61917
+[16:45:46.639877] SAMPLE;temperature_mC=26266;humidity_mpercent=61816
+[16:45:48.642547] SAMPLE;temperature_mC=26210;humidity_mpercent=61805

@@ -1,0 +1,9 @@
+* -text
+*.bin binary
+*.elf binary
+*.sal binary
+*.pdf binary
+*.jpeg binary
+*.jpg binary
+*.png binary
+*.gz binary

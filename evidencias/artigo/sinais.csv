@@ -1,0 +1,5 @@
+placa;leituras_completas;verificacoes_sensor;registros_uart;erros_stop_bit;taxa_amostragem_hz;fonte
+esp32;109;APROVADO;134;0;2000000;evidencias/bancada/esp32/com_framework/sessao_20261107_144706_426737/conferencia-sal.json
+nrf52840;80;APROVADO;127;0;2000000;evidencias/bancada/nrf52840/com_framework/sessao_20261108_101030_645518/conferencia-sal.json
+stm32f407;61;APROVADO;106;0;2000000;evidencias/bancada/stm32f407/com_framework/sessao_20261108_164613_532106/conferencia-sal.json
+stm32f411;40;APROVADO;77;0;2000000;evidencias/bancada/stm32f411/com_framework/sessao_20261108_180202_079953/conferencia-sal.json

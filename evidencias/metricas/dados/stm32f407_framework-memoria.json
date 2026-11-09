@@ -1,0 +1,139 @@
+{
+  "project": "stm32f407_framework",
+  "elf": "evidencias/firmwares/stm32f407_framework/artefatos/stm32f407_framework.elf",
+  "elf_sha256": "1129efdd60735e767d37f81e426caebb41a83347d54fcf0820a9a64af02b2538",
+  "application_bin": "evidencias/firmwares/stm32f407_framework/artefatos/stm32f407_framework.bin",
+  "application_bin_sha256": "b8de4a55fccb6786ea092f88254a611794e866a5c09d79bea39b41d88811ceff",
+  "flash_bytes": 34144,
+  "flash_initialized_payload_bytes": 34136,
+  "image_alignment_and_packaging_bytes": 8,
+  "ram_bytes": 8624,
+  "ram_regions": [
+    {
+      "region": "RAM",
+      "origin": 536870912,
+      "length": 131072,
+      "used_bytes": 8624,
+      "sections": [
+        {
+          "name": ".data",
+          "type": "SHT_PROGBITS",
+          "address": 536870912,
+          "size": 108
+        },
+        {
+          "name": ".bss",
+          "type": "SHT_NOBITS",
+          "address": 536871024,
+          "size": 3900
+        },
+        {
+          "name": "._user_heap_stack",
+          "type": "SHT_NOBITS",
+          "address": 536874924,
+          "size": 4612
+        }
+      ]
+    },
+    {
+      "region": "CCMRAM",
+      "origin": 268435456,
+      "length": 65536,
+      "used_bytes": 0,
+      "sections": []
+    }
+  ],
+  "sdk_or_linker_ram_summary_bytes": 8624,
+  "extra_ram_noinit_and_alignment_bytes": 0,
+  "load_segments": [
+    {
+      "p_vaddr": 134217728,
+      "p_paddr": 134217728,
+      "p_filesz": 392,
+      "p_memsz": 392
+    },
+    {
+      "p_vaddr": 134218128,
+      "p_paddr": 134218128,
+      "p_filesz": 33636,
+      "p_memsz": 33636
+    },
+    {
+      "p_vaddr": 536870912,
+      "p_paddr": 134251764,
+      "p_filesz": 108,
+      "p_memsz": 108
+    },
+    {
+      "p_vaddr": 536871024,
+      "p_paddr": 134251872,
+      "p_filesz": 0,
+      "p_memsz": 3900
+    },
+    {
+      "p_vaddr": 536874924,
+      "p_paddr": 134251872,
+      "p_filesz": 0,
+      "p_memsz": 4612
+    }
+  ],
+  "allocated_sections": [
+    {
+      "name": ".isr_vector",
+      "type": "SHT_PROGBITS",
+      "address": 134217728,
+      "size": 392
+    },
+    {
+      "name": ".text",
+      "type": "SHT_PROGBITS",
+      "address": 134218128,
+      "size": 27080
+    },
+    {
+      "name": ".rodata",
+      "type": "SHT_PROGBITS",
+      "address": 134245208,
+      "size": 6540
+    },
+    {
+      "name": ".ARM",
+      "type": "SHT_ARM_EXIDX",
+      "address": 134251748,
+      "size": 8
+    },
+    {
+      "name": ".init_array",
+      "type": "SHT_INIT_ARRAY",
+      "address": 134251756,
+      "size": 4
+    },
+    {
+      "name": ".fini_array",
+      "type": "SHT_FINI_ARRAY",
+      "address": 134251760,
+      "size": 4
+    },
+    {
+      "name": ".data",
+      "type": "SHT_PROGBITS",
+      "address": 536870912,
+      "size": 108
+    },
+    {
+      "name": ".bss",
+      "type": "SHT_NOBITS",
+      "address": 536871024,
+      "size": 3900
+    },
+    {
+      "name": "._user_heap_stack",
+      "type": "SHT_NOBITS",
+      "address": 536874924,
+      "size": 4612
+    }
+  ],
+  "map_sha256": "b15f10e9ba258d37c42d03275e9fb3450c0e68f4eae3d6bd3fea63ee2f87fdfd",
+  "raw_report": "evidencias/firmwares/stm32f407_framework/memoria.txt",
+  "configuration": "Debug (-Og)"
+}

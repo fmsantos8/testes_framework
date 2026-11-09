@@ -1,0 +1,8 @@
+Projeto: stm32f411_framework
+Configuração: Debug (-Og)
+Conferência: 2026-11-08T18:02:19-03:00
+67ac69d835b716d9a86dbea753ee7fb5ae28ea8967133b7532618fc1a3e4442d  evidencias/firmwares/stm32f411_framework/artefatos/stm32f411_framework.elf
+c5835b44e2d22b1a08da4f123689a31358198c39a0b38da4e5ece29c61b9ce12  evidencias/firmwares/stm32f411_framework/artefatos/stm32f411_framework.hex
+765c1f20b6b63093a7a39eb86b3c5dcce82ae86b3f6e154240a399c700c76443  evidencias/firmwares/stm32f411_framework/artefatos/stm32f411_framework.bin
+e9cb01f9ea29286eb260b496bfacb967a38734bcf5c68c65ee50af94c66d98ec  evidencias/firmwares/stm32f411_framework/artefatos/stm32f411_framework.map
+APROVADO: artefatos arquivados íntegros.

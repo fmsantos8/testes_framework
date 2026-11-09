@@ -1,0 +1,9 @@
+Projeto: nrf52840_sem_framework
+Configuração: Debug (-Og)
+Conferência: 2026-11-08T15:10:10-03:00
+90c2a8823e0683e3017a120337d1b24132375bdec347fc3bfc6b235ef7751838  evidencias/firmwares/nrf52840_sem_framework/artefatos/zephyr/zephyr.elf
+90c7411df4d2dae0e71e2c23485ea2713c015f8229056ce13ec08f6b546e09c5  evidencias/firmwares/nrf52840_sem_framework/artefatos/zephyr/zephyr.hex
+8a35a2a76fd07c8ec9db733c10da572ca8b89bb1780c59f1d62934422ce717b5  evidencias/firmwares/nrf52840_sem_framework/artefatos/zephyr/zephyr.bin
+d97f8fbff9a4cb09b6cbdc8fc5ace2e1a12e4042fdc34f53609e4a561d53712e  evidencias/firmwares/nrf52840_sem_framework/artefatos/zephyr/zephyr.uf2
+9a171f75bd02dba1524d4bc8971df74bb23ea34c58b1227e6b637011555b0be6  evidencias/firmwares/nrf52840_sem_framework/artefatos/zephyr/zephyr.map
+APROVADO: artefatos arquivados íntegros.

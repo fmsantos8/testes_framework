@@ -1,0 +1,199 @@
+esp32_framework inventário: 2408 C/H
+esp32_sem_framework inventário: 2371 C/H
+nrf52840_framework inventário: 524 C/H
+nrf52840_sem_framework inventário: 487 C/H
+stm32f407_framework inventário: 156 C/H
+stm32f407_sem_framework inventário: 128 C/H
+stm32f411_framework inventário: 156 C/H
+stm32f411_sem_framework inventário: 128 C/H
+Contando linhas com cloc 2.06...
+Controle de formatação em cópias dos arquivos autorais...
+{
+  "codigo": [
+    {
+      "projeto": "esp32_framework",
+      "arquivos_autorais": 54,
+      "loc_total": 2783,
+      "loc_comum": 1815,
+      "loc_especifico": 968,
+      "pcomp_percent": 65.2174,
+      "loc_normalizadas_total": 2775,
+      "loc_normalizadas_comum": 1800,
+      "pcomp_normalizado_percent": 64.8649,
+      "loc_identico_nas_quatro_por_conteudo": 1815,
+      "percent_identico_nas_quatro_por_conteudo": 65.2174,
+      "arquivos_sdk_direto": 8,
+      "percent_arquivos_sdk_direto": 14.8148
+    },
+    {
+      "projeto": "esp32_sem_framework",
+      "arquivos_autorais": 17,
+      "loc_total": 875,
+      "loc_comum": 0,
+      "loc_especifico": 875,
+      "pcomp_percent": 0.0,
+      "loc_normalizadas_total": 925,
+      "loc_normalizadas_comum": 0,
+      "pcomp_normalizado_percent": 0.0,
+      "loc_identico_nas_quatro_por_conteudo": 486,
+      "percent_identico_nas_quatro_por_conteudo": 55.5429,
+      "arquivos_sdk_direto": 6,
+      "percent_arquivos_sdk_direto": 35.2941
+    },
+    {
+      "projeto": "nrf52840_framework",
+      "arquivos_autorais": 54,
+      "loc_total": 2572,
+      "loc_comum": 1815,
+      "loc_especifico": 757,
+      "pcomp_percent": 70.5677,
+      "loc_normalizadas_total": 2656,
+      "loc_normalizadas_comum": 1800,
+      "pcomp_normalizado_percent": 67.7711,
+      "loc_identico_nas_quatro_por_conteudo": 1815,
+      "percent_identico_nas_quatro_por_conteudo": 70.5677,
+      "arquivos_sdk_direto": 9,
+      "percent_arquivos_sdk_direto": 16.6667
+    },
+    {
+      "projeto": "nrf52840_sem_framework",
+      "arquivos_autorais": 18,
+      "loc_total": 969,
+      "loc_comum": 0,
+      "loc_especifico": 969,
+      "pcomp_percent": 0.0,
+      "loc_normalizadas_total": 1041,
+      "loc_normalizadas_comum": 0,
+      "pcomp_normalizado_percent": 0.0,
+      "loc_identico_nas_quatro_por_conteudo": 486,
+      "percent_identico_nas_quatro_por_conteudo": 50.1548,
+      "arquivos_sdk_direto": 7,
+      "percent_arquivos_sdk_direto": 38.8889
+    },
+    {
+      "projeto": "stm32f407_framework",
+      "arquivos_autorais": 55,
+      "loc_total": 3138,
+      "loc_comum": 1815,
+      "loc_especifico": 1323,
+      "pcomp_percent": 57.8394,
+      "loc_normalizadas_total": 3123,
+      "loc_normalizadas_comum": 1800,
+      "pcomp_normalizado_percent": 57.6369,
+      "loc_identico_nas_quatro_por_conteudo": 1815,
+      "percent_identico_nas_quatro_por_conteudo": 57.8394,
+      "arquivos_sdk_direto": 8,
+      "percent_arquivos_sdk_direto": 14.5455
+    },
+    {
+      "projeto": "stm32f407_sem_framework",
+      "arquivos_autorais": 29,
+      "loc_total": 1049,
+      "loc_comum": 0,
+      "loc_especifico": 1049,
+      "pcomp_percent": 0.0,
+      "loc_normalizadas_total": 1129,
+      "loc_normalizadas_comum": 0,
+      "pcomp_normalizado_percent": 0.0,
+      "loc_identico_nas_quatro_por_conteudo": 486,
+      "percent_identico_nas_quatro_por_conteudo": 46.3298,
+      "arquivos_sdk_direto": 16,
+      "percent_arquivos_sdk_direto": 55.1724
+    },
+    {
+      "projeto": "stm32f411_framework",
+      "arquivos_autorais": 55,
+      "loc_total": 3138,
+      "loc_comum": 1815,
+      "loc_especifico": 1323,
+      "pcomp_percent": 57.8394,
+      "loc_normalizadas_total": 3123,
+      "loc_normalizadas_comum": 1800,
+      "pcomp_normalizado_percent": 57.6369,
+      "loc_identico_nas_quatro_por_conteudo": 1815,
+      "percent_identico_nas_quatro_por_conteudo": 57.8394,
+      "arquivos_sdk_direto": 8,
+      "percent_arquivos_sdk_direto": 14.5455
+    },
+    {
+      "projeto": "stm32f411_sem_framework",
+      "arquivos_autorais": 29,
+      "loc_total": 1049,
+      "loc_comum": 0,
+      "loc_especifico": 1049,
+      "pcomp_percent": 0.0,
+      "loc_normalizadas_total": 1129,
+      "loc_normalizadas_comum": 0,
+      "pcomp_normalizado_percent": 0.0,
+      "loc_identico_nas_quatro_por_conteudo": 486,
+      "percent_identico_nas_quatro_por_conteudo": 46.3298,
+      "arquivos_sdk_direto": 16,
+      "percent_arquivos_sdk_direto": 55.1724
+    }
+  ],
+  "memoria": [
+    {
+      "placa": "esp32",
+      "flash_com": 208272,
+      "flash_sem": 200928,
+      "flash_delta_bytes": 7344,
+      "flash_delta_percent": 3.655,
+      "ram_com": 63792,
+      "ram_sem": 62600,
+      "ram_delta_bytes": 1192,
+      "ram_delta_percent": 1.9042
+    },
+    {
+      "placa": "nrf52840",
+      "flash_com": 90724,
+      "flash_sem": 85300,
+      "flash_delta_bytes": 5424,
+      "flash_delta_percent": 6.3587,
+      "ram_com": 18432,
+      "ram_sem": 16640,
+      "ram_delta_bytes": 1792,
+      "ram_delta_percent": 10.7692
+    },
+    {
+      "placa": "stm32f407",
+      "flash_com": 34144,
+      "flash_sem": 23192,
+      "flash_delta_bytes": 10952,
+      "flash_delta_percent": 47.2232,
+      "ram_com": 8624,
+      "ram_sem": 6592,
+      "ram_delta_bytes": 2032,
+      "ram_delta_percent": 30.8252
+    },
+    {
+      "placa": "stm32f411",
+      "flash_com": 33844,
+      "flash_sem": 23100,
+      "flash_delta_bytes": 10744,
+      "flash_delta_percent": 46.5108,
+      "ram_com": 8624,
+      "ram_sem": 6592,
+      "ram_delta_bytes": 2032,
+      "ram_delta_percent": 30.8252
+    }
+  ],
+  "mantido": {
+    "framework": {
+      "loc_somadas_quatro_checkouts": 11631,
+      "loc_por_origem_e_conteudo": 5106,
+      "loc_normalizadas_por_origem_e_conteudo": 5197,
+      "origens_versoes_distintas": 79
+    },
+    "sem_framework": {
+      "loc_somadas_quatro_checkouts": 3942,
+      "loc_por_origem_e_conteudo": 3942,
+      "loc_normalizadas_por_origem_e_conteudo": 4224,
+      "origens_versoes_distintas": 93
+    }
+  },
+  "porte_stm32": {
+    "files": 7,
+    "loc_unique": 1080,
+    "shared_both_boards": true
+  }
+}

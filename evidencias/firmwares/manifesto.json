@@ -1,0 +1,1387 @@
+{
+  "builds": {
+    "stm32f407_framework": {
+      "project": "stm32f407_framework",
+      "started_utc": "2026-11-02T18:51:44.795282+00:00",
+      "configuration": "Debug (-Og)",
+      "project_revision": {
+        "kind": "git",
+        "head": "4bfef2e93aeb3496383a6b29513b82e27e7aeb04",
+        "status": "M cmake/flags.cmake"
+      },
+      "source_sha256": {
+        "stm32f407_framework/.devcontainer/devcontainer.json": "bf427b87a2189ced66599c3157009c1632cfc838ea650dfb3ea6da080e39c656",
+        "stm32f407_framework/.gitmodules": "69944451f7735583a19a26c2e958caf7c077d6e9aac95fece58aca0183876f64",
+        "stm32f407_framework/.settings/bundles-lock.store.json": "7b07b2f4568c04e426328ad3d7d3fc3ddd68d72d07eccba3889f5c3651af9ef8",
+        "stm32f407_framework/.settings/bundles.store.json": "e16f526c9fb12045c84631e0bb99c86f3cf6ab542c2b302e35c4b078531418a6",
+        "stm32f407_framework/.settings/ide.store.json": "a23b91b132ada440aff3f9eb60d852005b207ecced54561e07185612feda3c19",
+        "stm32f407_framework/CMakeLists.txt": "e50b35f772f5061a9aa96b9077a3eff22658e84e71e0d39ff2d3950e6b7f1d2c",
+        "stm32f407_framework/CMakePresets.json": "b1e7aa60619e9ffcd1ed44b9eadbc6ab5a073f3b08852009520bc74906a5d7b9",
+        "stm32f407_framework/cmake/boards.cmake": "798346e06e9a37f814c3c4b9d09d217126d780fff1c08bbe21fa4dfa970133dd",
+        "stm32f407_framework/cmake/components.cmake": "bd3ca45f13265afe58297c23db39592ccba61eb93c3d348a53ceac1f42c4e118",
+        "stm32f407_framework/cmake/files.cmake": "9a196453a3c594e8d6cf881b55ac6bb0ef9d4c5129391a623a017ece04cf5fea",
+        "stm32f407_framework/cmake/flags.cmake": "bbd8580a51e99726af7043016776eb4162ab0d2941a047a872e8beaca6c527a6",
+        "stm32f407_framework/cmake/gcc-arm-none-eabi.cmake": "ffccc9f99255d5b8b24065f038479e6b45e3d4b06319669e24f083feeeb55078",
+        "stm32f407_framework/cmake/stm32f4.cmake": "3ed0cfc3e16c877aaae6d51b4c90ce988d30cde9eea4a06d8004a0fb0dcb0453",
+        "stm32f407_framework/cmake/target.cmake": "450cbb30766d20d9ea429d9959b506986fa7d82ffdca1bdd580e9898be7978e0",
+        "stm32f407_framework/config/stm32f4xx_hal_conf.h": "8ca4027cc776d5ba94757b0e41ee179279bef48f52e9014807ece0e2084a0623",
+        "stm32f407_framework/project-description.json": "06219b7d48dac39720bef336c1fa018b87b64752784b760f29d2729cab974f88",
+        "stm32f407_framework/scripts/_common.py": "862df53f2d39ab6e98c70ad99035f92c96956a552c06ff2f8bbf0c9ab2658dd7",
+        "stm32f407_framework/scripts/build.py": "bce679e6809403d6438e4c0536ef4c07f3d51afd3ea7d581aacaa9b7f68d047d",
+        "stm32f407_framework/scripts/clean.py": "16bebabd46c2c5725046d830d9c852cefb67a63480ae3206d943ba98aa42ffa2",
+        "stm32f407_framework/scripts/monitor_serial.py": "8e9ae6a805c906994a619734561793a1ec09b61c0d53e86a48314b14fd97d66b",
+        "stm32f407_framework/scripts/upload.py": "dbd4380017beee36c574d879fe291ba9442140366cfa1231a4ce2d1857f5de25",
+        "stm32f407_framework/src/CMakeLists.txt": "01489da98aae3807d805ccc62f32c42776c400a55226159a9f9a5570958e9437",
+        "stm32f407_framework/src/app/acquisition/app_acquisition.c": "a0199e716bebfca6a4810a9438f3719dfe5afa8e5629ad6fade882f3aeb793a1",
+        "stm32f407_framework/src/app/acquisition/app_acquisition.h": "1fe54b9b96bc2b227e9cb9886a6d8b1507ee598c39db6ee948399502a60a28d2",
+        "stm32f407_framework/src/app/button/app_button.c": "6acf2bcacd0d25ae80db368ecdd255ac4d32cd214a19206ef43878ebea097ae2",
+        "stm32f407_framework/src/app/button/app_button.h": "f6943c117dc230fc7b2b9944d5f01dd07d78e68a1532d9e6cb8064e28b3cf942",
+        "stm32f407_framework/src/app/gui/app_gui.c": "e1bcb9d9b381fd0c4c33e287ee13b9f686f0ce7ee8472ca8687fcb7810b86a70",
+        "stm32f407_framework/src/app/gui/app_gui.h": "78cc18aeaf8ec4c45dc987cad60cb478471d4907e18502eb3860c8f4d85311cc",
+        "stm32f407_framework/src/app/gui/bitmaps.c": "8e74d2aaf72d9f4b534abec0b10f8b06a440218bb9f611bde629b41f6d556bbd",
+        "stm32f407_framework/src/app/gui/bitmaps.h": "709fadf7ac1cd148d27336e5d4a00a0bae68579870e080d943cf7ca26a6d4e78",
+        "stm32f407_framework/src/app/gui/render.c": "7876bd935ee16bba7e7423d656ca055a0a5bc7ecf9591055698ce7ec13cc8750",
+        "stm32f407_framework/src/app/gui/render.h": "db5be0eb269aa2274ef64e9566a81898bafaf58117bbcf1569bf8160589f76eb",
+        "stm32f407_framework/src/app/status_led/app_status_led.c": "562062eac3e5b022cf20e40ec5a1a5dc206c9a6f6dd1cbf72aa0c204e361c206",
+        "stm32f407_framework/src/app/status_led/app_status_led.h": "36f7babdda21bf47e44d52df536311d000824b70245c46b5fef3cc93e1affe85",
+        "stm32f407_framework/src/app/telemetry/app_telemetry.c": "08eb5c8a51f7791f2f832b81ffc017d17b9d718d44b59f110157f159a5f39ef5",
+        "stm32f407_framework/src/app/telemetry/app_telemetry.h": "801bb93b9877e3dd834ebafca323d0981da6bc759ec77fe7c6e586fdd400c5f0",
+        "stm32f407_framework/src/app/telemetry/app_telemetry_private.h": "ed19bcfb06f7d96b32ce0eb4716cf14628a461e2238d0447f4463d57d048c920",
+        "stm32f407_framework/src/bsp/bsp.h": "10f497d975368caee2cfd32f70bfeec50eac08568158672438a330182974f124",
+        "stm32f407_framework/src/bsp/devebox_stm32f407/bsp.c": "b408fcf36e4f2e162f3e950f91d74094febd3559e5cc89d2baf962e408690ce7",
+        "stm32f407_framework/src/components/button/cmp_button.c": "92736df3e754522d59287265aec19ebc6764148286d44e1e8569a563f7f87b29",
+        "stm32f407_framework/src/components/button/cmp_button.h": "162dfcfe9d3fadc5a8815b790ec47ec3796a7ce4c93da412e0157f9c00cddc99",
+        "stm32f407_framework/src/components/button/cmp_button_config.h": "6184202490f1c1c7131e813c870957793084eea68f42f37d7605f1cdef038b5e",
+        "stm32f407_framework/src/components/button/cmp_button_types.h": "fe94b534eb8806b74d29d59fcd877d309c8b69942cbeaca30bba4cf6cfcd9e77",
+        "stm32f407_framework/src/components/led/cmp_led.c": "2d5f8801f280f34cb8e71b202a30d5e9207a885dddbbedbe8ef624963a462cd0",
+        "stm32f407_framework/src/components/led/cmp_led.h": "00b16a7f096c2e19a9615074827917e2925fef4d0c38710ff233b21cfd8e4429",
+        "stm32f407_framework/src/components/led/cmp_led_config.h": "f3e9ea3a7387d9748f0d2727048398140085c17a4c52d2c95a1325c9a79f46f9",
+        "stm32f407_framework/src/components/led/cmp_led_types.h": "b1276841f9a75aa0c103718fc409f59865a131f463a57af5861738027296d25a",
+        "stm32f407_framework/src/components/sht31d/cmp_sht31d.c": "cd45d5ee84f493f3727224bfaf1b2d26b861c44c136a5d748d52bcac051ecf23",
+        "stm32f407_framework/src/components/sht31d/cmp_sht31d.h": "3b52e27e197736efa9aaf661ebeffdfe04f588efdc6a57ee03d383eaf9b3bada",
+        "stm32f407_framework/src/components/sht31d/cmp_sht31d_config.h": "475adb7f4a2856715ade8b8c72b7c46ba7d3c470430b550978f65ade2bb678ff",
+        "stm32f407_framework/src/components/ssd1306/cmp_ssd1306.c": "2631f0a2735be6e7691f5ecf60aff1dbbd3ff53291661b4ff3a749b72ccab661",
+        "stm32f407_framework/src/components/ssd1306/cmp_ssd1306.h": "4f89b7ffd0bfd9ee17276db69974951b048743883d363cbd55f2261502dc8092",
+        "stm32f407_framework/src/components/ssd1306/cmp_ssd1306_config.h": "fb9b2c6a792526d11f4ad802d377396ade3c7588aba01e78333d68bad7cb6c59",
+        "stm32f407_framework/src/components/ssd1306/cmp_ssd1306_fonts.c": "f691d378f2e0f6a32d6cc24673d7def880956e9a58449a8492cd20bd4cec72e9",
+        "stm32f407_framework/src/components/ssd1306/cmp_ssd1306_fonts_private.h": "6f2a98164f20f063b84406cd175fbdb9f43408cb0ae91ba4387b13ddb2e0832e",
+        "stm32f407_framework/src/components/ssd1306/cmp_ssd1306_types.h": "bc0eb1e34674da678c63a550315388a498da212c5947a8512bdddb8c57c6195b",
+        "stm32f407_framework/src/components/ssd1306/tools/generate_fonts.py": "4b1e9a4cbe7bafe1362ba1b2765b2a8f537662a0a4ab575b507117dc55b6c95c",
+        "stm32f407_framework/src/components/telemetry/cmp_telemetry.c": "af4783ff94d8705ca5c4b76b94745921938ac3edc221f8a24e31bbac77f32da2",
+        "stm32f407_framework/src/components/telemetry/cmp_telemetry.h": "549bc89533d531ece738ede0b2b8d2f14e17f08dd5330ffe163e8e2bb803c7f6",
+        "stm32f407_framework/src/components/telemetry/cmp_telemetry_config.h": "5b19b11c7acebadc0ba0c47158be56b5db8aea3693bf3b5336501a0b5e49b6a0",
+        "stm32f407_framework/src/components/telemetry/cmp_telemetry_types.h": "95e0a43c815667070093f79752451ba5ead44e24b55102b8b5e651f18ba54215",
+        "stm32f407_framework/src/hal/interface/common/hal_pin.h": "5e5c99f92a22dd0a475245624e40ab5967c7111d56c7c6be5614406abb200897",
+        "stm32f407_framework/src/hal/interface/common/hal_status.h": "0c588a11c460c321e030910459ce238f8ac64b80d12f79ce8b5b78107b1ed095",
+        "stm32f407_framework/src/hal/interface/gpio/hal_gpio.h": "ce3bbdfaff05842f080a31606cf5394de9226295eb05c188c5f0abc23d79c7ac",
+        "stm32f407_framework/src/hal/interface/i2c/hal_i2c.h": "1f30c8038a6ba3a280eca89aa1299a1b8d98f4aefdcbaec924aa7ef07b865db4",
+        "stm32f407_framework/src/hal/interface/system/hal_system.h": "afc22aeed17c7ae32e9b06a49f2b58880eb2087f3f18b949f8dc3d63e25194bf",
+        "stm32f407_framework/src/hal/interface/timer/hal_timer.h": "37e8eb0125ffeb8fc1152d29c94ad444ab2beb776d1f39c359653056fdd66384",
+        "stm32f407_framework/src/hal/interface/uart/hal_uart.h": "57a29ca050f7504e3ce24175f510de80dcd21be5767357bcb0a95f479f9d7ac0",
+        "stm32f407_framework/src/hal/memory/hal_memory.c": "082a20a38280a831a3e19db5060e360950a06a790efe271cd4e9d82c44ed1eda",
+        "stm32f407_framework/src/hal/memory/hal_memory.h": "39556bf466bdd5f1733f1cff14b2685da2e7be8fe80e87b28d2d37235358d153",
+        "stm32f407_framework/src/hal/ports/stm32f4/gpio/hal_gpio.c": "4d5f6f3764f896c330e8fa77f60ad0f24286e84014b238ace2c012a26b3c371d",
+        "stm32f407_framework/src/hal/ports/stm32f4/hal_stm32f4.c": "27691c473d06ac691339ded8bebb00996c60279c09395a8764cbca52c04ab45c",
+        "stm32f407_framework/src/hal/ports/stm32f4/hal_stm32f4_private.h": "48e446cf94d1ec0b749e82773f05fc0a97e7185dfd7eb7665e22280f230bd900",
+        "stm32f407_framework/src/hal/ports/stm32f4/i2c/hal_i2c.c": "422370f456eadbe1a552d809125d2acf16343e863857fda10b203ee376bd6664",
+        "stm32f407_framework/src/hal/ports/stm32f4/system/hal_system.c": "a5493974716e5e2d8abd7f917d5206c99e6e8b54fef40a5e0cd636384ae0701c",
+        "stm32f407_framework/src/hal/ports/stm32f4/timer/hal_timer.c": "ce698509211c0eeedceca4fa204d2be21921665fd5116b508de3d19a030ddbc4",
+        "stm32f407_framework/src/hal/ports/stm32f4/uart/hal_uart.c": "004a96be1e539a5a390f70b0db10d05c8dce52f9fea43acb15968de7cd0b6acd",
+        "stm32f407_framework/src/main.c": "99a1b51f4f42b80ab3dfe60050ef7f7b1199223a1c42c54f20253c4ee9aab883",
+        "stm32f407_framework/src/platform/stm32f407/startup_stm32f407xx.S": "bcc7902f24e332d33b709ba73baf32a5d74931b2b1d504a476301785463f4dbe",
+        "stm32f407_framework/src/platform/stm32f407/syscall.c": "6c411dd20f607805d5c68a3e35239561dce1c3f76275cde64c503e3255b81d60",
+        "stm32f407_framework/src/platform/stm32f407/sysmem.c": "3dbf64e712f54e6afb4c3adc3a98ccfca303eac57e52ac40073957ae4a4e8f4b",
+        "stm32f407_framework/stm32f407xg_flash.ld": "87ffa8750aad287713b2308bdb67c7359dbbcbb81e2d728175f8db8bf973abb3",
+        "stm32f407_framework/tools/install_stm32f4_sdk.py": "e7ba9799c90073268f2ec6a3f21d19257d1f28ab8a5689e54a7e316fee42ae8e"
+      },
+      "build_directory": "stm32f407_framework/build/Debug",
+      "commands": [
+        {
+          "argv": [
+            "/usr/bin/cmake",
+            "--fresh",
+            "-S",
+            "/home/fbcms/Documents/ucs/tcc_master/stm32f407_framework",
+            "-B",
+            "/home/fbcms/Documents/ucs/tcc_master/stm32f407_framework/build/Debug",
+            "-G",
+            "Ninja",
+            "-DCMAKE_BUILD_TYPE=Debug"
+          ],
+          "cwd": "/home/fbcms/Documents/ucs/tcc_master/stm32f407_framework"
+        },
+        {
+          "argv": [
+            "/usr/bin/cmake",
+            "--build",
+            "/home/fbcms/Documents/ucs/tcc_master/stm32f407_framework/build/Debug",
+            "--clean-first",
+            "--parallel",
+            "4"
+          ],
+          "cwd": "/home/fbcms/Documents/ucs/tcc_master/stm32f407_framework"
+        },
+        {
+          "argv": [
+            "/home/fbcms/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-size",
+            "/home/fbcms/Documents/ucs/tcc_master/stm32f407_framework/build/Debug/stm32f407_framework.elf"
+          ],
+          "cwd": "/home/fbcms/Documents/ucs/tcc_master/stm32f407_framework"
+        },
+        {
+          "argv": [
+            "/home/fbcms/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-size",
+            "-A",
+            "/home/fbcms/Documents/ucs/tcc_master/stm32f407_framework/build/Debug/stm32f407_framework.elf"
+          ],
+          "cwd": "/home/fbcms/Documents/ucs/tcc_master/stm32f407_framework"
+        }
+      ],
+      "artifacts": [
+        {
+          "build_path": "stm32f407_framework/build/Debug/stm32f407_framework.elf",
+          "path": "evidencias/firmwares/stm32f407_framework/artefatos/stm32f407_framework.elf",
+          "bytes": 1395664,
+          "sha256": "1129efdd60735e767d37f81e426caebb41a83347d54fcf0820a9a64af02b2538"
+        },
+        {
+          "build_path": "stm32f407_framework/build/Debug/stm32f407_framework.hex",
+          "path": "evidencias/firmwares/stm32f407_framework/artefatos/stm32f407_framework.hex",
+          "bytes": 96104,
+          "sha256": "401e05569493b9a8986c976c7f2220d32b0b1933b780e7e7119db498f1201b3b"
+        },
+        {
+          "build_path": "stm32f407_framework/build/Debug/stm32f407_framework.bin",
+          "path": "evidencias/firmwares/stm32f407_framework/artefatos/stm32f407_framework.bin",
+          "bytes": 34144,
+          "sha256": "b8de4a55fccb6786ea092f88254a611794e866a5c09d79bea39b41d88811ceff"
+        },
+        {
+          "build_path": "stm32f407_framework/build/Debug/stm32f407_framework.map",
+          "path": "evidencias/firmwares/stm32f407_framework/artefatos/stm32f407_framework.map",
+          "bytes": 749116,
+          "sha256": "b15f10e9ba258d37c42d03275e9fb3450c0e68f4eae3d6bd3fea63ee2f87fdfd"
+        }
+      ],
+      "configuration_files": [
+        {
+          "build_path": "stm32f407_framework/build/Debug/compile_commands.json",
+          "path": "evidencias/firmwares/stm32f407_framework/configuracao/compile_commands.json",
+          "bytes": 92642,
+          "sha256": "2d6c9a374406a0c2890ee0fc571d727da1243c9adb8944a712cde8fa0839c410"
+        },
+        {
+          "build_path": "stm32f407_framework/build/Debug/CMakeCache.txt",
+          "path": "evidencias/firmwares/stm32f407_framework/configuracao/CMakeCache.txt",
+          "bytes": 15032,
+          "sha256": "50d02745e5dcbae36df23333b0b84b79bfd9628994400034b8d092ef90f9728b"
+        }
+      ],
+      "log": "evidencias/firmwares/stm32f407_framework/compilacao.log",
+      "status": "APROVADO_COMPILACAO",
+      "exit_code": 0,
+      "memory_report": "evidencias/firmwares/stm32f407_framework/memoria.txt",
+      "finished_utc": "2026-11-02T18:51:47.691856+00:00",
+      "seconds": 2.83
+    },
+    "stm32f407_sem_framework": {
+      "project": "stm32f407_sem_framework",
+      "started_utc": "2026-11-02T18:51:47.715539+00:00",
+      "configuration": "Debug (-Og)",
+      "project_revision": {
+        "kind": "copied_tree",
+        "identity": "source_sha256"
+      },
+      "source_sha256": {
+        "stm32f407_sem_framework/CMakeLists.txt": "eea5583e576caf00c65dc499ae09bc35b605dff2691b71fbeee3f5b910e458ff",
+        "stm32f407_sem_framework/CMakePresets.json": "c3b47399b71ede6ff3c8f8d3cab2bab8837e96e94720fa29ccd86e860259f8f3",
+        "stm32f407_sem_framework/Core/Inc/application.h": "a7e864da11376e144e4e5ac21a6d8b7acba76b27131e176c98055b4bcd2c62d4",
+        "stm32f407_sem_framework/Core/Inc/bitmaps.h": "941b921312a7631d63d6ed0a2ce9f18492a20e157a07539d2254d3a026f0a985",
+        "stm32f407_sem_framework/Core/Inc/fonts.h": "f904d8277b9ff7c0d90ce75bc87e341b77b3985c25d40397770ac894963a776b",
+        "stm32f407_sem_framework/Core/Inc/gpio.h": "2603993b3bd6baf142a08d1766218cca84b6edea8e85427b074d8a9d9b9417cf",
+        "stm32f407_sem_framework/Core/Inc/graphics.h": "d6fcb47181dd455a4693d819dc4393c36e6e12338a656ffa772dfbe690561e38",
+        "stm32f407_sem_framework/Core/Inc/i2c.h": "3ff955986e41e4970181738d90be3c45ef943b5f8a1927ba991141f4985c9960",
+        "stm32f407_sem_framework/Core/Inc/main.h": "cb721c088db5a467afbdc24a07f87401c63f827af5bad9ab06a60071dd7c20a6",
+        "stm32f407_sem_framework/Core/Inc/render.h": "c5bc156f4f76b87a9b443de5b7cfcd19cdb01e2d36884e72ad88d0b9ed840679",
+        "stm32f407_sem_framework/Core/Inc/sht31d.h": "8917e247bfe42efd7c8b1bcbc869cb165ea2e6cea06445e5705c42087d737474",
+        "stm32f407_sem_framework/Core/Inc/ssd1306.h": "f576f50f949bc0fd76f4e3f5df4462b687fa462aff1a1a88e861bdb0f7ce9eaa",
+        "stm32f407_sem_framework/Core/Inc/stm32f4xx_hal_conf.h": "94d88bf1f17ff4c8df207d4f7bda5c2e51021eba4573ac2e13e2209aa3cfd33b",
+        "stm32f407_sem_framework/Core/Inc/stm32f4xx_it.h": "e294bc696a3eb1116b3673c41b6e5e2b5a7015d19620c79e45f357fa3e3b7c1f",
+        "stm32f407_sem_framework/Core/Inc/telemetry.h": "3b0beca7f802c08bdd76edfe8d0682ed33fd907d655c7ee1a264c28d41c326d6",
+        "stm32f407_sem_framework/Core/Inc/tim.h": "e8784cd1aa800d8f173057390dae37b23a48e043ad43b40b5378de600ac74d26",
+        "stm32f407_sem_framework/Core/Inc/usart.h": "3ab5e518ad3a1dbb95baeb002f16b06e3e6fac0b55233ad866ed4406a4850b24",
+        "stm32f407_sem_framework/Core/Src/application.c": "71c3c7f89f576aab21013405b36eb9014649259c0a96ef977b96cf5b6c029bcd",
+        "stm32f407_sem_framework/Core/Src/bitmaps.c": "8e74d2aaf72d9f4b534abec0b10f8b06a440218bb9f611bde629b41f6d556bbd",
+        "stm32f407_sem_framework/Core/Src/fonts.c": "181e8606988ef37fae40ecaed57d0fedd177bbc402f7a7fa7894ddf55dc5b871",
+        "stm32f407_sem_framework/Core/Src/gpio.c": "c05bce3134090a9390cd4b0e723dfc082246421790482c61941ad06547ebc7e5",
+        "stm32f407_sem_framework/Core/Src/graphics.c": "f9e0e9cd83b2214d0ae76f8ebc3e5d42d7f6b6b9e5333f43e4eda79e25da4c6a",
+        "stm32f407_sem_framework/Core/Src/i2c.c": "3775a85a3eb39655cbd30dbc1fc6523625458b334f36340affe80893ac3fe280",
+        "stm32f407_sem_framework/Core/Src/main.c": "fda820f268eadc8d67016afb0a8fbb5babeceac748b318e23de341395bec7abe",
+        "stm32f407_sem_framework/Core/Src/render.c": "54f3807fcbb1a969389bc07f6785551ba51b3e5814443d743dcd774d3d4ea018",
+        "stm32f407_sem_framework/Core/Src/sht31d.c": "f90b3168cf7229635f6c37ec7b7609b7b4e149b7726bba56b32c21285eb4914c",
+        "stm32f407_sem_framework/Core/Src/ssd1306.c": "e1ead53f658fbc24ba45c2077182b23294875f432d530956cb3e7457e7e4acb6",
+        "stm32f407_sem_framework/Core/Src/stm32f4xx_hal_msp.c": "2ff7914fba1f969251d8e253b7dceb3aafee40eea1a0fb9d134a15415ce2c31d",
+        "stm32f407_sem_framework/Core/Src/stm32f4xx_it.c": "b02ded1a4ffbd79ae40c61e99331195057a9c3255559abe43d3a9c7c10ea8fae",
+        "stm32f407_sem_framework/Core/Src/syscalls.c": "6c411dd20f607805d5c68a3e35239561dce1c3f76275cde64c503e3255b81d60",
+        "stm32f407_sem_framework/Core/Src/sysmem.c": "3dbf64e712f54e6afb4c3adc3a98ccfca303eac57e52ac40073957ae4a4e8f4b",
+        "stm32f407_sem_framework/Core/Src/system_stm32f4xx.c": "a31929eab936ac98db060c18917118acf79dc96e1f03ed4b57d614535dd06d70",
+        "stm32f407_sem_framework/Core/Src/telemetry.c": "905fce498f9400c1b7a4c16b8c339daa1f618885f8db52394d5b47d50538306e",
+        "stm32f407_sem_framework/Core/Src/tim.c": "ea7ea02d7a2497fe0f65c65d965af645789f29493b6265e32188b379a84bc6b6",
+        "stm32f407_sem_framework/Core/Src/usart.c": "a2d9f43ce743f961b588741341df8157a04000d9cefc74ce0e822dbfa06ec879",
+        "stm32f407_sem_framework/Core/Startup/startup_stm32f407xx.s": "3205c9ea0c9be9935cb48de3961d24c79c0c780ec29f49b4daf27c53d1ce385b",
+        "stm32f407_sem_framework/Drivers/CMakeLists.txt": "c31e515a8b3dc1f2f4af736ba6fc3c06abc50e6a9e8cb097c9e513787a8a6068",
+        "stm32f407_sem_framework/STM32F407VGTX_FLASH.ld": "87ffa8750aad287713b2308bdb67c7359dbbcbb81e2d728175f8db8bf973abb3",
+        "stm32f407_sem_framework/cmake/gcc-arm-none-eabi.cmake": "6fe5874c4c5ca69ea15fd7a41bf528a629a42f6aae6cff24f4c86fecb57b5a23",
+        "stm32f407_sem_framework/tools/install_drivers.py": "b382ffae76f3cd85cb3a9feac451bfcdd44c9aab948eeb582a20c794824ff0ae",
+        "stm32f407_sem_framework/tools/install_stm32f4_sdk.py": "e7ba9799c90073268f2ec6a3f21d19257d1f28ab8a5689e54a7e316fee42ae8e"
+      },
+      "build_directory": "stm32f407_sem_framework/build/Debug",
+      "commands": [
+        {
+          "argv": [
+            "/usr/bin/cmake",
+            "--fresh",
+            "-S",
+            "/home/fbcms/Documents/ucs/tcc_master/stm32f407_sem_framework",
+            "-B",
+            "/home/fbcms/Documents/ucs/tcc_master/stm32f407_sem_framework/build/Debug",
+            "-G",
+            "Ninja",
+            "-DCMAKE_BUILD_TYPE=Debug"
+          ],
+          "cwd": "/home/fbcms/Documents/ucs/tcc_master/stm32f407_sem_framework"
+        },
+        {
+          "argv": [
+            "/usr/bin/cmake",
+            "--build",
+            "/home/fbcms/Documents/ucs/tcc_master/stm32f407_sem_framework/build/Debug",
+            "--clean-first",
+            "--parallel",
+            "4"
+          ],
+          "cwd": "/home/fbcms/Documents/ucs/tcc_master/stm32f407_sem_framework"
+        },
+        {
+          "argv": [
+            "/home/fbcms/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-size",
+            "/home/fbcms/Documents/ucs/tcc_master/stm32f407_sem_framework/build/Debug/stm32f407_sem_framework.elf"
+          ],
+          "cwd": "/home/fbcms/Documents/ucs/tcc_master/stm32f407_sem_framework"
+        },
+        {
+          "argv": [
+            "/home/fbcms/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-size",
+            "-A",
+            "/home/fbcms/Documents/ucs/tcc_master/stm32f407_sem_framework/build/Debug/stm32f407_sem_framework.elf"
+          ],
+          "cwd": "/home/fbcms/Documents/ucs/tcc_master/stm32f407_sem_framework"
+        }
+      ],
+      "artifacts": [
+        {
+          "build_path": "stm32f407_sem_framework/build/Debug/stm32f407_sem_framework.elf",
+          "path": "evidencias/firmwares/stm32f407_sem_framework/artefatos/stm32f407_sem_framework.elf",
+          "bytes": 1331196,
+          "sha256": "23661c09ac961be35878ca614ff56c4cb64bcd0e6866b73ce23271e0ba438eb7"
+        },
+        {
+          "build_path": "stm32f407_sem_framework/build/Debug/stm32f407_sem_framework.hex",
+          "path": "evidencias/firmwares/stm32f407_sem_framework/artefatos/stm32f407_sem_framework.hex",
+          "bytes": 65308,
+          "sha256": "1e13310add985a46a65dff0d212526a2a4a2e2c5885f7bc1d7483e2df2054f7e"
+        },
+        {
+          "build_path": "stm32f407_sem_framework/build/Debug/stm32f407_sem_framework.bin",
+          "path": "evidencias/firmwares/stm32f407_sem_framework/artefatos/stm32f407_sem_framework.bin",
+          "bytes": 23192,
+          "sha256": "7f0a604f532f4b13ced1a20cb39e2d7d8cd764d48cece3df8d62d3303773d823"
+        },
+        {
+          "build_path": "stm32f407_sem_framework/build/Debug/stm32f407_sem_framework.map",
+          "path": "evidencias/firmwares/stm32f407_sem_framework/artefatos/stm32f407_sem_framework.map",
+          "bytes": 696659,
+          "sha256": "d2be971467d4697978c93ae86a7d54ef4dc2a4889388c5556d46334c1cc272e8"
+        }
+      ],
+      "configuration_files": [
+        {
+          "build_path": "stm32f407_sem_framework/build/Debug/compile_commands.json",
+          "path": "evidencias/firmwares/stm32f407_sem_framework/configuracao/compile_commands.json",
+          "bytes": 46168,
+          "sha256": "a72ae6343a58f30a477871afd33243ebc26c1f7f1fc25f8b14b2ab0a2750c71f"
+        },
+        {
+          "build_path": "stm32f407_sem_framework/build/Debug/CMakeCache.txt",
+          "path": "evidencias/firmwares/stm32f407_sem_framework/configuracao/CMakeCache.txt",
+          "bytes": 15611,
+          "sha256": "ed03359565b29516c0ac7e1e98678e7a0d17bfc17ed4c3ceb38ee5eeede7c4e2"
+        }
+      ],
+      "log": "evidencias/firmwares/stm32f407_sem_framework/compilacao.log",
+      "status": "APROVADO_COMPILACAO",
+      "exit_code": 0,
+      "memory_report": "evidencias/firmwares/stm32f407_sem_framework/memoria.txt",
+      "finished_utc": "2026-11-02T18:51:50.178660+00:00",
+      "seconds": 2.46
+    },
+    "stm32f411_framework": {
+      "project": "stm32f411_framework",
+      "started_utc": "2026-11-02T18:51:50.226952+00:00",
+      "configuration": "Debug (-Og)",
+      "project_revision": {
+        "kind": "git",
+        "head": "4d53f2aa85e170bf85527c713c631ac629be130e",
+        "status": "M cmake/flags.cmake"
+      },
+      "source_sha256": {
+        "stm32f411_framework/.devcontainer/devcontainer.json": "947de82d30e52552ae15c04ef35d9c996630e6a181a0ab7208330c81f2a2cf26",
+        "stm32f411_framework/.gitmodules": "8b90aa8d8750027e553d9c9124a1b4cd86410473f997b49827d0776a74df631d",
+        "stm32f411_framework/.settings/bundles-lock.store.json": "7b07b2f4568c04e426328ad3d7d3fc3ddd68d72d07eccba3889f5c3651af9ef8",
+        "stm32f411_framework/.settings/bundles.store.json": "e16f526c9fb12045c84631e0bb99c86f3cf6ab542c2b302e35c4b078531418a6",
+        "stm32f411_framework/.settings/ide.store.json": "be8b2d6d2e9ae1aa40c0666447af0ef56208e1d4dc26137c138a1233ec3ace91",
+        "stm32f411_framework/CMakeLists.txt": "d4044b457eea866c7e325ead2347e30b5111a56c7cec8dd621b884402d151af6",
+        "stm32f411_framework/CMakePresets.json": "b1e7aa60619e9ffcd1ed44b9eadbc6ab5a073f3b08852009520bc74906a5d7b9",
+        "stm32f411_framework/cmake/boards.cmake": "894ff9829b0847deeda076c92d38b94f1529fbb88ffc53672636acee03cd76cf",
+        "stm32f411_framework/cmake/components.cmake": "bd3ca45f13265afe58297c23db39592ccba61eb93c3d348a53ceac1f42c4e118",
+        "stm32f411_framework/cmake/files.cmake": "d37b1cd307acd2d538563d6614876690b69b9caa56ea79892f8e82efaddc70f2",
+        "stm32f411_framework/cmake/flags.cmake": "89768c07c9af98040c7fa5040b1e53c49125ae67cc2a0220b2790dfb22a755ae",
+        "stm32f411_framework/cmake/gcc-arm-none-eabi.cmake": "ffccc9f99255d5b8b24065f038479e6b45e3d4b06319669e24f083feeeb55078",
+        "stm32f411_framework/cmake/stm32f4.cmake": "27bf3bd8e1e579dcd2a615a5212425fa34e7d5d4366e71921c5d2c0627ef2ecd",
+        "stm32f411_framework/cmake/target.cmake": "61c23540d0cac780e0e7bc177c7a3eea1dcf1e5dc8887322c15a0c23a3b9a274",
+        "stm32f411_framework/config/stm32f4xx_hal_conf.h": "8ca4027cc776d5ba94757b0e41ee179279bef48f52e9014807ece0e2084a0623",
+        "stm32f411_framework/project-description.json": "202cf13c7ac54da84787999a982f582fe8166d4aac72e3ae4181e6114bb51169",
+        "stm32f411_framework/scripts/_common.py": "fd93e7185355925c844bcb01fcce53b7254725e358d6ceb259f2eb3372ae39fe",
+        "stm32f411_framework/scripts/build.py": "a6e887ccc9a29baab688de426fc83a470e35cb637c2bcee3bd9514cc948566ef",
+        "stm32f411_framework/scripts/clean.py": "16bebabd46c2c5725046d830d9c852cefb67a63480ae3206d943ba98aa42ffa2",
+        "stm32f411_framework/scripts/monitor_serial.py": "8e9ae6a805c906994a619734561793a1ec09b61c0d53e86a48314b14fd97d66b",
+        "stm32f411_framework/scripts/upload.py": "6db325548f2ccd311b3a467681a8850b459eeb21382c46b8191017f840f2d53d",
+        "stm32f411_framework/src/CMakeLists.txt": "01489da98aae3807d805ccc62f32c42776c400a55226159a9f9a5570958e9437",
+        "stm32f411_framework/src/app/acquisition/app_acquisition.c": "a0199e716bebfca6a4810a9438f3719dfe5afa8e5629ad6fade882f3aeb793a1",
+        "stm32f411_framework/src/app/acquisition/app_acquisition.h": "1fe54b9b96bc2b227e9cb9886a6d8b1507ee598c39db6ee948399502a60a28d2",
+        "stm32f411_framework/src/app/button/app_button.c": "6acf2bcacd0d25ae80db368ecdd255ac4d32cd214a19206ef43878ebea097ae2",
+        "stm32f411_framework/src/app/button/app_button.h": "f6943c117dc230fc7b2b9944d5f01dd07d78e68a1532d9e6cb8064e28b3cf942",
+        "stm32f411_framework/src/app/gui/app_gui.c": "e1bcb9d9b381fd0c4c33e287ee13b9f686f0ce7ee8472ca8687fcb7810b86a70",
+        "stm32f411_framework/src/app/gui/app_gui.h": "78cc18aeaf8ec4c45dc987cad60cb478471d4907e18502eb3860c8f4d85311cc",
+        "stm32f411_framework/src/app/gui/bitmaps.c": "8e74d2aaf72d9f4b534abec0b10f8b06a440218bb9f611bde629b41f6d556bbd",
+        "stm32f411_framework/src/app/gui/bitmaps.h": "709fadf7ac1cd148d27336e5d4a00a0bae68579870e080d943cf7ca26a6d4e78",
+        "stm32f411_framework/src/app/gui/render.c": "7876bd935ee16bba7e7423d656ca055a0a5bc7ecf9591055698ce7ec13cc8750",
+        "stm32f411_framework/src/app/gui/render.h": "db5be0eb269aa2274ef64e9566a81898bafaf58117bbcf1569bf8160589f76eb",
+        "stm32f411_framework/src/app/status_led/app_status_led.c": "562062eac3e5b022cf20e40ec5a1a5dc206c9a6f6dd1cbf72aa0c204e361c206",
+        "stm32f411_framework/src/app/status_led/app_status_led.h": "36f7babdda21bf47e44d52df536311d000824b70245c46b5fef3cc93e1affe85",
+        "stm32f411_framework/src/app/telemetry/app_telemetry.c": "08eb5c8a51f7791f2f832b81ffc017d17b9d718d44b59f110157f159a5f39ef5",
+        "stm32f411_framework/src/app/telemetry/app_telemetry.h": "801bb93b9877e3dd834ebafca323d0981da6bc759ec77fe7c6e586fdd400c5f0",
+        "stm32f411_framework/src/app/telemetry/app_telemetry_private.h": "ed19bcfb06f7d96b32ce0eb4716cf14628a461e2238d0447f4463d57d048c920",
+        "stm32f411_framework/src/bsp/black_pill_stm32f411/bsp.c": "da7cb8be72b08544b982301352679017af1ac06a8bca2fb800092a5d279fa79d",
+        "stm32f411_framework/src/bsp/bsp.h": "10f497d975368caee2cfd32f70bfeec50eac08568158672438a330182974f124",
+        "stm32f411_framework/src/components/button/cmp_button.c": "92736df3e754522d59287265aec19ebc6764148286d44e1e8569a563f7f87b29",
+        "stm32f411_framework/src/components/button/cmp_button.h": "162dfcfe9d3fadc5a8815b790ec47ec3796a7ce4c93da412e0157f9c00cddc99",
+        "stm32f411_framework/src/components/button/cmp_button_config.h": "6184202490f1c1c7131e813c870957793084eea68f42f37d7605f1cdef038b5e",
+        "stm32f411_framework/src/components/button/cmp_button_types.h": "fe94b534eb8806b74d29d59fcd877d309c8b69942cbeaca30bba4cf6cfcd9e77",
+        "stm32f411_framework/src/components/led/cmp_led.c": "2d5f8801f280f34cb8e71b202a30d5e9207a885dddbbedbe8ef624963a462cd0",
+        "stm32f411_framework/src/components/led/cmp_led.h": "00b16a7f096c2e19a9615074827917e2925fef4d0c38710ff233b21cfd8e4429",
+        "stm32f411_framework/src/components/led/cmp_led_config.h": "f3e9ea3a7387d9748f0d2727048398140085c17a4c52d2c95a1325c9a79f46f9",
+        "stm32f411_framework/src/components/led/cmp_led_types.h": "b1276841f9a75aa0c103718fc409f59865a131f463a57af5861738027296d25a",
+        "stm32f411_framework/src/components/sht31d/cmp_sht31d.c": "cd45d5ee84f493f3727224bfaf1b2d26b861c44c136a5d748d52bcac051ecf23",
+        "stm32f411_framework/src/components/sht31d/cmp_sht31d.h": "3b52e27e197736efa9aaf661ebeffdfe04f588efdc6a57ee03d383eaf9b3bada",
+        "stm32f411_framework/src/components/sht31d/cmp_sht31d_config.h": "475adb7f4a2856715ade8b8c72b7c46ba7d3c470430b550978f65ade2bb678ff",
+        "stm32f411_framework/src/components/ssd1306/cmp_ssd1306.c": "2631f0a2735be6e7691f5ecf60aff1dbbd3ff53291661b4ff3a749b72ccab661",
+        "stm32f411_framework/src/components/ssd1306/cmp_ssd1306.h": "4f89b7ffd0bfd9ee17276db69974951b048743883d363cbd55f2261502dc8092",
+        "stm32f411_framework/src/components/ssd1306/cmp_ssd1306_config.h": "fb9b2c6a792526d11f4ad802d377396ade3c7588aba01e78333d68bad7cb6c59",
+        "stm32f411_framework/src/components/ssd1306/cmp_ssd1306_fonts.c": "f691d378f2e0f6a32d6cc24673d7def880956e9a58449a8492cd20bd4cec72e9",
+        "stm32f411_framework/src/components/ssd1306/cmp_ssd1306_fonts_private.h": "6f2a98164f20f063b84406cd175fbdb9f43408cb0ae91ba4387b13ddb2e0832e",
+        "stm32f411_framework/src/components/ssd1306/cmp_ssd1306_types.h": "bc0eb1e34674da678c63a550315388a498da212c5947a8512bdddb8c57c6195b",
+        "stm32f411_framework/src/components/ssd1306/tools/generate_fonts.py": "4b1e9a4cbe7bafe1362ba1b2765b2a8f537662a0a4ab575b507117dc55b6c95c",
+        "stm32f411_framework/src/components/telemetry/cmp_telemetry.c": "af4783ff94d8705ca5c4b76b94745921938ac3edc221f8a24e31bbac77f32da2",
+        "stm32f411_framework/src/components/telemetry/cmp_telemetry.h": "549bc89533d531ece738ede0b2b8d2f14e17f08dd5330ffe163e8e2bb803c7f6",
+        "stm32f411_framework/src/components/telemetry/cmp_telemetry_config.h": "5b19b11c7acebadc0ba0c47158be56b5db8aea3693bf3b5336501a0b5e49b6a0",
+        "stm32f411_framework/src/components/telemetry/cmp_telemetry_types.h": "95e0a43c815667070093f79752451ba5ead44e24b55102b8b5e651f18ba54215",
+        "stm32f411_framework/src/hal/interface/common/hal_pin.h": "5e5c99f92a22dd0a475245624e40ab5967c7111d56c7c6be5614406abb200897",
+        "stm32f411_framework/src/hal/interface/common/hal_status.h": "0c588a11c460c321e030910459ce238f8ac64b80d12f79ce8b5b78107b1ed095",
+        "stm32f411_framework/src/hal/interface/gpio/hal_gpio.h": "ce3bbdfaff05842f080a31606cf5394de9226295eb05c188c5f0abc23d79c7ac",
+        "stm32f411_framework/src/hal/interface/i2c/hal_i2c.h": "1f30c8038a6ba3a280eca89aa1299a1b8d98f4aefdcbaec924aa7ef07b865db4",
+        "stm32f411_framework/src/hal/interface/system/hal_system.h": "afc22aeed17c7ae32e9b06a49f2b58880eb2087f3f18b949f8dc3d63e25194bf",
+        "stm32f411_framework/src/hal/interface/timer/hal_timer.h": "37e8eb0125ffeb8fc1152d29c94ad444ab2beb776d1f39c359653056fdd66384",
+        "stm32f411_framework/src/hal/interface/uart/hal_uart.h": "57a29ca050f7504e3ce24175f510de80dcd21be5767357bcb0a95f479f9d7ac0",
+        "stm32f411_framework/src/hal/memory/hal_memory.c": "082a20a38280a831a3e19db5060e360950a06a790efe271cd4e9d82c44ed1eda",
+        "stm32f411_framework/src/hal/memory/hal_memory.h": "39556bf466bdd5f1733f1cff14b2685da2e7be8fe80e87b28d2d37235358d153",
+        "stm32f411_framework/src/hal/ports/stm32f4/gpio/hal_gpio.c": "4d5f6f3764f896c330e8fa77f60ad0f24286e84014b238ace2c012a26b3c371d",
+        "stm32f411_framework/src/hal/ports/stm32f4/hal_stm32f4.c": "27691c473d06ac691339ded8bebb00996c60279c09395a8764cbca52c04ab45c",
+        "stm32f411_framework/src/hal/ports/stm32f4/hal_stm32f4_private.h": "48e446cf94d1ec0b749e82773f05fc0a97e7185dfd7eb7665e22280f230bd900",
+        "stm32f411_framework/src/hal/ports/stm32f4/i2c/hal_i2c.c": "422370f456eadbe1a552d809125d2acf16343e863857fda10b203ee376bd6664",
+        "stm32f411_framework/src/hal/ports/stm32f4/system/hal_system.c": "a5493974716e5e2d8abd7f917d5206c99e6e8b54fef40a5e0cd636384ae0701c",
+        "stm32f411_framework/src/hal/ports/stm32f4/timer/hal_timer.c": "ce698509211c0eeedceca4fa204d2be21921665fd5116b508de3d19a030ddbc4",
+        "stm32f411_framework/src/hal/ports/stm32f4/uart/hal_uart.c": "004a96be1e539a5a390f70b0db10d05c8dce52f9fea43acb15968de7cd0b6acd",
+        "stm32f411_framework/src/main.c": "99a1b51f4f42b80ab3dfe60050ef7f7b1199223a1c42c54f20253c4ee9aab883",
+        "stm32f411_framework/src/platform/stm32f411/startup_stm32f411xx.S": "e0d82ecdc49aad283545b487aaafd2519d2730af49f477757f621b68e4ded11b",
+        "stm32f411_framework/src/platform/stm32f411/syscall.c": "6c411dd20f607805d5c68a3e35239561dce1c3f76275cde64c503e3255b81d60",
+        "stm32f411_framework/src/platform/stm32f411/sysmem.c": "3dbf64e712f54e6afb4c3adc3a98ccfca303eac57e52ac40073957ae4a4e8f4b",
+        "stm32f411_framework/stm32f411xe_flash.ld": "b6048e5f19e3b2ef67ba8720617a323ad3714b40d65194a9ed5e20c954f09ade",
+        "stm32f411_framework/tools/install_stm32f4_sdk.py": "e7ba9799c90073268f2ec6a3f21d19257d1f28ab8a5689e54a7e316fee42ae8e"
+      },
+      "build_directory": "stm32f411_framework/build/Debug",
+      "commands": [
+        {
+          "argv": [
+            "/usr/bin/cmake",
+            "--fresh",
+            "-S",
+            "/home/fbcms/Documents/ucs/tcc_master/stm32f411_framework",
+            "-B",
+            "/home/fbcms/Documents/ucs/tcc_master/stm32f411_framework/build/Debug",
+            "-G",
+            "Ninja",
+            "-DCMAKE_BUILD_TYPE=Debug"
+          ],
+          "cwd": "/home/fbcms/Documents/ucs/tcc_master/stm32f411_framework"
+        },
+        {
+          "argv": [
+            "/usr/bin/cmake",
+            "--build",
+            "/home/fbcms/Documents/ucs/tcc_master/stm32f411_framework/build/Debug",
+            "--clean-first",
+            "--parallel",
+            "4"
+          ],
+          "cwd": "/home/fbcms/Documents/ucs/tcc_master/stm32f411_framework"
+        },
+        {
+          "argv": [
+            "/home/fbcms/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-size",
+            "/home/fbcms/Documents/ucs/tcc_master/stm32f411_framework/build/Debug/stm32f411_framework.elf"
+          ],
+          "cwd": "/home/fbcms/Documents/ucs/tcc_master/stm32f411_framework"
+        },
+        {
+          "argv": [
+            "/home/fbcms/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-size",
+            "-A",
+            "/home/fbcms/Documents/ucs/tcc_master/stm32f411_framework/build/Debug/stm32f411_framework.elf"
+          ],
+          "cwd": "/home/fbcms/Documents/ucs/tcc_master/stm32f411_framework"
+        }
+      ],
+      "artifacts": [
+        {
+          "build_path": "stm32f411_framework/build/Debug/stm32f411_framework.elf",
+          "path": "evidencias/firmwares/stm32f411_framework/artefatos/stm32f411_framework.elf",
+          "bytes": 1105668,
+          "sha256": "67ac69d835b716d9a86dbea753ee7fb5ae28ea8967133b7532618fc1a3e4442d"
+        },
+        {
+          "build_path": "stm32f411_framework/build/Debug/stm32f411_framework.hex",
+          "path": "evidencias/firmwares/stm32f411_framework/artefatos/stm32f411_framework.hex",
+          "bytes": 95257,
+          "sha256": "c5835b44e2d22b1a08da4f123689a31358198c39a0b38da4e5ece29c61b9ce12"
+        },
+        {
+          "build_path": "stm32f411_framework/build/Debug/stm32f411_framework.bin",
+          "path": "evidencias/firmwares/stm32f411_framework/artefatos/stm32f411_framework.bin",
+          "bytes": 33844,
+          "sha256": "765c1f20b6b63093a7a39eb86b3c5dcce82ae86b3f6e154240a399c700c76443"
+        },
+        {
+          "build_path": "stm32f411_framework/build/Debug/stm32f411_framework.map",
+          "path": "evidencias/firmwares/stm32f411_framework/artefatos/stm32f411_framework.map",
+          "bytes": 760400,
+          "sha256": "e9cb01f9ea29286eb260b496bfacb967a38734bcf5c68c65ee50af94c66d98ec"
+        }
+      ],
+      "configuration_files": [
+        {
+          "build_path": "stm32f411_framework/build/Debug/compile_commands.json",
+          "path": "evidencias/firmwares/stm32f411_framework/configuracao/compile_commands.json",
+          "bytes": 92654,
+          "sha256": "b7353e05b7028244f309c2d8cb6c26d3adf2cf0960c6edbf9ffce4081ae8d761"
+        },
+        {
+          "build_path": "stm32f411_framework/build/Debug/CMakeCache.txt",
+          "path": "evidencias/firmwares/stm32f411_framework/configuracao/CMakeCache.txt",
+          "bytes": 15032,
+          "sha256": "f4a6795d449b9ff03e79b2eca2f429386936ee52a73923e4f619162d9d37416c"
+        }
+      ],
+      "log": "evidencias/firmwares/stm32f411_framework/compilacao.log",
+      "status": "APROVADO_COMPILACAO",
+      "exit_code": 0,
+      "memory_report": "evidencias/firmwares/stm32f411_framework/memoria.txt",
+      "finished_utc": "2026-11-02T18:51:52.032081+00:00",
+      "seconds": 1.73
+    },
+    "stm32f411_sem_framework": {
+      "project": "stm32f411_sem_framework",
+      "started_utc": "2026-11-02T18:51:52.049178+00:00",
+      "configuration": "Debug (-Og)",
+      "project_revision": {
+        "kind": "copied_tree",
+        "identity": "source_sha256"
+      },
+      "source_sha256": {
+        "stm32f411_sem_framework/CMakeLists.txt": "510e21fee1bd53d7931502edde71ad6d2c17dd3d7c46c3c063d0643f3148f360",
+        "stm32f411_sem_framework/CMakePresets.json": "c3b47399b71ede6ff3c8f8d3cab2bab8837e96e94720fa29ccd86e860259f8f3",
+        "stm32f411_sem_framework/Core/Inc/application.h": "a7e864da11376e144e4e5ac21a6d8b7acba76b27131e176c98055b4bcd2c62d4",
+        "stm32f411_sem_framework/Core/Inc/bitmaps.h": "941b921312a7631d63d6ed0a2ce9f18492a20e157a07539d2254d3a026f0a985",
+        "stm32f411_sem_framework/Core/Inc/fonts.h": "f904d8277b9ff7c0d90ce75bc87e341b77b3985c25d40397770ac894963a776b",
+        "stm32f411_sem_framework/Core/Inc/gpio.h": "2603993b3bd6baf142a08d1766218cca84b6edea8e85427b074d8a9d9b9417cf",
+        "stm32f411_sem_framework/Core/Inc/graphics.h": "d6fcb47181dd455a4693d819dc4393c36e6e12338a656ffa772dfbe690561e38",
+        "stm32f411_sem_framework/Core/Inc/i2c.h": "3ff955986e41e4970181738d90be3c45ef943b5f8a1927ba991141f4985c9960",
+        "stm32f411_sem_framework/Core/Inc/main.h": "42ef26ac06874384f0a7c8f323da958f3d29916a057470a6d70226d1846dcb46",
+        "stm32f411_sem_framework/Core/Inc/render.h": "c5bc156f4f76b87a9b443de5b7cfcd19cdb01e2d36884e72ad88d0b9ed840679",
+        "stm32f411_sem_framework/Core/Inc/sht31d.h": "8917e247bfe42efd7c8b1bcbc869cb165ea2e6cea06445e5705c42087d737474",
+        "stm32f411_sem_framework/Core/Inc/ssd1306.h": "f576f50f949bc0fd76f4e3f5df4462b687fa462aff1a1a88e861bdb0f7ce9eaa",
+        "stm32f411_sem_framework/Core/Inc/stm32f4xx_hal_conf.h": "94d88bf1f17ff4c8df207d4f7bda5c2e51021eba4573ac2e13e2209aa3cfd33b",
+        "stm32f411_sem_framework/Core/Inc/stm32f4xx_it.h": "e294bc696a3eb1116b3673c41b6e5e2b5a7015d19620c79e45f357fa3e3b7c1f",
+        "stm32f411_sem_framework/Core/Inc/telemetry.h": "3b0beca7f802c08bdd76edfe8d0682ed33fd907d655c7ee1a264c28d41c326d6",
+        "stm32f411_sem_framework/Core/Inc/tim.h": "e8784cd1aa800d8f173057390dae37b23a48e043ad43b40b5378de600ac74d26",
+        "stm32f411_sem_framework/Core/Inc/usart.h": "3ab5e518ad3a1dbb95baeb002f16b06e3e6fac0b55233ad866ed4406a4850b24",
+        "stm32f411_sem_framework/Core/Src/application.c": "71c3c7f89f576aab21013405b36eb9014649259c0a96ef977b96cf5b6c029bcd",
+        "stm32f411_sem_framework/Core/Src/bitmaps.c": "8e74d2aaf72d9f4b534abec0b10f8b06a440218bb9f611bde629b41f6d556bbd",
+        "stm32f411_sem_framework/Core/Src/fonts.c": "181e8606988ef37fae40ecaed57d0fedd177bbc402f7a7fa7894ddf55dc5b871",
+        "stm32f411_sem_framework/Core/Src/gpio.c": "c05bce3134090a9390cd4b0e723dfc082246421790482c61941ad06547ebc7e5",
+        "stm32f411_sem_framework/Core/Src/graphics.c": "f9e0e9cd83b2214d0ae76f8ebc3e5d42d7f6b6b9e5333f43e4eda79e25da4c6a",
+        "stm32f411_sem_framework/Core/Src/i2c.c": "3775a85a3eb39655cbd30dbc1fc6523625458b334f36340affe80893ac3fe280",
+        "stm32f411_sem_framework/Core/Src/main.c": "4274191a58b5359f3afde1870cffc9ae41d51ec6d00e91037a951d20cf76d5a3",
+        "stm32f411_sem_framework/Core/Src/render.c": "54f3807fcbb1a969389bc07f6785551ba51b3e5814443d743dcd774d3d4ea018",
+        "stm32f411_sem_framework/Core/Src/sht31d.c": "f90b3168cf7229635f6c37ec7b7609b7b4e149b7726bba56b32c21285eb4914c",
+        "stm32f411_sem_framework/Core/Src/ssd1306.c": "e1ead53f658fbc24ba45c2077182b23294875f432d530956cb3e7457e7e4acb6",
+        "stm32f411_sem_framework/Core/Src/stm32f4xx_hal_msp.c": "e1abb0ce0ce9b4d88a16ea0aa38ddbbe030ba90c94ab060ffeefda28e8bbee57",
+        "stm32f411_sem_framework/Core/Src/stm32f4xx_it.c": "b02ded1a4ffbd79ae40c61e99331195057a9c3255559abe43d3a9c7c10ea8fae",
+        "stm32f411_sem_framework/Core/Src/syscalls.c": "6c411dd20f607805d5c68a3e35239561dce1c3f76275cde64c503e3255b81d60",
+        "stm32f411_sem_framework/Core/Src/sysmem.c": "3dbf64e712f54e6afb4c3adc3a98ccfca303eac57e52ac40073957ae4a4e8f4b",
+        "stm32f411_sem_framework/Core/Src/system_stm32f4xx.c": "a31929eab936ac98db060c18917118acf79dc96e1f03ed4b57d614535dd06d70",
+        "stm32f411_sem_framework/Core/Src/telemetry.c": "905fce498f9400c1b7a4c16b8c339daa1f618885f8db52394d5b47d50538306e",
+        "stm32f411_sem_framework/Core/Src/tim.c": "ea7ea02d7a2497fe0f65c65d965af645789f29493b6265e32188b379a84bc6b6",
+        "stm32f411_sem_framework/Core/Src/usart.c": "a2d9f43ce743f961b588741341df8157a04000d9cefc74ce0e822dbfa06ec879",
+        "stm32f411_sem_framework/Core/Startup/startup_stm32f411xx.s": "e0d82ecdc49aad283545b487aaafd2519d2730af49f477757f621b68e4ded11b",
+        "stm32f411_sem_framework/Drivers/CMakeLists.txt": "6001a6a4c1928066ceac2627df971266c8f3b9584fcb8c887b7ebb516c15221d",
+        "stm32f411_sem_framework/STM32F411CEUX_FLASH.ld": "b6048e5f19e3b2ef67ba8720617a323ad3714b40d65194a9ed5e20c954f09ade",
+        "stm32f411_sem_framework/cmake/gcc-arm-none-eabi.cmake": "6fe5874c4c5ca69ea15fd7a41bf528a629a42f6aae6cff24f4c86fecb57b5a23",
+        "stm32f411_sem_framework/tools/install_drivers.py": "b382ffae76f3cd85cb3a9feac451bfcdd44c9aab948eeb582a20c794824ff0ae",
+        "stm32f411_sem_framework/tools/install_stm32f4_sdk.py": "e7ba9799c90073268f2ec6a3f21d19257d1f28ab8a5689e54a7e316fee42ae8e"
+      },
+      "build_directory": "stm32f411_sem_framework/build/Debug",
+      "commands": [
+        {
+          "argv": [
+            "/usr/bin/cmake",
+            "--fresh",
+            "-S",
+            "/home/fbcms/Documents/ucs/tcc_master/stm32f411_sem_framework",
+            "-B",
+            "/home/fbcms/Documents/ucs/tcc_master/stm32f411_sem_framework/build/Debug",
+            "-G",
+            "Ninja",
+            "-DCMAKE_BUILD_TYPE=Debug"
+          ],
+          "cwd": "/home/fbcms/Documents/ucs/tcc_master/stm32f411_sem_framework"
+        },
+        {
+          "argv": [
+            "/usr/bin/cmake",
+            "--build",
+            "/home/fbcms/Documents/ucs/tcc_master/stm32f411_sem_framework/build/Debug",
+            "--clean-first",
+            "--parallel",
+            "4"
+          ],
+          "cwd": "/home/fbcms/Documents/ucs/tcc_master/stm32f411_sem_framework"
+        },
+        {
+          "argv": [
+            "/home/fbcms/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-size",
+            "/home/fbcms/Documents/ucs/tcc_master/stm32f411_sem_framework/build/Debug/stm32f411_sem_framework.elf"
+          ],
+          "cwd": "/home/fbcms/Documents/ucs/tcc_master/stm32f411_sem_framework"
+        },
+        {
+          "argv": [
+            "/home/fbcms/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-size",
+            "-A",
+            "/home/fbcms/Documents/ucs/tcc_master/stm32f411_sem_framework/build/Debug/stm32f411_sem_framework.elf"
+          ],
+          "cwd": "/home/fbcms/Documents/ucs/tcc_master/stm32f411_sem_framework"
+        }
+      ],
+      "artifacts": [
+        {
+          "build_path": "stm32f411_sem_framework/build/Debug/stm32f411_sem_framework.elf",
+          "path": "evidencias/firmwares/stm32f411_sem_framework/artefatos/stm32f411_sem_framework.elf",
+          "bytes": 1037048,
+          "sha256": "a5a849702ef9e479c7041956d30308e94a20048fed054b80082acb436f320402"
+        },
+        {
+          "build_path": "stm32f411_sem_framework/build/Debug/stm32f411_sem_framework.hex",
+          "path": "evidencias/firmwares/stm32f411_sem_framework/artefatos/stm32f411_sem_framework.hex",
+          "bytes": 65046,
+          "sha256": "ca68e166c247bf8ae12b9af173620b521702e54d99a3b1bee782444dab1d1eba"
+        },
+        {
+          "build_path": "stm32f411_sem_framework/build/Debug/stm32f411_sem_framework.bin",
+          "path": "evidencias/firmwares/stm32f411_sem_framework/artefatos/stm32f411_sem_framework.bin",
+          "bytes": 23100,
+          "sha256": "8c0e531abdc93dcc629c7da7add5ee8453c67d05b03aa06bfcfde0beb183556c"
+        },
+        {
+          "build_path": "stm32f411_sem_framework/build/Debug/stm32f411_sem_framework.map",
+          "path": "evidencias/firmwares/stm32f411_sem_framework/artefatos/stm32f411_sem_framework.map",
+          "bytes": 708390,
+          "sha256": "930877dad4ad4d49543c341dd27dc420e06851cf4c9279b07f8cab829bea63bb"
+        }
+      ],
+      "configuration_files": [
+        {
+          "build_path": "stm32f411_sem_framework/build/Debug/compile_commands.json",
+          "path": "evidencias/firmwares/stm32f411_sem_framework/configuracao/compile_commands.json",
+          "bytes": 46168,
+          "sha256": "6f26922ba6d191c8dc2a3284688b97055e76f85e870184195db0a63ef086cb4a"
+        },
+        {
+          "build_path": "stm32f411_sem_framework/build/Debug/CMakeCache.txt",
+          "path": "evidencias/firmwares/stm32f411_sem_framework/configuracao/CMakeCache.txt",
+          "bytes": 15611,
+          "sha256": "bbaa6fcc2a33e0b916cb84272c5f72e143d5e403ef9ae4bf81385c493ad9da2c"
+        }
+      ],
+      "log": "evidencias/firmwares/stm32f411_sem_framework/compilacao.log",
+      "status": "APROVADO_COMPILACAO",
+      "exit_code": 0,
+      "memory_report": "evidencias/firmwares/stm32f411_sem_framework/memoria.txt",
+      "finished_utc": "2026-11-02T18:51:54.292241+00:00",
+      "seconds": 2.24
+    },
+    "esp32_framework": {
+      "project": "esp32_framework",
+      "started_utc": "2026-11-02T18:53:39.728876+00:00",
+      "configuration": "default (-Og)",
+      "project_revision": {
+        "kind": "git",
+        "head": "a12da8a8278fab7a40ff217ba16cd35bab00c822",
+        "status": "M .vscode/settings.json\n?? prompt.md\n?? proposta.pdf"
+      },
+      "source_sha256": {
+        "esp32_framework/.devcontainer/devcontainer.json": "078fe6a301b5187ecb5500c17e6fd80f92a3cc4c97e435ce7e395313828896b1",
+        "esp32_framework/.gitmodules": "d87b1e9bf3c30caade381276760c8ce02d7c62b77984ebfb27534686bd499583",
+        "esp32_framework/CMakeLists.txt": "fcb256d90a386534b71754781554c146d40aa0a0c8f7ce8d26781a3a27db2209",
+        "esp32_framework/scripts/_common.py": "8dce6b2eb15f90b40b806910953b9254cab8e4375ede697b1aaed6a0bdd8d189",
+        "esp32_framework/scripts/build.py": "3338ecbd0c2bdd86cad944e6353217fbfe7f84b84f621bfbb11e2a2c366be4f6",
+        "esp32_framework/scripts/clean.py": "13ecde5a709e24b37bd904d2be46c5b786e30fa9cfefce1809bd2257211ce061",
+        "esp32_framework/scripts/monitor_serial.py": "8e9ae6a805c906994a619734561793a1ec09b61c0d53e86a48314b14fd97d66b",
+        "esp32_framework/scripts/upload.py": "3fa04d49d53d359db4f940988bdb830c2d13ba02f7f8ca8b12fbd9cfafbe37db",
+        "esp32_framework/sdkconfig.defaults": "5f741708142ed675d679deedb9c6025169f7029f4aa0f9e13269316a418674c3",
+        "esp32_framework/src/CMakeLists.txt": "9bf258e76570e0644f48cea4405e34c95cba8882e85fec3545410741c734fc89",
+        "esp32_framework/src/app/acquisition/app_acquisition.c": "a0199e716bebfca6a4810a9438f3719dfe5afa8e5629ad6fade882f3aeb793a1",
+        "esp32_framework/src/app/acquisition/app_acquisition.h": "1fe54b9b96bc2b227e9cb9886a6d8b1507ee598c39db6ee948399502a60a28d2",
+        "esp32_framework/src/app/button/app_button.c": "6acf2bcacd0d25ae80db368ecdd255ac4d32cd214a19206ef43878ebea097ae2",
+        "esp32_framework/src/app/button/app_button.h": "f6943c117dc230fc7b2b9944d5f01dd07d78e68a1532d9e6cb8064e28b3cf942",
+        "esp32_framework/src/app/gui/app_gui.c": "e1bcb9d9b381fd0c4c33e287ee13b9f686f0ce7ee8472ca8687fcb7810b86a70",
+        "esp32_framework/src/app/gui/app_gui.h": "78cc18aeaf8ec4c45dc987cad60cb478471d4907e18502eb3860c8f4d85311cc",
+        "esp32_framework/src/app/gui/bitmaps.c": "8e74d2aaf72d9f4b534abec0b10f8b06a440218bb9f611bde629b41f6d556bbd",
+        "esp32_framework/src/app/gui/bitmaps.h": "709fadf7ac1cd148d27336e5d4a00a0bae68579870e080d943cf7ca26a6d4e78",
+        "esp32_framework/src/app/gui/render.c": "7876bd935ee16bba7e7423d656ca055a0a5bc7ecf9591055698ce7ec13cc8750",
+        "esp32_framework/src/app/gui/render.h": "db5be0eb269aa2274ef64e9566a81898bafaf58117bbcf1569bf8160589f76eb",
+        "esp32_framework/src/app/status_led/app_status_led.c": "562062eac3e5b022cf20e40ec5a1a5dc206c9a6f6dd1cbf72aa0c204e361c206",
+        "esp32_framework/src/app/status_led/app_status_led.h": "36f7babdda21bf47e44d52df536311d000824b70245c46b5fef3cc93e1affe85",
+        "esp32_framework/src/app/telemetry/app_telemetry.c": "08eb5c8a51f7791f2f832b81ffc017d17b9d718d44b59f110157f159a5f39ef5",
+        "esp32_framework/src/app/telemetry/app_telemetry.h": "801bb93b9877e3dd834ebafca323d0981da6bc759ec77fe7c6e586fdd400c5f0",
+        "esp32_framework/src/app/telemetry/app_telemetry_private.h": "ed19bcfb06f7d96b32ce0eb4716cf14628a461e2238d0447f4463d57d048c920",
+        "esp32_framework/src/bsp/bsp.h": "08d2b497fdfd549235ada281da3693c2a9e37e68ffea2dcdedbb49b9203ef607",
+        "esp32_framework/src/bsp/esp32_devkit_v1/bsp.c": "0eed597a4de7376a0b8dabb1b0b87b9ea66e5a9200323dbf5a6143049dbe8de2",
+        "esp32_framework/src/components/button/cmp_button.c": "92736df3e754522d59287265aec19ebc6764148286d44e1e8569a563f7f87b29",
+        "esp32_framework/src/components/button/cmp_button.h": "162dfcfe9d3fadc5a8815b790ec47ec3796a7ce4c93da412e0157f9c00cddc99",
+        "esp32_framework/src/components/button/cmp_button_config.h": "6184202490f1c1c7131e813c870957793084eea68f42f37d7605f1cdef038b5e",
+        "esp32_framework/src/components/button/cmp_button_types.h": "fe94b534eb8806b74d29d59fcd877d309c8b69942cbeaca30bba4cf6cfcd9e77",
+        "esp32_framework/src/components/led/cmp_led.c": "2d5f8801f280f34cb8e71b202a30d5e9207a885dddbbedbe8ef624963a462cd0",
+        "esp32_framework/src/components/led/cmp_led.h": "00b16a7f096c2e19a9615074827917e2925fef4d0c38710ff233b21cfd8e4429",
+        "esp32_framework/src/components/led/cmp_led_config.h": "f3e9ea3a7387d9748f0d2727048398140085c17a4c52d2c95a1325c9a79f46f9",
+        "esp32_framework/src/components/led/cmp_led_types.h": "b1276841f9a75aa0c103718fc409f59865a131f463a57af5861738027296d25a",
+        "esp32_framework/src/components/sht31d/cmp_sht31d.c": "cd45d5ee84f493f3727224bfaf1b2d26b861c44c136a5d748d52bcac051ecf23",
+        "esp32_framework/src/components/sht31d/cmp_sht31d.h": "3b52e27e197736efa9aaf661ebeffdfe04f588efdc6a57ee03d383eaf9b3bada",
+        "esp32_framework/src/components/sht31d/cmp_sht31d_config.h": "475adb7f4a2856715ade8b8c72b7c46ba7d3c470430b550978f65ade2bb678ff",
+        "esp32_framework/src/components/ssd1306/cmp_ssd1306.c": "2631f0a2735be6e7691f5ecf60aff1dbbd3ff53291661b4ff3a749b72ccab661",
+        "esp32_framework/src/components/ssd1306/cmp_ssd1306.h": "4f89b7ffd0bfd9ee17276db69974951b048743883d363cbd55f2261502dc8092",
+        "esp32_framework/src/components/ssd1306/cmp_ssd1306_config.h": "fb9b2c6a792526d11f4ad802d377396ade3c7588aba01e78333d68bad7cb6c59",
+        "esp32_framework/src/components/ssd1306/cmp_ssd1306_fonts.c": "f691d378f2e0f6a32d6cc24673d7def880956e9a58449a8492cd20bd4cec72e9",
+        "esp32_framework/src/components/ssd1306/cmp_ssd1306_fonts_private.h": "6f2a98164f20f063b84406cd175fbdb9f43408cb0ae91ba4387b13ddb2e0832e",
+        "esp32_framework/src/components/ssd1306/cmp_ssd1306_types.h": "bc0eb1e34674da678c63a550315388a498da212c5947a8512bdddb8c57c6195b",
+        "esp32_framework/src/components/ssd1306/tools/generate_fonts.py": "4b1e9a4cbe7bafe1362ba1b2765b2a8f537662a0a4ab575b507117dc55b6c95c",
+        "esp32_framework/src/components/telemetry/cmp_telemetry.c": "af4783ff94d8705ca5c4b76b94745921938ac3edc221f8a24e31bbac77f32da2",
+        "esp32_framework/src/components/telemetry/cmp_telemetry.h": "549bc89533d531ece738ede0b2b8d2f14e17f08dd5330ffe163e8e2bb803c7f6",
+        "esp32_framework/src/components/telemetry/cmp_telemetry_config.h": "5b19b11c7acebadc0ba0c47158be56b5db8aea3693bf3b5336501a0b5e49b6a0",
+        "esp32_framework/src/components/telemetry/cmp_telemetry_types.h": "95e0a43c815667070093f79752451ba5ead44e24b55102b8b5e651f18ba54215",
+        "esp32_framework/src/hal/interface/common/hal_pin.h": "5e5c99f92a22dd0a475245624e40ab5967c7111d56c7c6be5614406abb200897",
+        "esp32_framework/src/hal/interface/common/hal_status.h": "0c588a11c460c321e030910459ce238f8ac64b80d12f79ce8b5b78107b1ed095",
+        "esp32_framework/src/hal/interface/gpio/hal_gpio.h": "ce3bbdfaff05842f080a31606cf5394de9226295eb05c188c5f0abc23d79c7ac",
+        "esp32_framework/src/hal/interface/i2c/hal_i2c.h": "1f30c8038a6ba3a280eca89aa1299a1b8d98f4aefdcbaec924aa7ef07b865db4",
+        "esp32_framework/src/hal/interface/system/hal_system.h": "afc22aeed17c7ae32e9b06a49f2b58880eb2087f3f18b949f8dc3d63e25194bf",
+        "esp32_framework/src/hal/interface/timer/hal_timer.h": "37e8eb0125ffeb8fc1152d29c94ad444ab2beb776d1f39c359653056fdd66384",
+        "esp32_framework/src/hal/interface/uart/hal_uart.h": "57a29ca050f7504e3ce24175f510de80dcd21be5767357bcb0a95f479f9d7ac0",
+        "esp32_framework/src/hal/memory/hal_memory.c": "082a20a38280a831a3e19db5060e360950a06a790efe271cd4e9d82c44ed1eda",
+        "esp32_framework/src/hal/memory/hal_memory.h": "39556bf466bdd5f1733f1cff14b2685da2e7be8fe80e87b28d2d37235358d153",
+        "esp32_framework/src/hal/ports/esp32-wroom-32/gpio/hal_gpio.c": "b805d171573116292c162a81ace173e32b4402a66a9337b7af5ba66a28f37ca0",
+        "esp32_framework/src/hal/ports/esp32-wroom-32/hal_esp32.c": "ec58608302fbe32775b23189160403e182d64b47bb52a6a06ae074c29b2c0132",
+        "esp32_framework/src/hal/ports/esp32-wroom-32/hal_esp32_private.h": "68e880168a29b954a2a27dd9a99b30228497441f532bed176ac2ad215d008aac",
+        "esp32_framework/src/hal/ports/esp32-wroom-32/i2c/hal_i2c.c": "07c8e9950fe581310f2c8ccc6de412623750ffbe6d24f218fada82a968a51230",
+        "esp32_framework/src/hal/ports/esp32-wroom-32/system/hal_system.c": "8c4dfc12cc44dd40a99c299b4b927efa8ee2562b05798154a66339ec3a9fa90d",
+        "esp32_framework/src/hal/ports/esp32-wroom-32/timer/hal_timer.c": "f5d4ea99ba2d5388dd36ff80d3954088f0ba48592ae26bf955dba7bd98e3c770",
+        "esp32_framework/src/hal/ports/esp32-wroom-32/uart/hal_uart.c": "f42cebadb2e9757bd5b6dffd757f2cafb05f7fb3f89b08639984417cb9968837",
+        "esp32_framework/src/main.c": "dfb16f616b3544801a25982d3bfa4d8da6509d0d1bedbf351893e53befe8177d"
+      },
+      "build_directory": "esp32_framework/build/firmware",
+      "commands": [
+        {
+          "argv": [
+            "/home/fbcms/.espressif/tools/python/v6.1/venv/bin/python",
+            "/home/fbcms/.espressif/v6.1/esp-idf/tools/idf.py",
+            "-C",
+            "/home/fbcms/Documents/ucs/tcc_master/esp32_framework",
+            "-B",
+            "/home/fbcms/Documents/ucs/tcc_master/esp32_framework/build/firmware",
+            "-D",
+            "SDKCONFIG=/home/fbcms/Documents/ucs/tcc_master/esp32_framework/build/firmware/sdkconfig",
+            "-D",
+            "IDF_TARGET=esp32",
+            "reconfigure"
+          ],
+          "cwd": "/home/fbcms/Documents/ucs/tcc_master/esp32_framework"
+        },
+        {
+          "argv": [
+            "/usr/bin/cmake",
+            "--build",
+            "/home/fbcms/Documents/ucs/tcc_master/esp32_framework/build/firmware",
+            "--clean-first",
+            "--parallel",
+            "4"
+          ],
+          "cwd": "/home/fbcms/Documents/ucs/tcc_master/esp32_framework"
+        },
+        {
+          "argv": [
+            "/home/fbcms/.espressif/tools/python/v6.1/venv/bin/python",
+            "/home/fbcms/.espressif/v6.1/esp-idf/tools/idf.py",
+            "-C",
+            "/home/fbcms/Documents/ucs/tcc_master/esp32_framework",
+            "-B",
+            "/home/fbcms/Documents/ucs/tcc_master/esp32_framework/build/firmware",
+            "size"
+          ],
+          "cwd": "/home/fbcms/Documents/ucs/tcc_master/esp32_framework"
+        }
+      ],
+      "artifacts": [
+        {
+          "build_path": "esp32_framework/build/firmware/esp32_framework.elf",
+          "path": "evidencias/firmwares/esp32_framework/artefatos/esp32_framework.elf",
+          "bytes": 3438212,
+          "sha256": "f631e7dcdc06a54d924510d1573cf382ffd51a9e6f8b31911a18a67d113dcec9"
+        },
+        {
+          "build_path": "esp32_framework/build/firmware/esp32_framework.bin",
+          "path": "evidencias/firmwares/esp32_framework/artefatos/esp32_framework.bin",
+          "bytes": 208272,
+          "sha256": "d5296e35dbce7902017b8022a42cfb2777ee3610ef2a81f21eda1827d0ee1eba"
+        },
+        {
+          "build_path": "esp32_framework/build/firmware/esp32_framework.map",
+          "path": "evidencias/firmwares/esp32_framework/artefatos/esp32_framework.map",
+          "bytes": 3453609,
+          "sha256": "3b4765e5b3d9ed3ebeaf56163f0ff27579a344a7fd91d4266c96a077847ea71b"
+        },
+        {
+          "build_path": "esp32_framework/build/firmware/bootloader/bootloader.bin",
+          "path": "evidencias/firmwares/esp32_framework/artefatos/bootloader/bootloader.bin",
+          "bytes": 26336,
+          "sha256": "2ab6df70991fe760cade5db8374205c3269589c2dc82edb2ff19a9440793d7ff"
+        },
+        {
+          "build_path": "esp32_framework/build/firmware/partition_table/partition-table.bin",
+          "path": "evidencias/firmwares/esp32_framework/artefatos/partition_table/partition-table.bin",
+          "bytes": 3072,
+          "sha256": "7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820"
+        },
+        {
+          "build_path": "esp32_framework/build/firmware/flasher_args.json",
+          "path": "evidencias/firmwares/esp32_framework/artefatos/flasher_args.json",
+          "bytes": 925,
+          "sha256": "9c9f13ee5002aa8589796c72db510e00a5f957a66fcdc8f88b8d2a926415f977"
+        },
+        {
+          "build_path": "esp32_framework/build/firmware/flash_args",
+          "path": "evidencias/firmwares/esp32_framework/artefatos/flash_args",
+          "bytes": 155,
+          "sha256": "93ed7ccb75c2cadf7c0c095317a4feff46b5a55fcdc646de807daaf492935ad7"
+        }
+      ],
+      "configuration_files": [
+        {
+          "build_path": "esp32_framework/build/firmware/sdkconfig",
+          "path": "evidencias/firmwares/esp32_framework/configuracao/sdkconfig",
+          "bytes": 84984,
+          "sha256": "ab9c37a39e2ddfadcd26299c0942eae90d8b1c3c8ddcf06edafea46af6e5e9e6"
+        },
+        {
+          "build_path": "esp32_framework/build/firmware/config/sdkconfig.json",
+          "path": "evidencias/firmwares/esp32_framework/configuracao/config/sdkconfig.json",
+          "bytes": 50855,
+          "sha256": "3a8523b7f80f9adfe1c239358c26f49b53428070fbbd0001bd7a8292b290aa38"
+        },
+        {
+          "build_path": "esp32_framework/build/firmware/compile_commands.json",
+          "path": "evidencias/firmwares/esp32_framework/configuracao/compile_commands.json",
+          "bytes": 7177631,
+          "sha256": "9cde18fe6d1064041ca1602e0a8f6b4cd0cd3de191928ed9ae51bc9abfadaf74"
+        },
+        {
+          "build_path": "esp32_framework/build/firmware/CMakeCache.txt",
+          "path": "evidencias/firmwares/esp32_framework/configuracao/CMakeCache.txt",
+          "bytes": 29477,
+          "sha256": "886f08fd69e5068fa7f886500e1561203a5871dbe8cc80da4182ee7d322324ef"
+        }
+      ],
+      "log": "evidencias/firmwares/esp32_framework/compilacao.log",
+      "status": "APROVADO_COMPILACAO",
+      "exit_code": 0,
+      "memory_report": "evidencias/firmwares/esp32_framework/memoria.txt",
+      "finished_utc": "2026-11-02T18:54:51.933449+00:00",
+      "seconds": 72.17
+    },
+    "esp32_sem_framework": {
+      "project": "esp32_sem_framework",
+      "started_utc": "2026-11-02T18:54:51.935667+00:00",
+      "configuration": "default (-Og)",
+      "project_revision": {
+        "kind": "copied_tree",
+        "identity": "source_sha256"
+      },
+      "source_sha256": {
+        "esp32_sem_framework/CMakeLists.txt": "bf0f72dfc1224fe1f43b6c17ffb1833a8b7b7ef0fcd8c61bfb885c1fedaf435f",
+        "esp32_sem_framework/main/CMakeLists.txt": "6da1e7d12fe6c092e3cca93361cc2f80407e08ab89a1117f039df7f8008f9b24",
+        "esp32_sem_framework/main/application.c": "781588c6f2de2e62c6d8eb6149b98f65c507957d30d7164fa1f531b7bdf76eed",
+        "esp32_sem_framework/main/application.h": "a7e864da11376e144e4e5ac21a6d8b7acba76b27131e176c98055b4bcd2c62d4",
+        "esp32_sem_framework/main/bitmaps.c": "8e74d2aaf72d9f4b534abec0b10f8b06a440218bb9f611bde629b41f6d556bbd",
+        "esp32_sem_framework/main/bitmaps.h": "941b921312a7631d63d6ed0a2ce9f18492a20e157a07539d2254d3a026f0a985",
+        "esp32_sem_framework/main/fonts.c": "181e8606988ef37fae40ecaed57d0fedd177bbc402f7a7fa7894ddf55dc5b871",
+        "esp32_sem_framework/main/fonts.h": "f904d8277b9ff7c0d90ce75bc87e341b77b3985c25d40397770ac894963a776b",
+        "esp32_sem_framework/main/graphics.c": "f9e0e9cd83b2214d0ae76f8ebc3e5d42d7f6b6b9e5333f43e4eda79e25da4c6a",
+        "esp32_sem_framework/main/graphics.h": "d6fcb47181dd455a4693d819dc4393c36e6e12338a656ffa772dfbe690561e38",
+        "esp32_sem_framework/main/main.c": "64f490479b1d96217ccac08b8ae2a67107c6706cebd0a4e1fda5d2b76e0270aa",
+        "esp32_sem_framework/main/main.h": "78eb2757163b04256670edeee4a990e8d6d27a7246c3779d5e87f7eba3bb2ab9",
+        "esp32_sem_framework/main/render.c": "54f3807fcbb1a969389bc07f6785551ba51b3e5814443d743dcd774d3d4ea018",
+        "esp32_sem_framework/main/render.h": "c5bc156f4f76b87a9b443de5b7cfcd19cdb01e2d36884e72ad88d0b9ed840679",
+        "esp32_sem_framework/main/sht31d.c": "bca5a4dcba141076c5bcde13f4b8ab330f27bb2fe00ad3da9028eb26fbb548e1",
+        "esp32_sem_framework/main/sht31d.h": "8917e247bfe42efd7c8b1bcbc869cb165ea2e6cea06445e5705c42087d737474",
+        "esp32_sem_framework/main/ssd1306.c": "f4f8a84b00dc7747790d26e3374670cfd8218b40a25b9f52732e896b067390a5",
+        "esp32_sem_framework/main/ssd1306.h": "f576f50f949bc0fd76f4e3f5df4462b687fa462aff1a1a88e861bdb0f7ce9eaa",
+        "esp32_sem_framework/main/telemetry.c": "addd31bebb28b4808422c40e8ca84eb3e94a138be1cc595c78d426a1fdc5da5d",
+        "esp32_sem_framework/main/telemetry.h": "3b0beca7f802c08bdd76edfe8d0682ed33fd907d655c7ee1a264c28d41c326d6",
+        "esp32_sem_framework/sdkconfig.defaults": "5c89ec1112821bebcf78699220a1a72ed6ee716a7b8eca337cedceb78869b7c7"
+      },
+      "build_directory": "esp32_sem_framework/build/firmware",
+      "commands": [
+        {
+          "argv": [
+            "/home/fbcms/.espressif/tools/python/v6.1/venv/bin/python",
+            "/home/fbcms/.espressif/v6.1/esp-idf/tools/idf.py",
+            "-C",
+            "/home/fbcms/Documents/ucs/tcc_master/esp32_sem_framework",
+            "-B",
+            "/home/fbcms/Documents/ucs/tcc_master/esp32_sem_framework/build/firmware",
+            "-D",
+            "SDKCONFIG=/home/fbcms/Documents/ucs/tcc_master/esp32_sem_framework/build/firmware/sdkconfig",
+            "-D",
+            "IDF_TARGET=esp32",
+            "reconfigure"
+          ],
+          "cwd": "/home/fbcms/Documents/ucs/tcc_master/esp32_sem_framework"
+        },
+        {
+          "argv": [
+            "/usr/bin/cmake",
+            "--build",
+            "/home/fbcms/Documents/ucs/tcc_master/esp32_sem_framework/build/firmware",
+            "--clean-first",
+            "--parallel",
+            "4"
+          ],
+          "cwd": "/home/fbcms/Documents/ucs/tcc_master/esp32_sem_framework"
+        },
+        {
+          "argv": [
+            "/home/fbcms/.espressif/tools/python/v6.1/venv/bin/python",
+            "/home/fbcms/.espressif/v6.1/esp-idf/tools/idf.py",
+            "-C",
+            "/home/fbcms/Documents/ucs/tcc_master/esp32_sem_framework",
+            "-B",
+            "/home/fbcms/Documents/ucs/tcc_master/esp32_sem_framework/build/firmware",
+            "size"
+          ],
+          "cwd": "/home/fbcms/Documents/ucs/tcc_master/esp32_sem_framework"
+        }
+      ],
+      "artifacts": [
+        {
+          "build_path": "esp32_sem_framework/build/firmware/esp32_sem_framework.elf",
+          "path": "evidencias/firmwares/esp32_sem_framework/artefatos/esp32_sem_framework.elf",
+          "bytes": 3352280,
+          "sha256": "1cd5e6d8194b2b259115e78903ef325c9c113c985155db5d7d343ab2f9455561"
+        },
+        {
+          "build_path": "esp32_sem_framework/build/firmware/esp32_sem_framework.bin",
+          "path": "evidencias/firmwares/esp32_sem_framework/artefatos/esp32_sem_framework.bin",
+          "bytes": 200928,
+          "sha256": "aa4c0e491711f27d621269f86319ae39ccf116c2f3b5c06d9bc4a012e5d33c70"
+        },
+        {
+          "build_path": "esp32_sem_framework/build/firmware/esp32_sem_framework.map",
+          "path": "evidencias/firmwares/esp32_sem_framework/artefatos/esp32_sem_framework.map",
+          "bytes": 3399309,
+          "sha256": "bf6148516a3610cc3c333a876a3882829d0f3c67749aaabc50c74e4a0387e4fc"
+        },
+        {
+          "build_path": "esp32_sem_framework/build/firmware/bootloader/bootloader.bin",
+          "path": "evidencias/firmwares/esp32_sem_framework/artefatos/bootloader/bootloader.bin",
+          "bytes": 26336,
+          "sha256": "d7d45931c9229214f1b8c7e06aa00b3b30a2432eacacd41500ec52d8136637b3"
+        },
+        {
+          "build_path": "esp32_sem_framework/build/firmware/partition_table/partition-table.bin",
+          "path": "evidencias/firmwares/esp32_sem_framework/artefatos/partition_table/partition-table.bin",
+          "bytes": 3072,
+          "sha256": "7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820"
+        },
+        {
+          "build_path": "esp32_sem_framework/build/firmware/flasher_args.json",
+          "path": "evidencias/firmwares/esp32_sem_framework/artefatos/flasher_args.json",
+          "bytes": 933,
+          "sha256": "72f6858d60652ab451cc66e7c66c0b2b23c249b05b722db3a106197af53fdd60"
+        },
+        {
+          "build_path": "esp32_sem_framework/build/firmware/flash_args",
+          "path": "evidencias/firmwares/esp32_sem_framework/artefatos/flash_args",
+          "bytes": 159,
+          "sha256": "4a9550cf789b59908fb76c0c6433fce70f172f2d39b9466bdd58d21b6fbed495"
+        }
+      ],
+      "configuration_files": [
+        {
+          "build_path": "esp32_sem_framework/build/firmware/sdkconfig",
+          "path": "evidencias/firmwares/esp32_sem_framework/configuracao/sdkconfig",
+          "bytes": 84973,
+          "sha256": "dbe88b4832b9e18be43a6fe6cf76a1669ace9974eff2c0a4aa253c1b5ee661a6"
+        },
+        {
+          "build_path": "esp32_sem_framework/build/firmware/config/sdkconfig.json",
+          "path": "evidencias/firmwares/esp32_sem_framework/configuracao/config/sdkconfig.json",
+          "bytes": 50855,
+          "sha256": "3a8523b7f80f9adfe1c239358c26f49b53428070fbbd0001bd7a8292b290aa38"
+        },
+        {
+          "build_path": "esp32_sem_framework/build/firmware/compile_commands.json",
+          "path": "evidencias/firmwares/esp32_sem_framework/configuracao/compile_commands.json",
+          "bytes": 7088248,
+          "sha256": "603f614a3ff31aeb94190543a84297c5361f7a42c9afa498ae374673f4a8f49f"
+        },
+        {
+          "build_path": "esp32_sem_framework/build/firmware/CMakeCache.txt",
+          "path": "evidencias/firmwares/esp32_sem_framework/configuracao/CMakeCache.txt",
+          "bytes": 29323,
+          "sha256": "19d32270814a0f829f5126184d0389694be81dde7b9ffa60dd95f2f4d8b34ab0"
+        }
+      ],
+      "log": "evidencias/firmwares/esp32_sem_framework/compilacao.log",
+      "status": "APROVADO_COMPILACAO",
+      "exit_code": 0,
+      "memory_report": "evidencias/firmwares/esp32_sem_framework/memoria.txt",
+      "finished_utc": "2026-11-02T18:55:45.706582+00:00",
+      "seconds": 53.77
+    },
+    "nrf52840_framework": {
+      "project": "nrf52840_framework",
+      "started_utc": "2026-11-02T18:52:26.106760+00:00",
+      "configuration": "Debug (-Og)",
+      "project_revision": {
+        "kind": "git",
+        "head": "1b353dfaa6c571010c08a3acca36115d201daf80",
+        "status": ""
+      },
+      "source_sha256": {
+        "nrf52840_framework/.devcontainer/devcontainer.json": "7a613a2e6ad4c395f7da5da564a8514eb2bd507105ec7ebb311baddef47ff0e7",
+        "nrf52840_framework/.gitmodules": "d8b7e25c4f3c51ece255d9d30b6068b701e927870e77560f48e2b9679116c1f3",
+        "nrf52840_framework/CMakeLists.txt": "6dc70f288900220805db23a3452f4e213e68ee3f798c01eb19acf0466b89669d",
+        "nrf52840_framework/CMakePresets.json": "8b209faa598a9ec4cd8517c282bba78e76fd28b9c4dfb0e7b476e583cf4f07b4",
+        "nrf52840_framework/boards/nice_nano_v2.overlay": "48a217770a954ab55d49d832b814332d362dc330d9e530bf4afc2fa5ec3bb7a4",
+        "nrf52840_framework/cmake/boards.cmake": "465e72aab8c7961e46ed0f625bcbf5c48013dd8196a6dcc25c0bdaf6ca0ebe88",
+        "nrf52840_framework/cmake/hal.cmake": "96f799c0a58714efa49ee962fb5b4debf7949f71dfb18e05515a3532ee2eb4fe",
+        "nrf52840_framework/config/debug.conf": "86b5864687da8b390b19b547adb5ead6f2393d6acc49d0b295296f3c43ed7460",
+        "nrf52840_framework/config/release.conf": "2b90dacc23455a79947b1401f63417554769a9a02b0f26ed2f347ba7af5347c4",
+        "nrf52840_framework/prj.conf": "d13a2f9b21bd9956d6326a056f879c3eade714253cc38b51bedff38a8f1678a8",
+        "nrf52840_framework/scripts/_common.py": "39e19455e55e93a3c5b0e7a4a422bf79bf3b16f4db97c5dc2464bc49733d4260",
+        "nrf52840_framework/scripts/build.py": "99ce3da4ea2fb5a052d52ffaf00f0da134b8fc934c657e7c457a7d6011eb8e95",
+        "nrf52840_framework/scripts/clean.py": "16bebabd46c2c5725046d830d9c852cefb67a63480ae3206d943ba98aa42ffa2",
+        "nrf52840_framework/scripts/monitor_serial.py": "669d7b844519cffff3d71aa8b055838e7f9d4d241317c7b282255720baa38e80",
+        "nrf52840_framework/scripts/upload.py": "805a06f75df60156587a649dc1921bfa0ce90fae76b2183e97ba964a8dfcaf56",
+        "nrf52840_framework/src/CMakeLists.txt": "7c34ba0c8dab6e9806ca6d5025a37b00e0e8e38e9a4dcd81cb29af2e884461b8",
+        "nrf52840_framework/src/app/acquisition/app_acquisition.c": "a0199e716bebfca6a4810a9438f3719dfe5afa8e5629ad6fade882f3aeb793a1",
+        "nrf52840_framework/src/app/acquisition/app_acquisition.h": "1fe54b9b96bc2b227e9cb9886a6d8b1507ee598c39db6ee948399502a60a28d2",
+        "nrf52840_framework/src/app/button/app_button.c": "6acf2bcacd0d25ae80db368ecdd255ac4d32cd214a19206ef43878ebea097ae2",
+        "nrf52840_framework/src/app/button/app_button.h": "f6943c117dc230fc7b2b9944d5f01dd07d78e68a1532d9e6cb8064e28b3cf942",
+        "nrf52840_framework/src/app/gui/app_gui.c": "e1bcb9d9b381fd0c4c33e287ee13b9f686f0ce7ee8472ca8687fcb7810b86a70",
+        "nrf52840_framework/src/app/gui/app_gui.h": "78cc18aeaf8ec4c45dc987cad60cb478471d4907e18502eb3860c8f4d85311cc",
+        "nrf52840_framework/src/app/gui/bitmaps.c": "8e74d2aaf72d9f4b534abec0b10f8b06a440218bb9f611bde629b41f6d556bbd",
+        "nrf52840_framework/src/app/gui/bitmaps.h": "709fadf7ac1cd148d27336e5d4a00a0bae68579870e080d943cf7ca26a6d4e78",
+        "nrf52840_framework/src/app/gui/render.c": "7876bd935ee16bba7e7423d656ca055a0a5bc7ecf9591055698ce7ec13cc8750",
+        "nrf52840_framework/src/app/gui/render.h": "db5be0eb269aa2274ef64e9566a81898bafaf58117bbcf1569bf8160589f76eb",
+        "nrf52840_framework/src/app/status_led/app_status_led.c": "562062eac3e5b022cf20e40ec5a1a5dc206c9a6f6dd1cbf72aa0c204e361c206",
+        "nrf52840_framework/src/app/status_led/app_status_led.h": "36f7babdda21bf47e44d52df536311d000824b70245c46b5fef3cc93e1affe85",
+        "nrf52840_framework/src/app/telemetry/app_telemetry.c": "08eb5c8a51f7791f2f832b81ffc017d17b9d718d44b59f110157f159a5f39ef5",
+        "nrf52840_framework/src/app/telemetry/app_telemetry.h": "801bb93b9877e3dd834ebafca323d0981da6bc759ec77fe7c6e586fdd400c5f0",
+        "nrf52840_framework/src/app/telemetry/app_telemetry_private.h": "ed19bcfb06f7d96b32ce0eb4716cf14628a461e2238d0447f4463d57d048c920",
+        "nrf52840_framework/src/bsp/bsp.h": "10f497d975368caee2cfd32f70bfeec50eac08568158672438a330182974f124",
+        "nrf52840_framework/src/bsp/pro_micro_nrf52840/bsp.c": "441cbf3263ba8419049fc8ada06a8c33017c823573aff46be4e5ce0254d0ad7a",
+        "nrf52840_framework/src/components/button/cmp_button.c": "92736df3e754522d59287265aec19ebc6764148286d44e1e8569a563f7f87b29",
+        "nrf52840_framework/src/components/button/cmp_button.h": "162dfcfe9d3fadc5a8815b790ec47ec3796a7ce4c93da412e0157f9c00cddc99",
+        "nrf52840_framework/src/components/button/cmp_button_config.h": "6184202490f1c1c7131e813c870957793084eea68f42f37d7605f1cdef038b5e",
+        "nrf52840_framework/src/components/button/cmp_button_types.h": "fe94b534eb8806b74d29d59fcd877d309c8b69942cbeaca30bba4cf6cfcd9e77",
+        "nrf52840_framework/src/components/led/cmp_led.c": "2d5f8801f280f34cb8e71b202a30d5e9207a885dddbbedbe8ef624963a462cd0",
+        "nrf52840_framework/src/components/led/cmp_led.h": "00b16a7f096c2e19a9615074827917e2925fef4d0c38710ff233b21cfd8e4429",
+        "nrf52840_framework/src/components/led/cmp_led_config.h": "f3e9ea3a7387d9748f0d2727048398140085c17a4c52d2c95a1325c9a79f46f9",
+        "nrf52840_framework/src/components/led/cmp_led_types.h": "b1276841f9a75aa0c103718fc409f59865a131f463a57af5861738027296d25a",
+        "nrf52840_framework/src/components/sht31d/cmp_sht31d.c": "cd45d5ee84f493f3727224bfaf1b2d26b861c44c136a5d748d52bcac051ecf23",
+        "nrf52840_framework/src/components/sht31d/cmp_sht31d.h": "3b52e27e197736efa9aaf661ebeffdfe04f588efdc6a57ee03d383eaf9b3bada",
+        "nrf52840_framework/src/components/sht31d/cmp_sht31d_config.h": "475adb7f4a2856715ade8b8c72b7c46ba7d3c470430b550978f65ade2bb678ff",
+        "nrf52840_framework/src/components/ssd1306/cmp_ssd1306.c": "2631f0a2735be6e7691f5ecf60aff1dbbd3ff53291661b4ff3a749b72ccab661",
+        "nrf52840_framework/src/components/ssd1306/cmp_ssd1306.h": "4f89b7ffd0bfd9ee17276db69974951b048743883d363cbd55f2261502dc8092",
+        "nrf52840_framework/src/components/ssd1306/cmp_ssd1306_config.h": "fb9b2c6a792526d11f4ad802d377396ade3c7588aba01e78333d68bad7cb6c59",
+        "nrf52840_framework/src/components/ssd1306/cmp_ssd1306_fonts.c": "f691d378f2e0f6a32d6cc24673d7def880956e9a58449a8492cd20bd4cec72e9",
+        "nrf52840_framework/src/components/ssd1306/cmp_ssd1306_fonts_private.h": "6f2a98164f20f063b84406cd175fbdb9f43408cb0ae91ba4387b13ddb2e0832e",
+        "nrf52840_framework/src/components/ssd1306/cmp_ssd1306_types.h": "bc0eb1e34674da678c63a550315388a498da212c5947a8512bdddb8c57c6195b",
+        "nrf52840_framework/src/components/ssd1306/tools/generate_fonts.py": "4b1e9a4cbe7bafe1362ba1b2765b2a8f537662a0a4ab575b507117dc55b6c95c",
+        "nrf52840_framework/src/components/telemetry/cmp_telemetry.c": "af4783ff94d8705ca5c4b76b94745921938ac3edc221f8a24e31bbac77f32da2",
+        "nrf52840_framework/src/components/telemetry/cmp_telemetry.h": "549bc89533d531ece738ede0b2b8d2f14e17f08dd5330ffe163e8e2bb803c7f6",
+        "nrf52840_framework/src/components/telemetry/cmp_telemetry_config.h": "5b19b11c7acebadc0ba0c47158be56b5db8aea3693bf3b5336501a0b5e49b6a0",
+        "nrf52840_framework/src/components/telemetry/cmp_telemetry_types.h": "95e0a43c815667070093f79752451ba5ead44e24b55102b8b5e651f18ba54215",
+        "nrf52840_framework/src/hal/interface/common/hal_pin.h": "5e5c99f92a22dd0a475245624e40ab5967c7111d56c7c6be5614406abb200897",
+        "nrf52840_framework/src/hal/interface/common/hal_status.h": "0c588a11c460c321e030910459ce238f8ac64b80d12f79ce8b5b78107b1ed095",
+        "nrf52840_framework/src/hal/interface/gpio/hal_gpio.h": "ce3bbdfaff05842f080a31606cf5394de9226295eb05c188c5f0abc23d79c7ac",
+        "nrf52840_framework/src/hal/interface/i2c/hal_i2c.h": "1f30c8038a6ba3a280eca89aa1299a1b8d98f4aefdcbaec924aa7ef07b865db4",
+        "nrf52840_framework/src/hal/interface/system/hal_system.h": "afc22aeed17c7ae32e9b06a49f2b58880eb2087f3f18b949f8dc3d63e25194bf",
+        "nrf52840_framework/src/hal/interface/timer/hal_timer.h": "37e8eb0125ffeb8fc1152d29c94ad444ab2beb776d1f39c359653056fdd66384",
+        "nrf52840_framework/src/hal/interface/uart/hal_uart.h": "57a29ca050f7504e3ce24175f510de80dcd21be5767357bcb0a95f479f9d7ac0",
+        "nrf52840_framework/src/hal/memory/hal_memory.c": "082a20a38280a831a3e19db5060e360950a06a790efe271cd4e9d82c44ed1eda",
+        "nrf52840_framework/src/hal/memory/hal_memory.h": "39556bf466bdd5f1733f1cff14b2685da2e7be8fe80e87b28d2d37235358d153",
+        "nrf52840_framework/src/hal/ports/nrf52840/gpio/hal_gpio.c": "713fa8b0789907ddf7bc67a602aacf452b95f05c291a679e87ae3235baa26d3c",
+        "nrf52840_framework/src/hal/ports/nrf52840/hal_nrf_connect.c": "b6fe57e77b097211b3f32b640aec6bb914be279214ada5fd2174d9fe8ec4025b",
+        "nrf52840_framework/src/hal/ports/nrf52840/hal_nrf_connect_private.h": "623382e8a3de37c77b0cc4d9bbcde9cecafcf37911dfd53fa49acf1d77cc47c4",
+        "nrf52840_framework/src/hal/ports/nrf52840/i2c/hal_i2c.c": "3daeb529c28dca61a7a89f28dec6e9f0f2ea8716ef3cee538165cbfa0d29dfa3",
+        "nrf52840_framework/src/hal/ports/nrf52840/system/hal_system.c": "bc75366976d94c91e2488fe90974d96d0afaeb0f59e795def7ab75ac1ef8978f",
+        "nrf52840_framework/src/hal/ports/nrf52840/timer/hal_timer.c": "3bf8247f01cd5a7fc3f16f4bed32beb2353b93ce09b335bbcb53da24b2574e3c",
+        "nrf52840_framework/src/hal/ports/nrf52840/uart/hal_uart.c": "67805682dae100a64c610786ba3b271df9537b58ea58c2ee1d42ab0f856c8d0c",
+        "nrf52840_framework/src/main.c": "32bafa8339efe87210f1d592b4d06f57ca646a819a5fb12406aec0dbc6de37ed",
+        "nrf52840_framework/tools/install_nrf_connect_sdk.py": "6d8684355cfd002d819f3fb1dba4d86acd10cbd79f180fbc9b6b48366a1bee71",
+        "nrf52840_framework/tools/requirements.txt": "4ed0a281a93e572134de5581c41ee37862cdc8e323d9011c7c76134a6fc4d30e",
+        "nrf52840_framework/tools/sdk-lock.json": "a1d0df056abd075e19efb295f37adbf590a962662d44668224f28a688b190fbb"
+      },
+      "build_directory": "nrf52840_framework/build/Debug",
+      "commands": [
+        {
+          "argv": [
+            "/usr/bin/cmake",
+            "--fresh",
+            "-S",
+            "/home/fbcms/Documents/ucs/tcc_master/nrf52840_framework",
+            "-B",
+            "/home/fbcms/Documents/ucs/tcc_master/nrf52840_framework/build/Debug",
+            "-G",
+            "Ninja",
+            "-DEXTRA_CONF_FILE=config/debug.conf",
+            "-DPython3_EXECUTABLE=/home/fbcms/Documents/ucs/tcc_master/build/deps/venv/bin/python",
+            "-DUSER_CACHE_DIR=/home/fbcms/Documents/ucs/tcc_master/nrf52840_framework/build/cache/zephyr"
+          ],
+          "cwd": "/home/fbcms/Documents/ucs/tcc_master/nrf52840_framework"
+        },
+        {
+          "argv": [
+            "/usr/bin/cmake",
+            "--build",
+            "/home/fbcms/Documents/ucs/tcc_master/nrf52840_framework/build/Debug",
+            "--clean-first",
+            "--parallel",
+            "4"
+          ],
+          "cwd": "/home/fbcms/Documents/ucs/tcc_master/nrf52840_framework"
+        },
+        {
+          "argv": [
+            "/home/fbcms/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-size",
+            "/home/fbcms/Documents/ucs/tcc_master/nrf52840_framework/build/Debug/zephyr/zephyr.elf"
+          ],
+          "cwd": "/home/fbcms/Documents/ucs/tcc_master/nrf52840_framework"
+        },
+        {
+          "argv": [
+            "/home/fbcms/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-size",
+            "-A",
+            "/home/fbcms/Documents/ucs/tcc_master/nrf52840_framework/build/Debug/zephyr/zephyr.elf"
+          ],
+          "cwd": "/home/fbcms/Documents/ucs/tcc_master/nrf52840_framework"
+        }
+      ],
+      "artifacts": [
+        {
+          "build_path": "nrf52840_framework/build/Debug/zephyr/zephyr.elf",
+          "path": "evidencias/firmwares/nrf52840_framework/artefatos/zephyr/zephyr.elf",
+          "bytes": 1325232,
+          "sha256": "2d8b046629157a6ed126340b43b0878a032e83ec967eca85e793a35f3e895765"
+        },
+        {
+          "build_path": "nrf52840_framework/build/Debug/zephyr/zephyr.hex",
+          "path": "evidencias/firmwares/nrf52840_framework/artefatos/zephyr/zephyr.hex",
+          "bytes": 255283,
+          "sha256": "9cf3f15fcabab3fe60764760a65cb157ffe7dd53b2a58e7711932a8e4ce8376e"
+        },
+        {
+          "build_path": "nrf52840_framework/build/Debug/zephyr/zephyr.bin",
+          "path": "evidencias/firmwares/nrf52840_framework/artefatos/zephyr/zephyr.bin",
+          "bytes": 90724,
+          "sha256": "152f9ba370082d1ac6d67f2b6b7994af5b97973fc79c9dc3266a09ca9dbc025e"
+        },
+        {
+          "build_path": "nrf52840_framework/build/Debug/zephyr/zephyr.uf2",
+          "path": "evidencias/firmwares/nrf52840_framework/artefatos/zephyr/zephyr.uf2",
+          "bytes": 181760,
+          "sha256": "00eb2021a8fb0d136aca3ff4b6084e7808e92b35fdd0c4edc03bb08f65c82fdc"
+        },
+        {
+          "build_path": "nrf52840_framework/build/Debug/zephyr/zephyr.map",
+          "path": "evidencias/firmwares/nrf52840_framework/artefatos/zephyr/zephyr.map",
+          "bytes": 466666,
+          "sha256": "31a29eab113fdfad7daecbaf46c8ad1461023dfca5dc854bd00777f6f704b27c"
+        }
+      ],
+      "configuration_files": [
+        {
+          "build_path": "nrf52840_framework/build/Debug/zephyr/.config",
+          "path": "evidencias/firmwares/nrf52840_framework/configuracao/zephyr/.config",
+          "bytes": 33254,
+          "sha256": "20df8b76d732ccaeef4d65d4523b3a29986846447848ea00eaf801c721e5ba3a"
+        },
+        {
+          "build_path": "nrf52840_framework/build/Debug/zephyr/zephyr.dts",
+          "path": "evidencias/firmwares/nrf52840_framework/configuracao/zephyr/zephyr.dts",
+          "bytes": 54781,
+          "sha256": "758ea8d1efc56c989a67cf686cc5a1ad18d6b7a5759df1456da9271615fe6983"
+        },
+        {
+          "build_path": "nrf52840_framework/build/Debug/compile_commands.json",
+          "path": "evidencias/firmwares/nrf52840_framework/configuracao/compile_commands.json",
+          "bytes": 475207,
+          "sha256": "04721292994ea459eb54ad2ad6886ca144ef57e69c8aca231ba697c2a12e0215"
+        },
+        {
+          "build_path": "nrf52840_framework/build/Debug/CMakeCache.txt",
+          "path": "evidencias/firmwares/nrf52840_framework/configuracao/CMakeCache.txt",
+          "bytes": 62503,
+          "sha256": "1f549e902b8803f8d921edd6409e839406d4d34eed6fc8881b30bcca369e692a"
+        }
+      ],
+      "log": "evidencias/firmwares/nrf52840_framework/compilacao.log",
+      "status": "APROVADO_COMPILACAO",
+      "exit_code": 0,
+      "memory_report": "evidencias/firmwares/nrf52840_framework/memoria.txt",
+      "finished_utc": "2026-11-02T18:52:57.444336+00:00",
+      "seconds": 31.27
+    },
+    "nrf52840_sem_framework": {
+      "project": "nrf52840_sem_framework",
+      "started_utc": "2026-11-02T18:52:57.451806+00:00",
+      "configuration": "Debug (-Og)",
+      "project_revision": {
+        "kind": "copied_tree",
+        "identity": "source_sha256"
+      },
+      "source_sha256": {
+        "nrf52840_sem_framework/CMakeLists.txt": "be4c4a3708634ce9627b31a815c9903da24e981cae13e674e5cba0ea4cf13a76",
+        "nrf52840_sem_framework/CMakePresets.json": "c3f35b9f80632c449224d32fbef330c26f9683c91d74cbd193f7e0474d23e3c9",
+        "nrf52840_sem_framework/boards/promicro_nrf52840_nrf52840_uf2.overlay": "dcdc973bd2bdc76fdbae17ff84e6c2300ea422edebf9d0d8f1cda2c93703dd1c",
+        "nrf52840_sem_framework/config/debug.conf": "86b5864687da8b390b19b547adb5ead6f2393d6acc49d0b295296f3c43ed7460",
+        "nrf52840_sem_framework/config/release.conf": "2b90dacc23455a79947b1401f63417554769a9a02b0f26ed2f347ba7af5347c4",
+        "nrf52840_sem_framework/prj.conf": "d13a2f9b21bd9956d6326a056f879c3eade714253cc38b51bedff38a8f1678a8",
+        "nrf52840_sem_framework/src/application.c": "a0fa1f6051256724443df8a024563fd5e11c6289e6802dcbdd74cc49912ef69a",
+        "nrf52840_sem_framework/src/application.h": "a7e864da11376e144e4e5ac21a6d8b7acba76b27131e176c98055b4bcd2c62d4",
+        "nrf52840_sem_framework/src/bitmaps.c": "8e74d2aaf72d9f4b534abec0b10f8b06a440218bb9f611bde629b41f6d556bbd",
+        "nrf52840_sem_framework/src/bitmaps.h": "941b921312a7631d63d6ed0a2ce9f18492a20e157a07539d2254d3a026f0a985",
+        "nrf52840_sem_framework/src/fonts.c": "181e8606988ef37fae40ecaed57d0fedd177bbc402f7a7fa7894ddf55dc5b871",
+        "nrf52840_sem_framework/src/fonts.h": "f904d8277b9ff7c0d90ce75bc87e341b77b3985c25d40397770ac894963a776b",
+        "nrf52840_sem_framework/src/graphics.c": "f9e0e9cd83b2214d0ae76f8ebc3e5d42d7f6b6b9e5333f43e4eda79e25da4c6a",
+        "nrf52840_sem_framework/src/graphics.h": "d6fcb47181dd455a4693d819dc4393c36e6e12338a656ffa772dfbe690561e38",
+        "nrf52840_sem_framework/src/main.c": "d8aa3de48ba531f9afabceddd2c1071a26b557e46bbb78458c1dd9b075098661",
+        "nrf52840_sem_framework/src/main.h": "c44ffc859c83cc5827df6af390a855e75839356d1a83cff34413aea783c428ae",
+        "nrf52840_sem_framework/src/peripherals.c": "d74808a14e5fb38ef4ed385f705812b47d630f6bdadf7c9c0b4be745d7cfaa56",
+        "nrf52840_sem_framework/src/render.c": "54f3807fcbb1a969389bc07f6785551ba51b3e5814443d743dcd774d3d4ea018",
+        "nrf52840_sem_framework/src/render.h": "c5bc156f4f76b87a9b443de5b7cfcd19cdb01e2d36884e72ad88d0b9ed840679",
+        "nrf52840_sem_framework/src/sht31d.c": "993d7bba91a34d5e990c10492fec3d5ad2447a50c3df1e1664b1e10ecef30278",
+        "nrf52840_sem_framework/src/sht31d.h": "8917e247bfe42efd7c8b1bcbc869cb165ea2e6cea06445e5705c42087d737474",
+        "nrf52840_sem_framework/src/ssd1306.c": "785045f5f8676d7a21198d669642a3f637826ce51059e82a011b893c77439b24",
+        "nrf52840_sem_framework/src/ssd1306.h": "f576f50f949bc0fd76f4e3f5df4462b687fa462aff1a1a88e861bdb0f7ce9eaa",
+        "nrf52840_sem_framework/src/telemetry.c": "06a703b8af046c7df772b64756f191cb0ff900896ab584ac2388b26edace1ba3",
+        "nrf52840_sem_framework/src/telemetry.h": "3b0beca7f802c08bdd76edfe8d0682ed33fd907d655c7ee1a264c28d41c326d6",
+        "nrf52840_sem_framework/tools/install_nrf_connect_sdk.py": "6d8684355cfd002d819f3fb1dba4d86acd10cbd79f180fbc9b6b48366a1bee71",
+        "nrf52840_sem_framework/tools/requirements.txt": "4ed0a281a93e572134de5581c41ee37862cdc8e323d9011c7c76134a6fc4d30e",
+        "nrf52840_sem_framework/tools/sdk-lock.json": "a1d0df056abd075e19efb295f37adbf590a962662d44668224f28a688b190fbb"
+      },
+      "build_directory": "nrf52840_sem_framework/build/Debug",
+      "commands": [
+        {
+          "argv": [
+            "/usr/bin/cmake",
+            "--fresh",
+            "-S",
+            "/home/fbcms/Documents/ucs/tcc_master/nrf52840_sem_framework",
+            "-B",
+            "/home/fbcms/Documents/ucs/tcc_master/nrf52840_sem_framework/build/Debug",
+            "-G",
+            "Ninja",
+            "-DEXTRA_CONF_FILE=config/debug.conf",
+            "-DPython3_EXECUTABLE=/home/fbcms/Documents/ucs/tcc_master/build/deps/venv/bin/python",
+            "-DUSER_CACHE_DIR=/home/fbcms/Documents/ucs/tcc_master/nrf52840_sem_framework/build/cache/zephyr"
+          ],
+          "cwd": "/home/fbcms/Documents/ucs/tcc_master/nrf52840_sem_framework"
+        },
+        {
+          "argv": [
+            "/usr/bin/cmake",
+            "--build",
+            "/home/fbcms/Documents/ucs/tcc_master/nrf52840_sem_framework/build/Debug",
+            "--clean-first",
+            "--parallel",
+            "4"
+          ],
+          "cwd": "/home/fbcms/Documents/ucs/tcc_master/nrf52840_sem_framework"
+        },
+        {
+          "argv": [
+            "/home/fbcms/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-size",
+            "/home/fbcms/Documents/ucs/tcc_master/nrf52840_sem_framework/build/Debug/zephyr/zephyr.elf"
+          ],
+          "cwd": "/home/fbcms/Documents/ucs/tcc_master/nrf52840_sem_framework"
+        },
+        {
+          "argv": [
+            "/home/fbcms/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-size",
+            "-A",
+            "/home/fbcms/Documents/ucs/tcc_master/nrf52840_sem_framework/build/Debug/zephyr/zephyr.elf"
+          ],
+          "cwd": "/home/fbcms/Documents/ucs/tcc_master/nrf52840_sem_framework"
+        }
+      ],
+      "artifacts": [
+        {
+          "build_path": "nrf52840_sem_framework/build/Debug/zephyr/zephyr.elf",
+          "path": "evidencias/firmwares/nrf52840_sem_framework/artefatos/zephyr/zephyr.elf",
+          "bytes": 1250512,
+          "sha256": "90c2a8823e0683e3017a120337d1b24132375bdec347fc3bfc6b235ef7751838"
+        },
+        {
+          "build_path": "nrf52840_sem_framework/build/Debug/zephyr/zephyr.hex",
+          "path": "evidencias/firmwares/nrf52840_sem_framework/artefatos/zephyr/zephyr.hex",
+          "bytes": 240041,
+          "sha256": "90c7411df4d2dae0e71e2c23485ea2713c015f8229056ce13ec08f6b546e09c5"
+        },
+        {
+          "build_path": "nrf52840_sem_framework/build/Debug/zephyr/zephyr.bin",
+          "path": "evidencias/firmwares/nrf52840_sem_framework/artefatos/zephyr/zephyr.bin",
+          "bytes": 85300,
+          "sha256": "8a35a2a76fd07c8ec9db733c10da572ca8b89bb1780c59f1d62934422ce717b5"
+        },
+        {
+          "build_path": "nrf52840_sem_framework/build/Debug/zephyr/zephyr.uf2",
+          "path": "evidencias/firmwares/nrf52840_sem_framework/artefatos/zephyr/zephyr.uf2",
+          "bytes": 171008,
+          "sha256": "d97f8fbff9a4cb09b6cbdc8fc5ace2e1a12e4042fdc34f53609e4a561d53712e"
+        },
+        {
+          "build_path": "nrf52840_sem_framework/build/Debug/zephyr/zephyr.map",
+          "path": "evidencias/firmwares/nrf52840_sem_framework/artefatos/zephyr/zephyr.map",
+          "bytes": 444913,
+          "sha256": "9a171f75bd02dba1524d4bc8971df74bb23ea34c58b1227e6b637011555b0be6"
+        }
+      ],
+      "configuration_files": [
+        {
+          "build_path": "nrf52840_sem_framework/build/Debug/zephyr/.config",
+          "path": "evidencias/firmwares/nrf52840_sem_framework/configuracao/zephyr/.config",
+          "bytes": 33288,
+          "sha256": "ecc25bde1bba9963822aa72096913cbb4e3f26f46a5e88ab89071d535a90dad7"
+        },
+        {
+          "build_path": "nrf52840_sem_framework/build/Debug/zephyr/zephyr.dts",
+          "path": "evidencias/firmwares/nrf52840_sem_framework/configuracao/zephyr/zephyr.dts",
+          "bytes": 57126,
+          "sha256": "a04ee6d373e665f6a27a97b6f186fdd722e169d0f7003dde781534044bfd180a"
+        },
+        {
+          "build_path": "nrf52840_sem_framework/build/Debug/compile_commands.json",
+          "path": "evidencias/firmwares/nrf52840_sem_framework/configuracao/compile_commands.json",
+          "bytes": 420653,
+          "sha256": "76cde5e6f53fc35921dc341ea8741a93b6437e10ae68d68298536095fc99cc75"
+        },
+        {
+          "build_path": "nrf52840_sem_framework/build/Debug/CMakeCache.txt",
+          "path": "evidencias/firmwares/nrf52840_sem_framework/configuracao/CMakeCache.txt",
+          "bytes": 62621,
+          "sha256": "0e715cdaea93e49f4dd04656466172b491a7cd562c3dcfd01a92f0d21c0d9570"
+        }
+      ],
+      "log": "evidencias/firmwares/nrf52840_sem_framework/compilacao.log",
+      "status": "APROVADO_COMPILACAO",
+      "exit_code": 0,
+      "memory_report": "evidencias/firmwares/nrf52840_sem_framework/memoria.txt",
+      "finished_utc": "2026-11-02T18:53:21.322382+00:00",
+      "seconds": 23.87
+    }
+  },
+  "updated_utc": "2026-11-02T18:55:45.706602+00:00",
+  "physical_validation": false,
+  "flashing_performed": false,
+  "runner_sha256": "535bcfa21e7bad32184d00f03daf87a1e1339718fe0fc80e59c35bd54394bd2b",
+  "environment_file": "evidencias/firmwares/ambiente.json",
+  "environment": {
+    "cmake": "/usr/bin/cmake",
+    "esp_python": "/home/fbcms/.espressif/tools/python/v6.1/venv/bin/python",
+    "nrf_python": "/home/fbcms/Documents/ucs/tcc_master/build/deps/venv/bin/python",
+    "path_prefix": [
+      "/home/fbcms/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin",
+      "/home/fbcms/.local/share/stm32cube/bundles/ninja/1.13.2+st.1/bin",
+      "/home/fbcms/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin",
+      "/home/fbcms/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
+    ],
+    "variables": {
+      "IDF_PATH": "/home/fbcms/.espressif/v6.1/esp-idf",
+      "IDF_TOOLS_PATH": "/home/fbcms/.espressif/tools",
+      "IDF_PYTHON_ENV_PATH": "/home/fbcms/.espressif/tools/python/v6.1/venv",
+      "STM32F4_SDK_DIR": "/home/fbcms/Documents/ucs/tcc_master/build/deps/STM32CubeF4",
+      "NRF_CONNECT_SDK_DIR": "/home/fbcms/Documents/ucs/tcc_master/build/deps/nrf-connect-sdk-v3.1.0",
+      "ZEPHYR_TOOLCHAIN_VARIANT": "gnuarmemb",
+      "GNUARMEMB_TOOLCHAIN_PATH": "/home/fbcms/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2"
+    }
+  },
+  "tool_versions": {
+    "arm_gcc": "arm-none-eabi-gcc (GNU Tools for STM32 14.3.rel1.20251027-0700) 14.3.1 20250623",
+    "xtensa_gcc": "xtensa-esp-elf-gcc (crosstool-NG esp-15.2.0_20251204) 15.2.0",
+    "cmake": "cmake version 4.2.3",
+    "ninja": "1.13.2",
+    "python": "Python 3.14.4",
+    "idf_python": "Python 3.14.4"
+  },
+  "sdk_revisions": {
+    "esp_idf": "fff9895c82d744c7237be8847347bdd1b07c6643",
+    "stm32cube": "94cae6e83f00e276a11957e7833c01ac3d0bd7af",
+    "stm32_hal": "b6f0ed3829f3829eb358a2e7417d80bba1a42db7",
+    "stm32_device": "3c77349ce04c8af401454cc51f85ea9a50e34fc1",
+    "nrf/zephyr": "1612683d4010b571be79f21d86edf683aac37679",
+    "nrf/modules/hal/cmsis": "d1b8b20b6278615b00e136374540eb1c00dcabe7",
+    "nrf/modules/hal/cmsis_6": "6dd50439a9b83398ff2ae1376eef0a2a0b95913b",
+    "nrf/modules/hal/nordic": "2f5d4e5868ab573eac932fa4bc142565073c3c04"
+  }
+}
