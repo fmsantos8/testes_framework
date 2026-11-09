@@ -1,6 +1,8 @@
 # Implementações convencionais da prova de conceito
 
-Foram implementados quatro projetos independentes: [ESP32](esp32_sem_framework/README.md), [nRF52840](nrf52840_sem_framework/README.md), [STM32F407](stm32f407_sem_framework/README.md) e [STM32F411](stm32f411_sem_framework/README.md).
+Guia da implementação e de sua sessão inicial de validação. A campanha física posterior, realizada em 07–08/11/2026, está em [evidencias/README.md](../evidencias/README.md). Os caminhos de compilação apresentados abaixo são relativos à raiz do conjunto de projetos.
+
+Foram implementados quatro projetos independentes: [ESP32](https://github.com/fmsantos8/esp32_sem_framework/blob/aadda2b6c88c49c3c5a2c9881eed44b81a0695e7/README.md), [nRF52840](https://github.com/fmsantos8/nrf52840_sem_framework/blob/2b5f18c60d5a35708b953ae3cd9cbf9078e97bce/README.md), [STM32F407](https://github.com/fmsantos8/stm32f407_sem_framework/blob/7e9dbaec81ad11c1e2643db8164e476dea00bbfc/README.md) e [STM32F411](https://github.com/fmsantos8/stm32f411_sem_framework/blob/e7dec8b4808b5868ee5d2069c0b012060c69c718/README.md).
 
 “Sem framework” significa sem o framework de portabilidade desenvolvido no TCC. Os SDKs dos fabricantes continuam presentes: ESP-IDF 6.1.x, STM32CubeF4 HAL v1.28.3 e o subconjunto de execução do nRF Connect SDK v3.1.0. Os projetos não incluem fontes, bibliotecas, submódulos, contratos `hal_*`, arena, BSP nem componentes `cmp_*` dos projetos com framework. Cada árvore pode ser compilada separadamente.
 
@@ -60,7 +62,7 @@ Os códigos de dispositivo mantêm os valores da referência, independentemente 
 
 ## Validação e artefatos
 
-A [suíte de equivalência](validacao_sem_framework/README.md) compara as quatro versões convencionais com os fontes reais do núcleo comum do framework. Ela verifica todos os bytes I2C/UART e transições do LED em três cenários por placa, incluindo falhas, saturação de fila e retorno do contador a zero. Compilação com avisos tratados como erros e UndefinedBehaviorSanitizer.
+A [suíte de equivalência](../validacao_sem_framework/README.md) compara as quatro versões convencionais com os fontes reais do núcleo comum do framework. Ela verifica todos os bytes I2C/UART e transições do LED em três cenários por placa, incluindo falhas, saturação de fila e retorno do contador a zero. Compilação com avisos tratados como erros e UndefinedBehaviorSanitizer.
 
 Evidências desta implementação:
 
